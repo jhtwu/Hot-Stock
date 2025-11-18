@@ -3,9 +3,13 @@
 """
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # 项目根目录
 BASE_DIR = Path(__file__).parent
+
+# 加载 .env 文件
+load_dotenv(BASE_DIR / '.env')
 
 # 数据库配置
 DATABASE_URL = f"sqlite:///{BASE_DIR}/data/hotstock.db"
@@ -52,6 +56,10 @@ COLLECT_TIME = "16:30"  # 美股收盘后收集数据 (UTC)
 # API 请求配置
 REQUEST_DELAY = 1.0  # 请求之间的延迟（秒），避免速率限制
 MAX_RETRIES = 3      # API 请求最大重试次数
+
+# 演示模式（使用模拟数据）
+# 如果无法访问 Yahoo Finance API，设置为 True
+DEMO_MODE = os.getenv("DEMO_MODE", "false").lower() == "true"
 
 # 日志配置
 LOG_LEVEL = "INFO"
