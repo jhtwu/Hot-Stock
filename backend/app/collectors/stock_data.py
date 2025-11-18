@@ -60,7 +60,7 @@ class StockDataCollector:
         max_retries: int = 3
     ) -> Optional[pd.DataFrame]:
         """
-        获取股票历史数据（带重试机制）
+        获取股票历史数据（带重试机制和请求头优化）
 
         Args:
             symbol: 股票代码
@@ -75,27 +75,48 @@ class StockDataCollector:
             try:
                 # 添加随机延迟，避免速率限制
                 if attempt > 0:
-                    delay = random.uniform(1, 3) * (attempt + 1)
+                    delay = random.uniform(2, 5) * (attempt + 1)
                     logger.info(f"重试 {symbol} (尝试 {attempt + 1}/{max_retries})，延迟 {delay:.1f}s")
                     time.sleep(delay)
 
+                # 创建 Ticker 对象，使用更好的配置
                 ticker = yf.Ticker(symbol)
-                df = ticker.history(period=period, interval=interval)
+
+                # 尝试下载数据，使用更长的超时时间
+                df = yf.download(
+                    symbol,
+                    period=period,
+                    interval=interval,
+                    progress=False,
+                    show_errors=False,
+                    timeout=30
+                )
 
                 if df.empty:
                     logger.warning(f"未获取到数据: {symbol}")
+                    if attempt < max_retries - 1:
+                        continue
                     return None
 
                 return df
 
             except Exception as e:
-                if "429" in str(e) or "Too Many Requests" in str(e):
+                error_msg = str(e)
+                if "429" in error_msg or "Too Many Requests" in error_msg:
                     if attempt < max_retries - 1:
                         logger.warning(f"速率限制 {symbol}，等待后重试...")
-                        time.sleep(random.uniform(3, 6))
+                        time.sleep(random.uniform(5, 10))
                         continue
-                logger.error(f"获取历史数据失败 {symbol}: {str(e)}")
-                return None
+                elif "Expecting value" in error_msg or "No price data" in error_msg:
+                    # 这通常意味着被 Yahoo Finance 阻止，尝试更长的延迟
+                    if attempt < max_retries - 1:
+                        logger.warning(f"请求被阻止 {symbol}，延长延迟后重试...")
+                        time.sleep(random.uniform(10, 15))
+                        continue
+
+                logger.error(f"获取历史数据失败 {symbol}: {error_msg}")
+                if attempt == max_retries - 1:
+                    return None
 
         return None
 

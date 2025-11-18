@@ -54,7 +54,7 @@ TOP_N = 10
 COLLECT_TIME = "16:30"  # 美股收盘后收集数据 (UTC)
 
 # API 请求配置
-REQUEST_DELAY = 1.0  # 请求之间的延迟（秒），避免速率限制
+REQUEST_DELAY = 2.0  # 请求之间的延迟（秒），避免速率限制（增加到 2 秒更安全）
 MAX_RETRIES = 3      # API 请求最大重试次数
 
 # 演示模式（使用模拟数据）
