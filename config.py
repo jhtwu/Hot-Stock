@@ -18,20 +18,20 @@ API_PORT = 8000
 NEWS_API_KEY = os.getenv("NEWS_API_KEY", "your_newsapi_key_here")
 
 # 数据收集配置
-# 监控的股票池（可以根据需要添加更多）
+# 监控的股票池（精选最热门股票，避免 API 速率限制）
+# 注意：一次性监控太多股票可能触发 Yahoo Finance API 限制
+# 如需添加更多股票，建议分批运行或增加延迟
 STOCK_SYMBOLS = [
-    # 科技股
-    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "AMD", "INTC", "CRM",
-    # 金融股
-    "JPM", "BAC", "WFC", "GS", "MS", "C", "V", "MA", "PYPL", "SQ",
-    # 消费股
-    "WMT", "KO", "PEP", "NKE", "SBUX", "MCD", "DIS", "NFLX", "BABA", "JD",
-    # 医疗股
-    "JNJ", "PFE", "UNH", "ABBV", "TMO", "MRK", "LLY", "BMY", "AMGN", "GILD",
-    # 能源股
-    "XOM", "CVX", "COP", "SLB", "EOG",
-    # 其他热门股
-    "COIN", "RBLX", "HOOD", "RIVN", "LCID", "NIO", "PLTR", "SOFI", "SHOP", "SQ"
+    # 科技巨头
+    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "AMD",
+    # 金融科技
+    "JPM", "V", "MA", "PYPL",
+    # 消费品牌
+    "WMT", "DIS", "NFLX", "NKE",
+    # 医疗保健
+    "JNJ", "PFE", "UNH",
+    # 热门科技股
+    "COIN", "PLTR", "RBLX"
 ]
 
 # 评分权重配置
@@ -48,6 +48,10 @@ TOP_N = 10
 
 # 数据收集时间配置
 COLLECT_TIME = "16:30"  # 美股收盘后收集数据 (UTC)
+
+# API 请求配置
+REQUEST_DELAY = 1.0  # 请求之间的延迟（秒），避免速率限制
+MAX_RETRIES = 3      # API 请求最大重试次数
 
 # 日志配置
 LOG_LEVEL = "INFO"

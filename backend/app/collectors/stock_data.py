@@ -7,6 +7,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 import logging
+import time
+import random
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,7 +22,7 @@ class StockDataCollector:
 
     def get_stock_info(self, symbol: str) -> Optional[Dict]:
         """
-        获取股票基本信息
+        获取股票基本信息（简化版，避免过多 API 请求）
 
         Args:
             symbol: 股票代码
@@ -29,13 +31,12 @@ class StockDataCollector:
             股票信息字典
         """
         try:
-            ticker = yf.Ticker(symbol)
-            info = ticker.info
-
+            # 简化版：只返回股票代码，不请求详细信息
+            # 这样可以避免触发 Yahoo Finance 的速率限制
             return {
                 'symbol': symbol,
-                'name': info.get('longName', symbol),
-                'sector': info.get('sector', 'Unknown'),
+                'name': symbol,  # 暂时使用代码作为名称
+                'sector': 'Unknown',
             }
         except Exception as e:
             logger.error(f"获取股票信息失败 {symbol}: {str(e)}")
@@ -45,31 +46,48 @@ class StockDataCollector:
         self,
         symbol: str,
         period: str = "1mo",
-        interval: str = "1d"
+        interval: str = "1d",
+        max_retries: int = 3
     ) -> Optional[pd.DataFrame]:
         """
-        获取股票历史数据
+        获取股票历史数据（带重试机制）
 
         Args:
             symbol: 股票代码
             period: 时间周期 (1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max)
             interval: 数据间隔 (1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo)
+            max_retries: 最大重试次数
 
         Returns:
             DataFrame 包含 Open, High, Low, Close, Volume
         """
-        try:
-            ticker = yf.Ticker(symbol)
-            df = ticker.history(period=period, interval=interval)
+        for attempt in range(max_retries):
+            try:
+                # 添加随机延迟，避免速率限制
+                if attempt > 0:
+                    delay = random.uniform(1, 3) * (attempt + 1)
+                    logger.info(f"重试 {symbol} (尝试 {attempt + 1}/{max_retries})，延迟 {delay:.1f}s")
+                    time.sleep(delay)
 
-            if df.empty:
-                logger.warning(f"未获取到数据: {symbol}")
+                ticker = yf.Ticker(symbol)
+                df = ticker.history(period=period, interval=interval)
+
+                if df.empty:
+                    logger.warning(f"未获取到数据: {symbol}")
+                    return None
+
+                return df
+
+            except Exception as e:
+                if "429" in str(e) or "Too Many Requests" in str(e):
+                    if attempt < max_retries - 1:
+                        logger.warning(f"速率限制 {symbol}，等待后重试...")
+                        time.sleep(random.uniform(3, 6))
+                        continue
+                logger.error(f"获取历史数据失败 {symbol}: {str(e)}")
                 return None
 
-            return df
-        except Exception as e:
-            logger.error(f"获取历史数据失败 {symbol}: {str(e)}")
-            return None
+        return None
 
     def get_latest_data(self, symbol: str) -> Optional[Dict]:
         """
@@ -111,22 +129,29 @@ class StockDataCollector:
             logger.error(f"获取最新数据失败 {symbol}: {str(e)}")
             return None
 
-    def get_batch_latest_data(self, symbols: List[str]) -> Dict[str, Dict]:
+    def get_batch_latest_data(self, symbols: List[str], delay_between_requests: float = 0.5) -> Dict[str, Dict]:
         """
         批量获取多个股票的最新数据
 
         Args:
             symbols: 股票代码列表
+            delay_between_requests: 请求之间的延迟（秒）
 
         Returns:
             字典，key 为股票代码，value 为最新数据
         """
         results = {}
-        for symbol in symbols:
-            logger.info(f"获取数据: {symbol}")
+        total = len(symbols)
+
+        for i, symbol in enumerate(symbols, 1):
+            logger.info(f"获取数据 ({i}/{total}): {symbol}")
             data = self.get_latest_data(symbol)
             if data:
                 results[symbol] = data
+
+            # 添加延迟避免速率限制
+            if i < total:
+                time.sleep(delay_between_requests)
 
         return results
 

@@ -16,7 +16,7 @@ from backend.app.database import SessionLocal
 from backend.app.models import Stock, StockHistory, NewsArticle, DailyScore
 from backend.app.collectors import StockDataCollector, NewsDataCollector
 from backend.app.analyzers import ScoringSystem
-from config import STOCK_SYMBOLS, TOP_N
+from config import STOCK_SYMBOLS, TOP_N, REQUEST_DELAY
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -109,9 +109,10 @@ class DailyAnalysisTask:
         Returns:
             股票数据字典
         """
-        logger.info("收集股票价格数据...")
+        logger.info(f"收集 {len(STOCK_SYMBOLS)} 个股票的价格数据...")
+        logger.info(f"请求延迟: {REQUEST_DELAY}秒，预计需要 {len(STOCK_SYMBOLS) * REQUEST_DELAY / 60:.1f} 分钟")
 
-        stock_data = self.stock_collector.get_batch_latest_data(STOCK_SYMBOLS)
+        stock_data = self.stock_collector.get_batch_latest_data(STOCK_SYMBOLS, delay_between_requests=REQUEST_DELAY)
 
         # 保存到数据库
         for symbol, data in stock_data.items():
