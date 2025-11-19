@@ -15,7 +15,7 @@ from pathlib import Path
 # 添加项目根目录到路径
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from config import DEMO_MODE
+from config import DEMO_MODE, MAX_RETRIES
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -27,6 +27,7 @@ class StockDataCollector:
     def __init__(self, demo_mode: bool = DEMO_MODE):
         self.cache = {}
         self.demo_mode = demo_mode
+        self.max_retries = MAX_RETRIES
         if self.demo_mode:
             logger.warning("演示模式已启用，将使用模拟股票数据")
 
@@ -71,52 +72,36 @@ class StockDataCollector:
         Returns:
             DataFrame 包含 Open, High, Low, Close, Volume
         """
-        for attempt in range(max_retries):
-            try:
-                # 添加随机延迟，避免速率限制
-                if attempt > 0:
-                    delay = random.uniform(2, 5) * (attempt + 1)
-                    logger.info(f"重试 {symbol} (尝试 {attempt + 1}/{max_retries})，延迟 {delay:.1f}s")
-                    time.sleep(delay)
+        # 演示模式直接跳过网络请求
+        if self.demo_mode:
+            return None
 
-                # 创建 Ticker 对象，使用更好的配置
-                ticker = yf.Ticker(symbol)
+        if symbol in self.cache:
+            return self.cache[symbol]
 
-                # 尝试下载数据，使用更长的超时时间
-                df = yf.download(
-                    symbol,
-                    period=period,
-                    interval=interval,
-                    progress=False,
-                    show_errors=False,
-                    timeout=30
-                )
+        # 先尝试备用源（Stooq），当前环境 Yahoo 常被阻挡
+        alt_df = self._fetch_stooq_history(symbol)
+        if alt_df is not None:
+            logger.info(f"已从 Stooq 获取数据: {symbol}")
+            self.cache[symbol] = alt_df
+            return alt_df
 
-                if df.empty:
-                    logger.warning(f"未获取到数据: {symbol}")
-                    if attempt < max_retries - 1:
-                        continue
-                    return None
-
+        # 再尝试 Yahoo（若偶尔可用）
+        try:
+            df = yf.download(
+                symbol,
+                period=period,
+                interval=interval,
+                progress=False,
+                show_errors=False,
+                timeout=5
+            )
+            if not df.empty:
+                self.cache[symbol] = df
                 return df
-
-            except Exception as e:
-                error_msg = str(e)
-                if "429" in error_msg or "Too Many Requests" in error_msg:
-                    if attempt < max_retries - 1:
-                        logger.warning(f"速率限制 {symbol}，等待后重试...")
-                        time.sleep(random.uniform(5, 10))
-                        continue
-                elif "Expecting value" in error_msg or "No price data" in error_msg:
-                    # 这通常意味着被 Yahoo Finance 阻止，尝试更长的延迟
-                    if attempt < max_retries - 1:
-                        logger.warning(f"请求被阻止 {symbol}，延长延迟后重试...")
-                        time.sleep(random.uniform(10, 15))
-                        continue
-
-                logger.error(f"获取历史数据失败 {symbol}: {error_msg}")
-                if attempt == max_retries - 1:
-                    return None
+            logger.warning(f"Yahoo Finance 未返回数据: {symbol}")
+        except Exception as e:
+            logger.error(f"Yahoo Finance 获取失败 {symbol}: {e}")
 
         return None
 
@@ -166,11 +151,11 @@ class StockDataCollector:
             return self._generate_mock_data(symbol)
 
         try:
-            df = self.get_historical_data(symbol, period="5d")
+            df = self.get_historical_data(symbol, period="5d", max_retries=self.max_retries)
             if df is None or df.empty:
                 # API 失败时使用模拟数据
-                logger.warning(f"无法获取真实数据，使用模拟数据: {symbol}")
-                return self._generate_mock_data(symbol)
+                logger.warning(f"无法获取真实数据，跳过: {symbol}")
+                return None
 
             latest = df.iloc[-1]
             previous = df.iloc[-2] if len(df) > 1 else latest
@@ -195,9 +180,7 @@ class StockDataCollector:
             }
         except Exception as e:
             logger.error(f"获取最新数据失败 {symbol}: {str(e)}")
-            # 异常时也使用模拟数据
-            logger.warning(f"使用模拟数据: {symbol}")
-            return self._generate_mock_data(symbol)
+            return None
 
     def get_batch_latest_data(self, symbols: List[str], delay_between_requests: float = 0.5) -> Dict[str, Dict]:
         """
@@ -221,7 +204,8 @@ class StockDataCollector:
 
             # 添加延迟避免速率限制
             if i < total:
-                time.sleep(delay_between_requests)
+                effective_delay = 0.1 if not self.demo_mode else 0  # 备用源无需长延迟
+                time.sleep(effective_delay)
 
         return results
 
@@ -236,6 +220,10 @@ class StockDataCollector:
         Returns:
             趋势指标字典
         """
+        # 演示模式下返回模拟的趋势指标，避免网络请求
+        if self.demo_mode:
+            return self._mock_trend_indicators(symbol)
+
         try:
             df = self.get_historical_data(symbol, period=f"{days}d")
             if df is None or df.empty:
@@ -268,3 +256,66 @@ class StockDataCollector:
         except Exception as e:
             logger.error(f"计算趋势指标失败 {symbol}: {str(e)}")
             return None
+
+    def _fetch_stooq_history(self, symbol: str) -> Optional[pd.DataFrame]:
+        """
+        从 Stooq 获取历史行情，作为 Yahoo 的备用数据源
+        """
+        try:
+            # Stooq 美股代码需要 .us 后缀
+            stooq_symbol = f"{symbol.lower()}.us"
+            url = f"https://stooq.pl/q/d/l/?s={stooq_symbol}&i=d"
+            df = pd.read_csv(url)
+            if df.empty:
+                return None
+            # 如果只有一行（异常情况），直接放弃
+            if len(df) < 2:
+                return None
+
+            # Stooq 返回的列: Date,Open,High,Low,Close,Volume
+            rename_map = {
+                'Date': 'Date',
+                'Data': 'Date',
+                'Open': 'Open',
+                'Otwarcie': 'Open',
+                'High': 'High',
+                'Najwyzszy': 'High',
+                'Low': 'Low',
+                'Najnizszy': 'Low',
+                'Close': 'Close',
+                'Zamkniecie': 'Close',
+                'Volume': 'Volume',
+                'Wolumen': 'Volume',
+            }
+            df = df.rename(columns=rename_map)
+
+            if 'Date' not in df.columns:
+                return None
+
+            df['Date'] = pd.to_datetime(df['Date'])
+            df = df[['Date', 'Open', 'High', 'Low', 'Close', 'Volume']]
+            df = df.set_index('Date')
+            # 返回最近 90 天，避免过大数据量
+            df = df.tail(90)
+            return df
+        except Exception as e:
+            logger.error(f"Stooq 数据获取失败 {symbol}: {e}")
+            return None
+
+    def _mock_trend_indicators(self, symbol: str) -> Dict:
+        """生成模拟趋势数据，确保演示模式下也有完整字段"""
+        seed = sum(ord(c) for c in symbol) + 42
+        random.seed(seed)
+
+        base = random.uniform(50, 350)
+        sma_20 = base * random.uniform(0.96, 1.04)
+        sma_10 = sma_20 * random.uniform(0.99, 1.03)
+        sma_5 = sma_10 * random.uniform(0.99, 1.04)
+
+        return {
+            'sma_5': sma_5,
+            'sma_10': sma_10,
+            'sma_20': sma_20,
+            'rsi': random.uniform(35, 75),
+            'trend_up': sma_5 > sma_10 > sma_20,
+        }

@@ -29,6 +29,7 @@ class NewsDataCollector:
             api_key: NewsAPI 密钥
         """
         self.api_key = api_key
+        self._disabled_newsapi = False
         if api_key and api_key != "your_newsapi_key_here":
             try:
                 self.newsapi = NewsApiClient(api_key=api_key)
@@ -102,6 +103,11 @@ class NewsDataCollector:
 
         except Exception as e:
             logger.error(f"获取新闻失败 {symbol}: {str(e)}")
+            # 遇到网络不可用时，关闭后续请求直接使用模拟数据，避免重复报错
+            if not self._disabled_newsapi:
+                logger.warning("NewsAPI 无法访问，后续将使用模拟数据")
+                self._disabled_newsapi = True
+                self.newsapi = None
             return self._get_mock_news(symbol, days)
 
     def get_batch_news(
