@@ -1,7 +1,7 @@
-// 靜態資料模式 - 用於 GitHub Pages 部署
-const STATIC_MODE = true;
+// 靜態資料模式：在 GitHub Pages 執行時啟用
+const STATIC_MODE = window.location.hostname.endsWith('github.io');
 const DATA_BASE = STATIC_MODE ? './data' : '';
-const API_BASE = STATIC_MODE ? '' : '';
+const API_BASE = ''; // API 模式使用同源相對路徑
 
 // 当前选择的日期
 let currentDate = null;
@@ -46,16 +46,37 @@ function setupEventListeners() {
     });
 
     // 模態框關閉
-    document.querySelector('.close').addEventListener('click', function() {
-        document.getElementById('stockModal').style.display = 'none';
+    document.querySelector('.close').addEventListener('click', function(event) {
+        event.preventDefault();
+        closeStockModal();
     });
 
     window.addEventListener('click', function(event) {
         const modal = document.getElementById('stockModal');
         if (event.target === modal) {
-            modal.style.display = 'none';
+            closeStockModal();
         }
     });
+
+    window.addEventListener('hashchange', function() {
+        if (STATIC_MODE) {
+            if (window.location.hash) {
+                handleStockDeepLink();
+            } else {
+                closeStockModal();
+            }
+        }
+    });
+
+    if (!STATIC_MODE) {
+        window.addEventListener('popstate', function() {
+            if (window.location.pathname.match(/\/stock\/([A-Za-z0-9\.\-]+)/i)) {
+                handleStockDeepLink();
+            } else {
+                closeStockModal();
+            }
+        });
+    }
 }
 
 // 切換標籤頁
@@ -308,11 +329,10 @@ function createSymbolCell(symbol) {
     const link = document.createElement('a');
     link.className = 'symbol';
     link.textContent = symbol;
-    link.href = `/stock/${symbol}`;
+    link.href = STATIC_MODE ? `#stock-${symbol}` : `/stock/${symbol}`;
     link.onclick = (e) => {
         e.preventDefault();
-        window.history.pushState({}, '', link.href);
-        showStockDetail(symbol);
+        navigateToStock(symbol);
     };
     return link;
 }
@@ -362,6 +382,35 @@ function createActionCell(symbol) {
     btn.textContent = '查看詳情';
     btn.onclick = () => showStockDetail(symbol);
     return btn;
+}
+
+function navigateToStock(symbol) {
+    if (STATIC_MODE) {
+        const targetHash = `#stock-${symbol}`;
+        if (window.location.hash === targetHash) {
+            handleStockDeepLink();
+        } else {
+            window.location.hash = targetHash;
+        }
+    } else {
+        const targetPath = `/stock/${symbol}`;
+        if (window.location.pathname !== targetPath) {
+            window.history.pushState({}, '', targetPath);
+        }
+        showStockDetail(symbol);
+    }
+}
+
+function closeStockModal() {
+    const modal = document.getElementById('stockModal');
+    modal.style.display = 'none';
+    if (STATIC_MODE) {
+        if (window.location.hash) {
+            history.replaceState({}, '', window.location.pathname);
+        }
+    } else if (window.location.pathname.startsWith('/stock/')) {
+        window.history.pushState({}, '', '/');
+    }
 }
 
 // 顯示股票詳情
@@ -516,8 +565,18 @@ function showError(message) {
 
 // 支援 /stock/{symbol} 深鏈接
 function handleStockDeepLink() {
+    if (STATIC_MODE) {
+        const hash = window.location.hash || '';
+        const hashMatch = hash.match(/stock-([A-Za-z0-9\.\-]+)/i);
+        if (hashMatch) {
+            const symbol = hashMatch[1].toUpperCase();
+            showStockDetail(symbol);
+        }
+        return;
+    }
+
     const path = window.location.pathname;
-    const match = path.match(/^\\/stock\\/([A-Za-z\\.\\-]+)$/);
+    const match = path.match(/^\/stock\/([A-Za-z0-9\.\-]+)$/i);
     if (match) {
         const symbol = match[1].toUpperCase();
         showStockDetail(symbol);

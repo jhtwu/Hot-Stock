@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Stock - Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function() {
+            var path = window.location.pathname || '';
+            var segments = path.split('/').filter(Boolean);
+            var repo = segments.length ? segments[0] : '';
+            var base = repo ? '/' + repo + '/' : '/';
+            var symbolMatch = path.match(/\/stock\/([^/]+)/i);
+            var hash = symbolMatch ? '#stock-' + symbolMatch[1] : '';
+            window.location.replace(base + hash);
+        })();
+    </script>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+    <h2>正在重新導向...</h2>
+    <p>若未自動跳轉，請 <a id="redirectLink" href="/">點此返回首頁</a>。</p>
+    <script>
+        (function() {
+            var path = window.location.pathname || '';
+            var segments = path.split('/').filter(Boolean);
+            var repo = segments.length ? segments[0] : '';
+            var base = repo ? '/' + repo + '/' : '/';
+            document.getElementById('redirectLink').href = base;
+        })();
+    </script>
+</body>
+</html>
