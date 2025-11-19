@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Stock - 美股热度分析平台</title>
+    <title>Hot Stock - 美股熱度分析平台</title>
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🔥 Hot Stock</h1>
-            <p class="subtitle">美股热度分析平台 - 基于新闻和市场数据的智能评分系统</p>
+            <p class="subtitle">美股熱度分析平台 - 以新聞與市場數據計算的智能評分</p>
             <div class="date-selector">
-                <label for="dateSelect">选择日期: </label>
+                <label for="dateSelect">選擇日期：</label>
                 <select id="dateSelect">
-                    <option value="">最新数据</option>
+                    <option value="">最新資料</option>
                 </select>
-                <button id="refreshBtn">刷新数据</button>
+                <button id="refreshBtn">重新整理</button>
                 <button id="runAnalysisBtn">立即分析</button>
             </div>
         </header>
@@ -24,121 +24,121 @@
         <div class="stats-summary" id="statsSummary">
             <div class="stat-card">
                 <div class="stat-value" id="totalStocks">-</div>
-                <div class="stat-label">监控股票</div>
+                <div class="stat-label">監控股票</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value" id="avgScore">-</div>
-                <div class="stat-label">平均分数</div>
+                <div class="stat-label">平均分數</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value" id="totalNews">-</div>
-                <div class="stat-label">今日新闻</div>
+                <div class="stat-label">今日新聞</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value" id="updateTime">-</div>
-                <div class="stat-label">更新时间</div>
+                <div class="stat-label">更新日期</div>
             </div>
         </div>
 
         <div class="tabs">
-            <button class="tab-btn active" data-tab="hot">🔥 热度榜</button>
-            <button class="tab-btn" data-tab="growth">📈 涨幅榜</button>
-            <button class="tab-btn" data-tab="discussion">💬 讨论榜</button>
-            <button class="tab-btn" data-tab="active">⚡ 活跃榜</button>
+            <button class="tab-btn active" data-tab="hot">🔥 熱度榜</button>
+            <button class="tab-btn" data-tab="growth">📈 漲幅榜</button>
+            <button class="tab-btn" data-tab="discussion">💬 討論榜</button>
+            <button class="tab-btn" data-tab="active">⚡ 活躍榜</button>
         </div>
 
         <div class="tab-content">
             <div id="hot-content" class="ranking-list active">
-                <h2>热度榜 Top 10</h2>
-                <p class="description">综合评分最高的股票，基于价格变化、成交量、新闻热度等多维度指标</p>
+                <h2>熱度榜 Top 10</h2>
+                <p class="description">綜合評分最高的股票，基於價格變化、成交量、新聞熱度等多維度指標</p>
                 <div class="table-container">
                     <table id="hotTable">
                         <thead>
                             <tr>
                                 <th>排名</th>
-                                <th>股票代码</th>
-                                <th>公司名称</th>
-                                <th>板块</th>
-                                <th>综合评分</th>
-                                <th>涨跌幅</th>
-                                <th>新闻数</th>
+                                <th>股票代碼</th>
+                                <th>公司名稱</th>
+                                <th>板塊</th>
+                                <th>綜合評分</th>
+                                <th>漲跌幅</th>
+                                <th>新聞數</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
                         <tbody id="hotTableBody">
-                            <tr><td colspan="8" class="loading">加载中...</td></tr>
+                            <tr><td colspan="8" class="loading">載入中...</td></tr>
                         </tbody>
                     </table>
                 </div>
             </div>
 
             <div id="growth-content" class="ranking-list">
-                <h2>涨幅榜 Top 10</h2>
-                <p class="description">价格涨幅最大的股票</p>
+                <h2>漲幅榜 Top 10</h2>
+                <p class="description">價格漲幅最大的股票</p>
                 <div class="table-container">
                     <table id="growthTable">
                         <thead>
                             <tr>
                                 <th>排名</th>
-                                <th>股票代码</th>
-                                <th>公司名称</th>
-                                <th>板块</th>
-                                <th>涨跌幅</th>
+                                <th>股票代碼</th>
+                                <th>公司名稱</th>
+                                <th>板塊</th>
+                                <th>漲跌幅</th>
                                 <th>成交量比率</th>
-                                <th>综合评分</th>
+                                <th>綜合評分</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
                         <tbody id="growthTableBody">
-                            <tr><td colspan="8" class="loading">加载中...</td></tr>
+                            <tr><td colspan="8" class="loading">載入中...</td></tr>
                         </tbody>
                     </table>
                 </div>
             </div>
 
             <div id="discussion-content" class="ranking-list">
-                <h2>讨论榜 Top 10</h2>
-                <p class="description">新闻报道最多的股票</p>
+                <h2>討論榜 Top 10</h2>
+                <p class="description">新聞報導最多的股票</p>
                 <div class="table-container">
                     <table id="discussionTable">
                         <thead>
                             <tr>
                                 <th>排名</th>
-                                <th>股票代码</th>
-                                <th>公司名称</th>
-                                <th>板块</th>
-                                <th>新闻数量</th>
-                                <th>情绪分数</th>
-                                <th>综合评分</th>
+                                <th>股票代碼</th>
+                                <th>公司名稱</th>
+                                <th>板塊</th>
+                                <th>新聞數量</th>
+                                <th>情緒分數</th>
+                                <th>綜合評分</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
                         <tbody id="discussionTableBody">
-                            <tr><td colspan="8" class="loading">加载中...</td></tr>
+                            <tr><td colspan="8" class="loading">載入中...</td></tr>
                         </tbody>
                     </table>
                 </div>
             </div>
 
             <div id="active-content" class="ranking-list">
-                <h2>活跃榜 Top 10</h2>
-                <p class="description">成交量最活跃的股票</p>
+                <h2>活躍榜 Top 10</h2>
+                <p class="description">成交量最活躍的股票</p>
                 <div class="table-container">
                     <table id="activeTable">
                         <thead>
                             <tr>
                                 <th>排名</th>
-                                <th>股票代码</th>
-                                <th>公司名称</th>
-                                <th>板块</th>
+                                <th>股票代碼</th>
+                                <th>公司名稱</th>
+                                <th>板塊</th>
                                 <th>成交量比率</th>
-                                <th>涨跌幅</th>
-                                <th>综合评分</th>
+                                <th>漲跌幅</th>
+                                <th>綜合評分</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
                         <tbody id="activeTableBody">
-                            <tr><td colspan="8" class="loading">加载中...</td></tr>
+                            <tr><td colspan="8" class="loading">載入中...</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -146,7 +146,7 @@
         </div>
 
         <footer>
-            <p>© 2025 Hot Stock Analysis Platform | 数据仅供参考，不构成投资建议</p>
+            <p>© 2025 Hot Stock Analysis Platform | 資料僅供參考，不構成投資建議</p>
         </footer>
     </div>
 
@@ -155,7 +155,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <div id="stockDetails">
-                <h2 id="stockTitle">加载中...</h2>
+                <h2 id="stockTitle">載入中...</h2>
                 <div id="stockInfo"></div>
             </div>
         </div>

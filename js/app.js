@@ -1,48 +1,49 @@
-// API 基础 URL
+// API 基礎 URL
 const API_BASE = '';
 
 // 当前选择的日期
 let currentDate = null;
 
-// 页面加载完成后初始化
+// 頁面加載完成後初始化
 document.addEventListener('DOMContentLoaded', function() {
     initializePage();
     setupEventListeners();
     loadAvailableDates();
     loadRankings();
+    handleStockDeepLink();
 });
 
-// 初始化页面
+// 初始化頁面
 function initializePage() {
     console.log('Hot Stock Analysis Platform Initialized');
 }
 
-// 设置事件监听器
+// 設置事件監聽器
 function setupEventListeners() {
-    // 标签页切换
+    // 標籤頁切換
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', function() {
             switchTab(this.dataset.tab);
         });
     });
 
-    // 日期选择
+    // 日期選擇
     document.getElementById('dateSelect').addEventListener('change', function() {
         currentDate = this.value;
         loadRankings();
     });
 
-    // 刷新按钮
+    // 重新整理
     document.getElementById('refreshBtn').addEventListener('click', function() {
         loadRankings();
     });
 
-    // 立即分析按钮
+    // 立即分析
     document.getElementById('runAnalysisBtn').addEventListener('click', function() {
         runAnalysis();
     });
 
-    // 模态框关闭
+    // 模態框關閉
     document.querySelector('.close').addEventListener('click', function() {
         document.getElementById('stockModal').style.display = 'none';
     });
@@ -55,22 +56,22 @@ function setupEventListeners() {
     });
 }
 
-// 切换标签页
+// 切換標籤頁
 function switchTab(tabName) {
-    // 更新按钮状态
+    // 更新按鈕狀態
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.classList.remove('active');
     });
     document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
 
-    // 更新内容显示
+    // 更新內容顯示
     document.querySelectorAll('.ranking-list').forEach(content => {
         content.classList.remove('active');
     });
     document.getElementById(`${tabName}-content`).classList.add('active');
 }
 
-// 加载可用日期
+// 加載可用日期
 async function loadAvailableDates() {
     try {
         const response = await fetch(`${API_BASE}/api/dates`);
@@ -86,11 +87,11 @@ async function loadAvailableDates() {
             select.appendChild(option);
         });
     } catch (error) {
-        console.error('加载日期列表失败:', error);
+        console.error('載入日期列表失敗:', error);
     }
 }
 
-// 加载榜单数据
+// 加載榜單資料
 async function loadRankings() {
     try {
         const url = currentDate
@@ -110,12 +111,12 @@ async function loadRankings() {
         updateActiveRanking(data.rankings.active);
 
     } catch (error) {
-        console.error('加载榜单数据失败:', error);
-        showError('无法加载数据，请稍后重试');
+        console.error('載入榜單資料失敗:', error);
+        showError('無法載入資料，請稍後重試');
     }
 }
 
-// 更新统计信息
+// 更新統計資訊
 function updateStatistics(data) {
     const allStocks = [
         ...data.rankings.hot,
@@ -128,19 +129,19 @@ function updateStatistics(data) {
     const uniqueSymbols = new Set(allStocks.map(s => s.symbol));
     document.getElementById('totalStocks').textContent = uniqueSymbols.size;
 
-    // 平均分数
+    // 平均分數
     const avgScore = allStocks.reduce((sum, s) => sum + s.total_score, 0) / allStocks.length;
     document.getElementById('avgScore').textContent = avgScore.toFixed(1);
 
-    // 总新闻数
+    // 總新聞數
     const totalNews = allStocks.reduce((sum, s) => sum + s.news_count, 0);
     document.getElementById('totalNews').textContent = totalNews;
 
-    // 更新时间
+    // 更新時間
     document.getElementById('updateTime').textContent = data.date;
 }
 
-// 更新热度榜
+// 更新熱度榜
 function updateHotRanking(stocks) {
     const tbody = document.getElementById('hotTableBody');
     tbody.innerHTML = '';
@@ -160,7 +161,7 @@ function updateHotRanking(stocks) {
     });
 }
 
-// 更新涨幅榜
+// 更新漲幅榜
 function updateGrowthRanking(stocks) {
     const tbody = document.getElementById('growthTableBody');
     tbody.innerHTML = '';
@@ -180,7 +181,7 @@ function updateGrowthRanking(stocks) {
     });
 }
 
-// 更新讨论榜
+// 更新討論榜
 function updateDiscussionRanking(stocks) {
     const tbody = document.getElementById('discussionTableBody');
     tbody.innerHTML = '';
@@ -201,7 +202,7 @@ function updateDiscussionRanking(stocks) {
     });
 }
 
-// 更新活跃榜
+// 更新活躍榜
 function updateActiveRanking(stocks) {
     const tbody = document.getElementById('activeTableBody');
     tbody.innerHTML = '';
@@ -221,7 +222,7 @@ function updateActiveRanking(stocks) {
     });
 }
 
-// 创建表格行
+// 建立表格列
 function createTableRow(cells) {
     const row = document.createElement('tr');
     cells.forEach(cell => {
@@ -237,7 +238,7 @@ function createTableRow(cells) {
     return row;
 }
 
-// 创建排名单元格
+// 建立排名欄位
 function createRankCell(rank) {
     const span = document.createElement('span');
     span.className = `rank rank-${rank <= 3 ? rank : ''}`;
@@ -245,15 +246,21 @@ function createRankCell(rank) {
     return span;
 }
 
-// 创建股票代码单元格
+// 建立股票代碼欄位
 function createSymbolCell(symbol) {
-    const span = document.createElement('span');
-    span.className = 'symbol';
-    span.textContent = symbol;
-    return span;
+    const link = document.createElement('a');
+    link.className = 'symbol';
+    link.textContent = symbol;
+    link.href = `/stock/${symbol}`;
+    link.onclick = (e) => {
+        e.preventDefault();
+        window.history.pushState({}, '', link.href);
+        showStockDetail(symbol);
+    };
+    return link;
 }
 
-// 创建涨跌幅单元格
+// 建立漲跌幅欄位
 function createChangeCell(change) {
     const span = document.createElement('span');
     const value = parseFloat(change);
@@ -272,7 +279,7 @@ function createChangeCell(change) {
     return span;
 }
 
-// 创建情绪分数单元格
+// 建立情緒分數欄位
 function createSentimentCell(score) {
     const span = document.createElement('span');
     const value = parseFloat(score);
@@ -291,23 +298,23 @@ function createSentimentCell(score) {
     return span;
 }
 
-// 创建操作按钮
+// 建立操作按鈕
 function createActionCell(symbol) {
     const btn = document.createElement('button');
     btn.className = 'detail-btn';
-    btn.textContent = '查看详情';
+    btn.textContent = '查看詳情';
     btn.onclick = () => showStockDetail(symbol);
     return btn;
 }
 
-// 显示股票详情
+// 顯示股票詳情
 async function showStockDetail(symbol) {
     const modal = document.getElementById('stockModal');
     const title = document.getElementById('stockTitle');
     const info = document.getElementById('stockInfo');
 
-    title.textContent = '加载中...';
-    info.innerHTML = '<p>正在加载股票详情...</p>';
+    title.textContent = '載入中...';
+    info.innerHTML = '<p>正在載入股票詳情...</p>';
     modal.style.display = 'block';
 
     try {
@@ -319,19 +326,19 @@ async function showStockDetail(symbol) {
         let html = `
             <div style="margin-bottom: 20px;">
                 <h3>基本信息</h3>
-                <p><strong>板块:</strong> ${data.sector}</p>
+                <p><strong>板塊:</strong> ${data.sector}</p>
             </div>
         `;
 
         if (data.latest_score) {
             html += `
                 <div style="margin-bottom: 20px;">
-                    <h3>最新评分</h3>
-                    <p><strong>综合评分:</strong> ${data.latest_score.total_score.toFixed(2)}</p>
-                    <p><strong>热度排名:</strong> ${data.latest_score.hot_rank || '-'}</p>
-                    <p><strong>涨幅排名:</strong> ${data.latest_score.growth_rank || '-'}</p>
-                    <p><strong>价格变化:</strong> <span class="${data.latest_score.price_change > 0 ? 'positive' : 'negative'}">${data.latest_score.price_change > 0 ? '+' : ''}${data.latest_score.price_change.toFixed(2)}%</span></p>
-                    <p><strong>新闻数量:</strong> ${data.latest_score.news_count}</p>
+                    <h3>最新評分</h3>
+                    <p><strong>綜合評分:</strong> ${data.latest_score.total_score.toFixed(2)}</p>
+                    <p><strong>熱度排名:</strong> ${data.latest_score.hot_rank || '-'}</p>
+                    <p><strong>漲幅排名:</strong> ${data.latest_score.growth_rank || '-'}</p>
+                    <p><strong>價格變化:</strong> <span class="${data.latest_score.price_change > 0 ? 'positive' : 'negative'}">${data.latest_score.price_change > 0 ? '+' : ''}${data.latest_score.price_change.toFixed(2)}%</span></p>
+                    <p><strong>新聞數量:</strong> ${data.latest_score.news_count}</p>
                 </div>
             `;
         }
@@ -339,15 +346,15 @@ async function showStockDetail(symbol) {
         if (data.recent_news && data.recent_news.length > 0) {
             html += `
                 <div style="margin-bottom: 20px;">
-                    <h3>最新新闻</h3>
+                    <h3>最新新聞</h3>
                     <ul style="list-style: none; padding: 0;">
             `;
             data.recent_news.slice(0, 5).forEach(news => {
                 html += `
                     <li style="margin-bottom: 15px; padding: 10px; background: #f8f9fa; border-radius: 8px;">
                         <strong>${news.title}</strong><br>
-                        <small>来源: ${news.source} | ${news.published_at}</small><br>
-                        <a href="${news.url}" target="_blank" style="color: #667eea;">阅读原文 →</a>
+                        <small>來源: ${news.source} | ${news.published_at}</small><br>
+                        <a href="${news.url}" target="_blank" style="color: #667eea;">閱讀原文 →</a>
                     </li>
                 `;
             });
@@ -358,11 +365,11 @@ async function showStockDetail(symbol) {
 
     } catch (error) {
         console.error('加载股票详情失败:', error);
-        info.innerHTML = '<p style="color: red;">加载失败，请稍后重试</p>';
+        info.innerHTML = '<p style="color: red;">載入失敗，請稍後重試</p>';
     }
 }
 
-// 运行分析任务
+// 運行分析任務
 async function runAnalysis() {
     const btn = document.getElementById('runAnalysisBtn');
     btn.disabled = true;
@@ -378,7 +385,7 @@ async function runAnalysis() {
 
         if (response.ok) {
             const data = await response.json();
-            alert(data.message + '\n\n注意：首次运行需要下载大量数据，可能需要较长时间。');
+            alert(data.message + '\n\n注意：首次執行需要下載資料，可能需要較長時間。');
 
             // 10 秒后自动刷新页面
             setTimeout(() => {
@@ -389,18 +396,28 @@ async function runAnalysis() {
         }
 
     } catch (error) {
-        console.error('运行分析失败:', error);
-        alert('运行分析失败，请检查后端服务是否正常运行。\n\n错误信息：' + error.message);
+        console.error('運行分析失敗:', error);
+        alert('運行分析失敗，請檢查後端服務是否正常運行。\n\n錯誤資訊：' + error.message);
     } finally {
         btn.disabled = false;
         btn.textContent = '立即分析';
     }
 }
 
-// 显示错误信息
+// 顯示錯誤信息
 function showError(message) {
     const tbody = document.querySelectorAll('tbody');
     tbody.forEach(tb => {
         tb.innerHTML = `<tr><td colspan="8" class="loading" style="color: red;">${message}</td></tr>`;
     });
+}
+
+// 支援 /stock/{symbol} 深鏈接
+function handleStockDeepLink() {
+    const path = window.location.pathname;
+    const match = path.match(/^\\/stock\\/([A-Za-z\\.\\-]+)$/);
+    if (match) {
+        const symbol = match[1].toUpperCase();
+        showStockDetail(symbol);
+    }
 }
