@@ -59,6 +59,16 @@ if frontend_path.exists():
         StaticFiles(directory=str(frontend_path)),
         name="static"
     )
+    css_path = frontend_path / "css"
+    js_path = frontend_path / "js"
+    data_path = frontend_path / "data"
+
+    if css_path.exists():
+        app.mount("/css", StaticFiles(directory=str(css_path)), name="css")
+    if js_path.exists():
+        app.mount("/js", StaticFiles(directory=str(js_path)), name="js")
+    if data_path.exists():
+        app.mount("/data", StaticFiles(directory=str(data_path)), name="data")
 
 # 创建定时任务调度器
 scheduler = BackgroundScheduler()
