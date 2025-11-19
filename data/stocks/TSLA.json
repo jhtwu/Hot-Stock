@@ -1,0 +1,188 @@
+{
+  "symbol": "TSLA",
+  "name": "TSLA",
+  "sector": "新能源車",
+  "current_price": 134.3213931967732,
+  "change_percent": -1.8756725031791095,
+  "volume": 36176280,
+  "scores": {
+    "hot": 15.454545454545453,
+    "growth": 31.818181818181817,
+    "discussion": 0.0,
+    "active": 22.727272727272727
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80237419,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9088409630361531
+    },
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80237419,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9088409630361531
+    },
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80688637,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9138999644029944
+    },
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80688637,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9138999644029944
+    },
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80688637,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9138999644029944
+    },
+    {
+      "date": "2025-11-18",
+      "open": 405.38,
+      "high": 408.9,
+      "low": 393.71,
+      "close": 401.25,
+      "volume": 80688637,
+      "change_percent": -1.8756725031791095,
+      "volume_ratio": 0.9138999644029944
+    },
+    {
+      "date": "2025-11-18",
+      "open": 131.6349653328377,
+      "high": 138.35103499267638,
+      "low": 130.29175140087,
+      "close": 134.3213931967732,
+      "volume": 36176280,
+      "change_percent": 7.568563105083163,
+      "volume_ratio": 2.1032349840022033
+    },
+    {
+      "date": "2025-11-19",
+      "open": 131.6349653328377,
+      "high": 138.35103499267638,
+      "low": 130.29175140087,
+      "close": 134.3213931967732,
+      "volume": 36176280,
+      "change_percent": 7.568563105083163,
+      "volume_ratio": 2.1032349840022033
+    },
+    {
+      "date": "2025-11-19",
+      "open": 131.6349653328377,
+      "high": 138.35103499267638,
+      "low": 130.29175140087,
+      "close": 134.3213931967732,
+      "volume": 36176280,
+      "change_percent": 7.568563105083163,
+      "volume_ratio": 2.1032349840022033
+    }
+  ],
+  "news": [
+    {
+      "title": "TSLA Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/tsla-6",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 23:49",
+      "sentiment": 0.08689664829374572
+    },
+    {
+      "title": "Analysts Upgrade TSLA Price Target",
+      "url": "https://example.com/news/tsla-1",
+      "source": "CNBC",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.2863947142419742
+    },
+    {
+      "title": "Why TSLA Stock Is Moving Today",
+      "url": "https://example.com/news/tsla-4",
+      "source": "Reuters",
+      "published_at": "2025-11-18 20:49",
+      "sentiment": 0.3600838332581287
+    },
+    {
+      "title": "TSLA Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/tsla-3",
+      "source": "Reuters",
+      "published_at": "2025-11-18 20:49",
+      "sentiment": 0.44401339112821864
+    },
+    {
+      "title": "TSLA Announces New Product Launch",
+      "url": "https://example.com/news/tsla-2",
+      "source": "CNBC",
+      "published_at": "2025-11-18 20:49",
+      "sentiment": -0.0597269795332393
+    },
+    {
+      "title": "TSLA Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/tsla-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 19:49",
+      "sentiment": -0.08197731800523661
+    },
+    {
+      "title": "Analysts Upgrade TSLA Price Target",
+      "url": "https://example.com/news/tsla-5",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": 0.5376508118893153
+    },
+    {
+      "title": "TSLA Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/tsla-7",
+      "source": "Reuters",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": 0.31453685837512896
+    },
+    {
+      "title": "Electric vehicle sales are booming in South America — without Tesla",
+      "url": "https://finance.yahoo.com/news/electric-vehicle-sales-booming-south-090554677.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 09:05",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Stock market today: Nasdaq, S&P 500 futures waver as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-waver-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944135.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 15.454545454545453,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -1.8756725031791095,
+    "news_count": 0
+  }
+}

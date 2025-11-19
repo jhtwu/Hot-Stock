@@ -1,0 +1,188 @@
+{
+  "symbol": "MA",
+  "name": "MA",
+  "sector": "金融",
+  "current_price": 312.1647977224299,
+  "change_percent": -1.7267393126571635,
+  "volume": 49218340,
+  "scores": {
+    "hot": 24.78200371057514,
+    "growth": 36.36363636363637,
+    "discussion": 33.6734693877551,
+    "active": 72.72727272727273
+  },
+  "news_count": 33,
+  "sentiment_score": 48.484848484848484,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594474,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3759696561331662
+    },
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594474,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3759696561331662
+    },
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594931,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3761419214522925
+    },
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594931,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3761419214522925
+    },
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594931,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3761419214522925
+    },
+    {
+      "date": "2025-11-18",
+      "open": 533.5,
+      "high": 536.0,
+      "low": 524.7,
+      "close": 527.58,
+      "volume": 3594931,
+      "change_percent": -1.7267393126571635,
+      "volume_ratio": 1.3761419214522925
+    },
+    {
+      "date": "2025-11-18",
+      "open": 305.9215017679813,
+      "high": 321.5297416541028,
+      "low": 302.799853790757,
+      "close": 312.1647977224299,
+      "volume": 49218340,
+      "change_percent": 3.842471765855665,
+      "volume_ratio": 1.472067613684075
+    },
+    {
+      "date": "2025-11-19",
+      "open": 305.9215017679813,
+      "high": 321.5297416541028,
+      "low": 302.799853790757,
+      "close": 312.1647977224299,
+      "volume": 49218340,
+      "change_percent": 3.842471765855665,
+      "volume_ratio": 1.472067613684075
+    },
+    {
+      "date": "2025-11-19",
+      "open": 305.9215017679813,
+      "high": 321.5297416541028,
+      "low": 302.799853790757,
+      "close": 312.1647977224299,
+      "volume": 49218340,
+      "change_percent": 3.842471765855665,
+      "volume_ratio": 1.472067613684075
+    }
+  ],
+  "news": [
+    {
+      "title": "Analysts Upgrade MA Price Target",
+      "url": "https://example.com/news/ma-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 04:49",
+      "sentiment": 0.14984166749457212
+    },
+    {
+      "title": "MA Announces New Product Launch",
+      "url": "https://example.com/news/ma-6",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 00:49",
+      "sentiment": 0.5982706994887428
+    },
+    {
+      "title": "Analysts Upgrade MA Price Target",
+      "url": "https://example.com/news/ma-4",
+      "source": "CNBC",
+      "published_at": "2025-11-18 23:49",
+      "sentiment": 0.06505213278562044
+    },
+    {
+      "title": "MA Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/ma-7",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": -0.19427028274982633
+    },
+    {
+      "title": "Analysts Upgrade MA Price Target",
+      "url": "https://example.com/news/ma-3",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 15:49",
+      "sentiment": 0.2176538523261719
+    },
+    {
+      "title": "MA Announces New Product Launch",
+      "url": "https://example.com/news/ma-5",
+      "source": "CNBC",
+      "published_at": "2025-11-18 13:49",
+      "sentiment": 0.13940740829092663
+    },
+    {
+      "title": "MA Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/ma-2",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": -0.07132247344468218
+    },
+    {
+      "title": "MA Announces New Product Launch",
+      "url": "https://example.com/news/ma-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": 0.3855436820051829
+    },
+    {
+      "title": "Iyabo Ojo Addresses Rumours of Her Arrest in Abuja, Heaps Heavy Curses on Critics in Fiery Video",
+      "url": "https://www.legit.ng/entertainment/nollywood/1683800-iyabo-ojo-addresses-rumours-arrest-abuja-heaps-heavy-curses-critics-fiery-video/",
+      "source": "Latest News in Nigeria & Breaking Naija News 24/7 | LEGIT.NG",
+      "published_at": "2025-11-18 07:39",
+      "sentiment": 0.0
+    },
+    {
+      "title": "FEERUM S.A.: Informacja o otwarciu części finansowej ofert w postępowaniu przetargowym na wykonanie zbożowych obiektów magazynowo-suszarniczych w Egipcie",
+      "url": "https://www.bankier.pl/wiadomosc/FEERUM-S-A-Informacja-o-otwarciu-czesci-finansowej-ofert-w-postepowaniu-przetargowym-na-wykonanie-zbozowych-obiektow-magazynowo-suszarniczych-w-Egipcie-9041173.html",
+      "source": "Bankier.pl",
+      "published_at": "2025-11-18 06:49",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 24.78200371057514,
+    "hot_rank": 10,
+    "growth_rank": null,
+    "price_change": -1.7267393126571635,
+    "news_count": 33
+  }
+}

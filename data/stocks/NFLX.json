@@ -1,0 +1,153 @@
+{
+  "symbol": "NFLX",
+  "name": "NFLX",
+  "sector": "串流媒體",
+  "current_price": 342.6742461724226,
+  "change_percent": 3.445461963913317,
+  "volume": 4207184,
+  "scores": {
+    "hot": 34.76791671397562,
+    "growth": 95.45454545454545,
+    "discussion": 3.061224489795918,
+    "active": 50.0
+  },
+  "news_count": 3,
+  "sentiment_score": 67.59316151926853,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.03,
+      "volume": 43351111,
+      "change_percent": 3.3910599329041573,
+      "volume_ratio": 1.1927585677955863
+    },
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.03,
+      "volume": 43351111,
+      "change_percent": 3.3910599329041573,
+      "volume_ratio": 1.1927585677955863
+    },
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.09,
+      "volume": 43440565,
+      "change_percent": 3.445461963913317,
+      "volume_ratio": 1.1951871123307247
+    },
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.09,
+      "volume": 43440565,
+      "change_percent": 3.445461963913317,
+      "volume_ratio": 1.1951871123307247
+    },
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.09,
+      "volume": 43440565,
+      "change_percent": 3.445461963913317,
+      "volume_ratio": 1.1951871123307247
+    },
+    {
+      "date": "2025-11-18",
+      "open": 110.29,
+      "high": 115.25,
+      "low": 109.2,
+      "close": 114.09,
+      "volume": 43440565,
+      "change_percent": 3.445461963913317,
+      "volume_ratio": 1.1951871123307247
+    },
+    {
+      "date": "2025-11-18",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    },
+    {
+      "date": "2025-11-19",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    },
+    {
+      "date": "2025-11-19",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    }
+  ],
+  "news": [
+    {
+      "title": "NFLX Announces New Product Launch",
+      "url": "https://example.com/news/nflx-1",
+      "source": "Reuters",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.6960738220786025
+    },
+    {
+      "title": "Analysts Upgrade NFLX Price Target",
+      "url": "https://example.com/news/nflx-0",
+      "source": "Reuters",
+      "published_at": "2025-11-18 21:49",
+      "sentiment": 0.08145168959335197
+    },
+    {
+      "title": "NFLX Announces New Product Launch",
+      "url": "https://example.com/news/nflx-2",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 13:49",
+      "sentiment": 0.2655750975828593
+    },
+    {
+      "title": "Stock market today: Dow, Nasdaq, S&P 500 slip as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Stock market today: Nasdaq, S&P 500 futures wobble as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944956.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 34.76791671397562,
+    "hot_rank": 3,
+    "growth_rank": 1,
+    "price_change": 3.445461963913317,
+    "news_count": 3
+  }
+}

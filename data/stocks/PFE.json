@@ -1,0 +1,188 @@
+{
+  "symbol": "PFE",
+  "name": "PFE",
+  "sector": "醫療保健",
+  "current_price": 364.20052414271083,
+  "change_percent": 1.4752791068580584,
+  "volume": 4974722,
+  "scores": {
+    "hot": 34.715375766657495,
+    "growth": 90.9090909090909,
+    "discussion": 10.204081632653061,
+    "active": 45.45454545454545
+  },
+  "news_count": 10,
+  "sentiment_score": 62.913884208143344,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66433110,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1128222524638907
+    },
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66433110,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1128222524638907
+    },
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66511756,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1141233447649408
+    },
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66511756,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1141233447649408
+    },
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66511756,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1141233447649408
+    },
+    {
+      "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66511756,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1141233447649408
+    },
+    {
+      "date": "2025-11-18",
+      "open": 356.9165136598566,
+      "high": 375.1265398669922,
+      "low": 353.2745084184295,
+      "close": 364.20052414271083,
+      "volume": 4974722,
+      "change_percent": -0.5768352757719928,
+      "volume_ratio": 1.9268712957658667
+    },
+    {
+      "date": "2025-11-19",
+      "open": 356.9165136598566,
+      "high": 375.1265398669922,
+      "low": 353.2745084184295,
+      "close": 364.20052414271083,
+      "volume": 4974722,
+      "change_percent": -0.5768352757719928,
+      "volume_ratio": 1.9268712957658667
+    },
+    {
+      "date": "2025-11-19",
+      "open": 356.9165136598566,
+      "high": 375.1265398669922,
+      "low": 353.2745084184295,
+      "close": 364.20052414271083,
+      "volume": 4974722,
+      "change_percent": -0.5768352757719928,
+      "volume_ratio": 1.9268712957658667
+    }
+  ],
+  "news": [
+    {
+      "title": "Analysts Upgrade PFE Price Target",
+      "url": "https://example.com/news/pfe-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 06:49",
+      "sentiment": -0.2829663594536164
+    },
+    {
+      "title": "PFE Announces New Product Launch",
+      "url": "https://example.com/news/pfe-6",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 03:54",
+      "sentiment": 0.5247365174193284
+    },
+    {
+      "title": "PFE Announces New Product Launch",
+      "url": "https://example.com/news/pfe-9",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 02:54",
+      "sentiment": 0.6833727393362601
+    },
+    {
+      "title": "PFE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/pfe-8",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 00:54",
+      "sentiment": 0.146737192678635
+    },
+    {
+      "title": "PFE Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pfe-4",
+      "source": "Reuters",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.25300801451790084
+    },
+    {
+      "title": "PFE Announces New Product Launch",
+      "url": "https://example.com/news/pfe-7",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 17:54",
+      "sentiment": 0.020533057706384084
+    },
+    {
+      "title": "Analysts Upgrade PFE Price Target",
+      "url": "https://example.com/news/pfe-5",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 16:54",
+      "sentiment": 0.2516903208530635
+    },
+    {
+      "title": "Analysts Upgrade PFE Price Target",
+      "url": "https://example.com/news/pfe-3",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 10:49",
+      "sentiment": 0.4479259190721075
+    },
+    {
+      "title": "PFE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/pfe-2",
+      "source": "CNBC",
+      "published_at": "2025-11-18 10:49",
+      "sentiment": -0.18027131261419088
+    },
+    {
+      "title": "PFE Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pfe-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 08:49",
+      "sentiment": 0.05602808143794352
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 34.715375766657495,
+    "hot_rank": 4,
+    "growth_rank": 2,
+    "price_change": 1.4752791068580584,
+    "news_count": 10
+  }
+}

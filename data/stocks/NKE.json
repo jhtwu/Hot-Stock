@@ -1,0 +1,181 @@
+{
+  "symbol": "NKE",
+  "name": "NKE",
+  "sector": "消費",
+  "current_price": 400.4673946541128,
+  "change_percent": -0.651828298887117,
+  "volume": 31306515,
+  "scores": {
+    "hot": 24.90559764479768,
+    "growth": 59.09090909090909,
+    "discussion": 6.122448979591836,
+    "active": 36.36363636363637
+  },
+  "news_count": 6,
+  "sentiment_score": 57.34838751448298,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14607536,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.0862231720062274
+    },
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14607536,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.0862231720062274
+    },
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14614639,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.086744976617551
+    },
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14614639,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.086744976617551
+    },
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14614639,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.086744976617551
+    },
+    {
+      "date": "2025-11-18",
+      "open": 62.34,
+      "high": 62.76,
+      "low": 61.68,
+      "close": 62.49,
+      "volume": 14614639,
+      "change_percent": -0.651828298887117,
+      "volume_ratio": 1.086744976617551
+    },
+    {
+      "date": "2025-11-18",
+      "open": 392.4580467610306,
+      "high": 412.4814164937362,
+      "low": 388.4533728144894,
+      "close": 400.4673946541128,
+      "volume": 31306515,
+      "change_percent": -1.941809976911781,
+      "volume_ratio": 0.5583862436066251
+    },
+    {
+      "date": "2025-11-19",
+      "open": 392.4580467610306,
+      "high": 412.4814164937362,
+      "low": 388.4533728144894,
+      "close": 400.4673946541128,
+      "volume": 31306515,
+      "change_percent": -1.941809976911781,
+      "volume_ratio": 0.5583862436066251
+    },
+    {
+      "date": "2025-11-19",
+      "open": 392.4580467610306,
+      "high": 412.4814164937362,
+      "low": 388.4533728144894,
+      "close": 400.4673946541128,
+      "volume": 31306515,
+      "change_percent": -1.941809976911781,
+      "volume_ratio": 0.5583862436066251
+    }
+  ],
+  "news": [
+    {
+      "title": "NKE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/nke-4",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.5026400401645137
+    },
+    {
+      "title": "NKE Announces New Product Launch",
+      "url": "https://example.com/news/nke-1",
+      "source": "Reuters",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.3771000224248355
+    },
+    {
+      "title": "NKE Announces New Product Launch",
+      "url": "https://example.com/news/nke-6",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.6282087038894835
+    },
+    {
+      "title": "NKE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/nke-0",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 20:49",
+      "sentiment": -0.06415108053982616
+    },
+    {
+      "title": "Analysts Upgrade NKE Price Target",
+      "url": "https://example.com/news/nke-3",
+      "source": "Reuters",
+      "published_at": "2025-11-18 18:49",
+      "sentiment": -0.12811187199701596
+    },
+    {
+      "title": "NKE Announces New Product Launch",
+      "url": "https://example.com/news/nke-7",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": 0.662912599030191
+    },
+    {
+      "title": "NKE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/nke-2",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 12:49",
+      "sentiment": 0.6972931205813921
+    },
+    {
+      "title": "NKE Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/nke-8",
+      "source": "Reuters",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": 0.10334446485456733
+    },
+    {
+      "title": "NKE Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/nke-5",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": -0.18320923216293156
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 24.90559764479768,
+    "hot_rank": 9,
+    "growth_rank": 9,
+    "price_change": -0.651828298887117,
+    "news_count": 6
+  }
+}

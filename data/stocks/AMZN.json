@@ -1,0 +1,188 @@
+{
+  "symbol": "AMZN",
+  "name": "AMZN",
+  "sector": "科技",
+  "current_price": 297.975115331588,
+  "change_percent": -4.431657147764844,
+  "volume": 26734360,
+  "scores": {
+    "hot": 7.8061224489795915,
+    "growth": 0.0,
+    "discussion": 11.224489795918368,
+    "active": 63.63636363636363
+  },
+  "news_count": 11,
+  "sentiment_score": 33.333333333333336,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.56,
+      "volume": 60416776,
+      "change_percent": -4.427362906342595,
+      "volume_ratio": 1.3161571655769257
+    },
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.56,
+      "volume": 60416776,
+      "change_percent": -4.427362906342595,
+      "volume_ratio": 1.3161571655769257
+    },
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.55,
+      "volume": 60608442,
+      "change_percent": -4.431657147764844,
+      "volume_ratio": 1.3202712872529754
+    },
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.55,
+      "volume": 60608442,
+      "change_percent": -4.431657147764844,
+      "volume_ratio": 1.3202712872529754
+    },
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.55,
+      "volume": 60608442,
+      "change_percent": -4.431657147764844,
+      "volume_ratio": 1.3202712872529754
+    },
+    {
+      "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.55,
+      "volume": 60608442,
+      "change_percent": -4.431657147764844,
+      "volume_ratio": 1.3202712872529754
+    },
+    {
+      "date": "2025-11-18",
+      "open": 292.0156130249562,
+      "high": 306.9143687915356,
+      "low": 289.03586187164035,
+      "close": 297.975115331588,
+      "volume": 26734360,
+      "change_percent": -2.543143729741924,
+      "volume_ratio": 1.0736361882479426
+    },
+    {
+      "date": "2025-11-19",
+      "open": 292.0156130249562,
+      "high": 306.9143687915356,
+      "low": 289.03586187164035,
+      "close": 297.975115331588,
+      "volume": 26734360,
+      "change_percent": -2.543143729741924,
+      "volume_ratio": 1.0736361882479426
+    },
+    {
+      "date": "2025-11-19",
+      "open": 292.0156130249562,
+      "high": 306.9143687915356,
+      "low": 289.03586187164035,
+      "close": 297.975115331588,
+      "volume": 26734360,
+      "change_percent": -2.543143729741924,
+      "volume_ratio": 1.0736361882479426
+    }
+  ],
+  "news": [
+    {
+      "title": "AMZN Announces New Product Launch",
+      "url": "https://example.com/news/amzn-8",
+      "source": "Reuters",
+      "published_at": "2025-11-19 06:49",
+      "sentiment": 0.13765577542736468
+    },
+    {
+      "title": "Why AMZN Stock Is Moving Today",
+      "url": "https://example.com/news/amzn-4",
+      "source": "Reuters",
+      "published_at": "2025-11-19 06:49",
+      "sentiment": -0.27277167393621365
+    },
+    {
+      "title": "AMZN Announces New Product Launch",
+      "url": "https://example.com/news/amzn-3",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 05:49",
+      "sentiment": 0.19098535177151138
+    },
+    {
+      "title": "AMZN Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/amzn-2",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 04:49",
+      "sentiment": -0.1773597780426684
+    },
+    {
+      "title": "AMZN Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/amzn-0",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 17:49",
+      "sentiment": 0.6455681991256486
+    },
+    {
+      "title": "Analysts Upgrade AMZN Price Target",
+      "url": "https://example.com/news/amzn-9",
+      "source": "CNBC",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": 0.4002440918513966
+    },
+    {
+      "title": "AMZN Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/amzn-6",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": -0.11364480302585672
+    },
+    {
+      "title": "Why AMZN Stock Is Moving Today",
+      "url": "https://example.com/news/amzn-5",
+      "source": "Reuters",
+      "published_at": "2025-11-18 15:49",
+      "sentiment": 0.4666395241776174
+    },
+    {
+      "title": "Why AMZN Stock Is Moving Today",
+      "url": "https://example.com/news/amzn-7",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 14:49",
+      "sentiment": 0.15977448088537388
+    },
+    {
+      "title": "Analysts Upgrade AMZN Price Target",
+      "url": "https://example.com/news/amzn-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 10:49",
+      "sentiment": 0.5293648030615807
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 7.8061224489795915,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -4.431657147764844,
+    "news_count": 11
+  }
+}

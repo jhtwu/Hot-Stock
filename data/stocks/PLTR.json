@@ -1,0 +1,188 @@
+{
+  "symbol": "PLTR",
+  "name": "PLTR",
+  "sector": "軟體",
+  "current_price": 443.0905041802578,
+  "change_percent": -2.2890510948905036,
+  "volume": 42568246,
+  "scores": {
+    "hot": 14.817591540434208,
+    "growth": 18.181818181818183,
+    "discussion": 6.122448979591836,
+    "active": 18.181818181818183
+  },
+  "news_count": 6,
+  "sentiment_score": 58.27683166721136,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.66,
+      "close": 167.33,
+      "volume": 53539312,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8666849855043266
+    },
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.66,
+      "close": 167.33,
+      "volume": 53539312,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8666849855043266
+    },
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.5,
+      "close": 167.33,
+      "volume": 53710064,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8694223869836984
+    },
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.5,
+      "close": 167.33,
+      "volume": 53710064,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8694223869836984
+    },
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.5,
+      "close": 167.33,
+      "volume": 53710064,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8694223869836984
+    },
+    {
+      "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.5,
+      "close": 167.33,
+      "volume": 53710064,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8694223869836984
+    },
+    {
+      "date": "2025-11-18",
+      "open": 434.22869409665265,
+      "high": 456.3832193056656,
+      "low": 429.79778905485006,
+      "close": 443.0905041802578,
+      "volume": 42568246,
+      "change_percent": 5.581758842564465,
+      "volume_ratio": 0.6285442447155771
+    },
+    {
+      "date": "2025-11-19",
+      "open": 434.22869409665265,
+      "high": 456.3832193056656,
+      "low": 429.79778905485006,
+      "close": 443.0905041802578,
+      "volume": 42568246,
+      "change_percent": 5.581758842564465,
+      "volume_ratio": 0.6285442447155771
+    },
+    {
+      "date": "2025-11-19",
+      "open": 434.22869409665265,
+      "high": 456.3832193056656,
+      "low": 429.79778905485006,
+      "close": 443.0905041802578,
+      "volume": 42568246,
+      "change_percent": 5.581758842564465,
+      "volume_ratio": 0.6285442447155771
+    }
+  ],
+  "news": [
+    {
+      "title": "PLTR Announces New Product Launch",
+      "url": "https://example.com/news/pltr-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 05:49",
+      "sentiment": -0.14668683029833812
+    },
+    {
+      "title": "PLTR Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pltr-7",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 04:49",
+      "sentiment": 0.49674993900561576
+    },
+    {
+      "title": "PLTR Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pltr-5",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 04:49",
+      "sentiment": 0.483707385271869
+    },
+    {
+      "title": "PLTR Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pltr-4",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 19:49",
+      "sentiment": 0.34058920957128896
+    },
+    {
+      "title": "Why PLTR Stock Is Moving Today",
+      "url": "https://example.com/news/pltr-3",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 17:49",
+      "sentiment": 0.2142312744694504
+    },
+    {
+      "title": "PLTR Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/pltr-8",
+      "source": "Reuters",
+      "published_at": "2025-11-18 15:49",
+      "sentiment": -0.29281433390267125
+    },
+    {
+      "title": "PLTR Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pltr-2",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 14:49",
+      "sentiment": 0.37563585995763177
+    },
+    {
+      "title": "PLTR Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/pltr-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 14:49",
+      "sentiment": -0.18680719315257938
+    },
+    {
+      "title": "PLTR Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/pltr-6",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 08:49",
+      "sentiment": -0.2800277874963634
+    },
+    {
+      "title": "Where to invest $2,500 in ASX ETFs this month",
+      "url": "https://www.fool.com.au/2025/11/17/where-to-invest-2500-in-asx-etfs-this-month-2/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-17 06:50",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 14.817591540434208,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -2.2890510948905036,
+    "news_count": 6
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "symbol": "AAPL",
+  "name": "AAPL",
+  "sector": "科技",
+  "current_price": 271.3145042405105,
+  "change_percent": -0.007477753682786888,
+  "volume": 7947310,
+  "scores": {
+    "hot": 26.447124304267163,
+    "growth": 72.72727272727273,
+    "discussion": 3.061224489795918,
+    "active": 13.636363636363635
+  },
+  "news_count": 3,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.425,
+      "volume": 45575467,
+      "change_percent": -0.013086068944877054,
+      "volume_ratio": 0.8580603766351488
+    },
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.425,
+      "volume": 45575467,
+      "change_percent": -0.013086068944877054,
+      "volume_ratio": 0.8580603766351488
+    },
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.44,
+      "volume": 45677278,
+      "change_percent": -0.007477753682786888,
+      "volume_ratio": 0.8599588816296839
+    },
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.44,
+      "volume": 45677278,
+      "change_percent": -0.007477753682786888,
+      "volume_ratio": 0.8599588816296839
+    },
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.44,
+      "volume": 45677278,
+      "change_percent": -0.007477753682786888,
+      "volume_ratio": 0.8599588816296839
+    },
+    {
+      "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.44,
+      "volume": 45677278,
+      "change_percent": -0.007477753682786888,
+      "volume_ratio": 0.8599588816296839
+    },
+    {
+      "date": "2025-11-18",
+      "open": 265.88821415570027,
+      "high": 279.4539393677258,
+      "low": 263.17506911329514,
+      "close": 271.3145042405105,
+      "volume": 7947310,
+      "change_percent": -0.8823426588922398,
+      "volume_ratio": 1.917611113347601
+    },
+    {
+      "date": "2025-11-19",
+      "open": 265.88821415570027,
+      "high": 279.4539393677258,
+      "low": 263.17506911329514,
+      "close": 271.3145042405105,
+      "volume": 7947310,
+      "change_percent": -0.8823426588922398,
+      "volume_ratio": 1.917611113347601
+    },
+    {
+      "date": "2025-11-19",
+      "open": 265.88821415570027,
+      "high": 279.4539393677258,
+      "low": 263.17506911329514,
+      "close": 271.3145042405105,
+      "volume": 7947310,
+      "change_percent": -0.8823426588922398,
+      "volume_ratio": 1.917611113347601
+    }
+  ],
+  "news": [
+    {
+      "title": "AAPL Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/aapl-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 00:49",
+      "sentiment": 0.3250802327567354
+    },
+    {
+      "title": "Analysts Upgrade AAPL Price Target",
+      "url": "https://example.com/news/aapl-2",
+      "source": "Reuters",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": -0.13255032238144543
+    },
+    {
+      "title": "Why AAPL Stock Is Moving Today",
+      "url": "https://example.com/news/aapl-1",
+      "source": "Reuters",
+      "published_at": "2025-11-18 14:49",
+      "sentiment": -0.12871018885033986
+    },
+    {
+      "title": "CEO Tim Cook Could Step Down Next Year",
+      "url": "https://biztoc.com/x/1a3efb31d9db28e6",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-18 06:15",
+      "sentiment": -1.0
+    },
+    {
+      "title": "5 ASX ETFs to buy to supercharge your portfolio in 2026",
+      "url": "https://www.fool.com.au/2025/11/18/5-asx-etfs-to-buy-to-supercharge-your-portfolio-in-2026/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-18 03:49",
+      "sentiment": 1.0
+    },
+    {
+      "title": "米Satechi、USB-AやPD、HDMI、SDカードリーダー、Ethernetポートと収納式のUSB-Cケーブル搭載し、マグネットでiPhoneにも接続可能なUSB-Cハブ「Satechi OntheGo™ 7-in-1 Multiport Adapter」を発表。",
+      "url": "https://applech2.com/archives/20251118-satechi-onthego-7-in-1-multiport-adapter.html",
+      "source": "Applech2.com",
+      "published_at": "2025-11-18 03:32",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Where to invest $2,500 in ASX ETFs this month",
+      "url": "https://www.fool.com.au/2025/11/17/where-to-invest-2500-in-asx-etfs-this-month-2/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-17 06:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Stock market today: Nasdaq, S&P 500 futures waver as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-waver-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944135.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Stock market today: Dow, Nasdaq, S&P 500 slip as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Stock market today: Nasdaq, S&P 500 futures wobble as investors look ahead to Nvidia earnings, jobs report",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944956.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-17 01:19",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 26.447124304267163,
+    "hot_rank": 8,
+    "growth_rank": 6,
+    "price_change": -0.007477753682786888,
+    "news_count": 3
+  }
+}

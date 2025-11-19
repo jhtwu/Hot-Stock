@@ -1,0 +1,188 @@
+{
+  "symbol": "AMD",
+  "name": "AMD",
+  "sector": "半導體",
+  "current_price": 223.1170621006596,
+  "change_percent": -4.253284550141368,
+  "volume": 72972194,
+  "scores": {
+    "hot": 13.155921459492887,
+    "growth": 4.545454545454546,
+    "discussion": 12.244897959183673,
+    "active": 9.090909090909092
+  },
+  "news_count": 12,
+  "sentiment_score": 59.72222222222222,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.27,
+      "volume": 45476230,
+      "change_percent": -4.26159986695493,
+      "volume_ratio": 0.7490273909742253
+    },
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.27,
+      "volume": 45476230,
+      "change_percent": -4.26159986695493,
+      "volume_ratio": 0.7490273909742253
+    },
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.29,
+      "volume": 45619850,
+      "change_percent": -4.253284550141368,
+      "volume_ratio": 0.7513731705522068
+    },
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.29,
+      "volume": 45619850,
+      "change_percent": -4.253284550141368,
+      "volume_ratio": 0.7513731705522068
+    },
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.29,
+      "volume": 45619850,
+      "change_percent": -4.253284550141368,
+      "volume_ratio": 0.7513731705522068
+    },
+    {
+      "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.29,
+      "volume": 45619850,
+      "change_percent": -4.253284550141368,
+      "volume_ratio": 0.7513731705522068
+    },
+    {
+      "date": "2025-11-18",
+      "open": 218.6547208586464,
+      "high": 229.81057396367942,
+      "low": 216.4235502376398,
+      "close": 223.1170621006596,
+      "volume": 72972194,
+      "change_percent": 3.8473873156369773,
+      "volume_ratio": 1.310705079619215
+    },
+    {
+      "date": "2025-11-19",
+      "open": 218.6547208586464,
+      "high": 229.81057396367942,
+      "low": 216.4235502376398,
+      "close": 223.1170621006596,
+      "volume": 72972194,
+      "change_percent": 3.8473873156369773,
+      "volume_ratio": 1.310705079619215
+    },
+    {
+      "date": "2025-11-19",
+      "open": 218.6547208586464,
+      "high": 229.81057396367942,
+      "low": 216.4235502376398,
+      "close": 223.1170621006596,
+      "volume": 72972194,
+      "change_percent": 3.8473873156369773,
+      "volume_ratio": 1.310705079619215
+    }
+  ],
+  "news": [
+    {
+      "title": "AMD Announces New Product Launch",
+      "url": "https://example.com/news/amd-6",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 05:49",
+      "sentiment": 0.23405266425924615
+    },
+    {
+      "title": "AMD Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/amd-2",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 02:49",
+      "sentiment": -0.07872942144324996
+    },
+    {
+      "title": "Analysts Upgrade AMD Price Target",
+      "url": "https://example.com/news/amd-7",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.145879388482896
+    },
+    {
+      "title": "AMD Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/amd-3",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 00:49",
+      "sentiment": -0.2005128094295286
+    },
+    {
+      "title": "AMD Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/amd-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 23:49",
+      "sentiment": 0.4090242210536151
+    },
+    {
+      "title": "AMD Announces New Product Launch",
+      "url": "https://example.com/news/amd-4",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 12:49",
+      "sentiment": 0.1676935240653657
+    },
+    {
+      "title": "Analysts Upgrade AMD Price Target",
+      "url": "https://example.com/news/amd-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": 0.3222005658395681
+    },
+    {
+      "title": "Analysts Upgrade AMD Price Target",
+      "url": "https://example.com/news/amd-5",
+      "source": "Reuters",
+      "published_at": "2025-11-18 09:49",
+      "sentiment": 0.26543418951192427
+    },
+    {
+      "title": "VulnTrain 2.1.0",
+      "url": "https://pypi.org/project/vulntrain/2.1.0/",
+      "source": "Pypi.org",
+      "published_at": "2025-11-18 07:27",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Qatar Airways Up To 30% Off Black Friday Sale Ex-US & Canada For Travel Through October 31, 2026 (Book Nov 18 – 19)",
+      "url": "https://loyaltylobby.com/2025/11/18/qatar-airways-up-to-30-off-black-friday-sale-ex-us-canada-for-travel-through-october-31-2026-book-nov-18-19/",
+      "source": "Loyaltylobby.com",
+      "published_at": "2025-11-18 07:04",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 13.155921459492887,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -4.253284550141368,
+    "news_count": 12
+  }
+}
