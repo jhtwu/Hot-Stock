@@ -140,6 +140,16 @@ async def home_index():
     return {"message": "Welcome to Hot Stock Analysis API", "docs": "/docs"}
 
 
+@app.get("/stock/{symbol}")
+async def stock_page(symbol: str):
+    """提供 /stock/{symbol} 友好路由，返回同一前端頁面"""
+    from fastapi.responses import FileResponse
+    frontend_index = BASE_DIR / "frontend" / "index.html"
+    if frontend_index.exists():
+        return FileResponse(frontend_index)
+    return {"message": "Welcome to Hot Stock Analysis API", "docs": "/docs"}
+
+
 if __name__ == "__main__":
     # 运行服务器
     uvicorn.run(
