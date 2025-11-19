@@ -226,10 +226,11 @@ function createTableRow(cells) {
     const row = document.createElement('tr');
     cells.forEach(cell => {
         const td = document.createElement('td');
-        if (typeof cell === 'string') {
-            td.textContent = cell;
-        } else {
+        // 既支持 DOM 节点也支持基础类型
+        if (cell instanceof Node) {
             td.appendChild(cell);
+        } else {
+            td.textContent = cell !== undefined && cell !== null ? cell : '-';
         }
         row.appendChild(td);
     });
