@@ -54,7 +54,11 @@ app.include_router(router)
 # 挂载静态文件
 frontend_path = BASE_DIR / "frontend"
 if frontend_path.exists():
-    app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
+    app.mount(
+        "/static",
+        StaticFiles(directory=str(frontend_path)),
+        name="static"
+    )
 
 # 创建定时任务调度器
 scheduler = BackgroundScheduler()
@@ -119,6 +123,16 @@ async def shutdown_event():
 @app.get("/")
 async def home():
     """首页重定向到前端"""
+    from fastapi.responses import FileResponse
+    frontend_index = BASE_DIR / "frontend" / "index.html"
+    if frontend_index.exists():
+        return FileResponse(frontend_index)
+    return {"message": "Welcome to Hot Stock Analysis API", "docs": "/docs"}
+
+
+@app.get("/index.html")
+async def home_index():
+    """显式提供 /index.html 访问"""
     from fastapi.responses import FileResponse
     frontend_index = BASE_DIR / "frontend" / "index.html"
     if frontend_index.exists():
