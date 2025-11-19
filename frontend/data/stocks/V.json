@@ -1,0 +1,188 @@
+{
+  "symbol": "V",
+  "name": "V",
+  "sector": "金融",
+  "current_price": 406.18667118265967,
+  "change_percent": -1.402916346891786,
+  "volume": 83936455,
+  "scores": {
+    "hot": 44.88404452690166,
+    "growth": 45.45454545454545,
+    "discussion": 100.0,
+    "active": 86.36363636363636
+  },
+  "news_count": 98,
+  "sentiment_score": 56.80272108843537,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9143558,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5352840376854928
+    },
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9143558,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5352840376854928
+    },
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9170422,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5397175712581772
+    },
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9170422,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5397175712581772
+    },
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9170422,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5397175712581772
+    },
+    {
+      "date": "2025-11-18",
+      "open": 324.7,
+      "high": 325.0,
+      "low": 318.0,
+      "close": 321.18,
+      "volume": 9170422,
+      "change_percent": -1.402916346891786,
+      "volume_ratio": 1.5397175712581772
+    },
+    {
+      "date": "2025-11-18",
+      "open": 398.06293775900645,
+      "high": 418.37227131813944,
+      "low": 394.0010710471799,
+      "close": 406.18667118265967,
+      "volume": 83936455,
+      "change_percent": -4.596561430166629,
+      "volume_ratio": 1.134959544884499
+    },
+    {
+      "date": "2025-11-19",
+      "open": 398.06293775900645,
+      "high": 418.37227131813944,
+      "low": 394.0010710471799,
+      "close": 406.18667118265967,
+      "volume": 83936455,
+      "change_percent": -4.596561430166629,
+      "volume_ratio": 1.134959544884499
+    },
+    {
+      "date": "2025-11-19",
+      "open": 398.06293775900645,
+      "high": 418.37227131813944,
+      "low": 394.0010710471799,
+      "close": 406.18667118265967,
+      "volume": 83936455,
+      "change_percent": -4.596561430166629,
+      "volume_ratio": 1.134959544884499
+    }
+  ],
+  "news": [
+    {
+      "title": "Why V Stock Is Moving Today",
+      "url": "https://example.com/news/v-9",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 07:49",
+      "sentiment": 0.24443478070911046
+    },
+    {
+      "title": "V Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/v-1",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 07:49",
+      "sentiment": 0.4138567353550931
+    },
+    {
+      "title": "V Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/v-4",
+      "source": "CNBC",
+      "published_at": "2025-11-19 06:49",
+      "sentiment": -0.004356689721037144
+    },
+    {
+      "title": "V Announces New Product Launch",
+      "url": "https://example.com/news/v-7",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 04:49",
+      "sentiment": -0.10169892436388878
+    },
+    {
+      "title": "V Announces New Product Launch",
+      "url": "https://example.com/news/v-8",
+      "source": "CNBC",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.12922535392204965
+    },
+    {
+      "title": "Analysts Upgrade V Price Target",
+      "url": "https://example.com/news/v-3",
+      "source": "CNBC",
+      "published_at": "2025-11-18 17:49",
+      "sentiment": -0.14676150738886035
+    },
+    {
+      "title": "V Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/v-6",
+      "source": "Reuters",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": -0.06507805131320804
+    },
+    {
+      "title": "V Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/v-0",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": 0.05960293394970689
+    },
+    {
+      "title": "V Announces New Product Launch",
+      "url": "https://example.com/news/v-2",
+      "source": "CNBC",
+      "published_at": "2025-11-18 10:49",
+      "sentiment": 0.256519816001381
+    },
+    {
+      "title": "Analysts Upgrade V Price Target",
+      "url": "https://example.com/news/v-5",
+      "source": "CNBC",
+      "published_at": "2025-11-18 08:49",
+      "sentiment": 0.43681463869799114
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 44.88404452690166,
+    "hot_rank": 1,
+    "growth_rank": null,
+    "price_change": -1.402916346891786,
+    "news_count": 98
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "symbol": "JPM",
+  "name": "JPM",
+  "sector": "金融",
+  "current_price": 434.52934667324575,
+  "change_percent": -0.31960581948928973,
+  "volume": 82439754,
+  "scores": {
+    "hot": 23.409090909090907,
+    "growth": 63.63636363636363,
+    "discussion": 0.0,
+    "active": 27.27272727272727
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8064695,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9965952445833542
+    },
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8064695,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9965952445833542
+    },
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8077315,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9981374662626855
+    },
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8077315,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9981374662626855
+    },
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8077315,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9981374662626855
+    },
+    {
+      "date": "2025-11-18",
+      "open": 299.5,
+      "high": 302.945,
+      "low": 297.02,
+      "close": 299.41,
+      "volume": 8077315,
+      "change_percent": -0.31960581948928973,
+      "volume_ratio": 0.9981374662626855
+    },
+    {
+      "date": "2025-11-18",
+      "open": 425.8387597397808,
+      "high": 447.5652270734431,
+      "low": 421.4934662730484,
+      "close": 434.52934667324575,
+      "volume": 82439754,
+      "change_percent": 7.507197720038505,
+      "volume_ratio": 2.2204745527134397
+    },
+    {
+      "date": "2025-11-19",
+      "open": 425.8387597397808,
+      "high": 447.5652270734431,
+      "low": 421.4934662730484,
+      "close": 434.52934667324575,
+      "volume": 82439754,
+      "change_percent": 7.507197720038505,
+      "volume_ratio": 2.2204745527134397
+    },
+    {
+      "date": "2025-11-19",
+      "open": 425.8387597397808,
+      "high": 447.5652270734431,
+      "low": 421.4934662730484,
+      "close": 434.52934667324575,
+      "volume": 82439754,
+      "change_percent": 7.507197720038505,
+      "volume_ratio": 2.2204745527134397
+    }
+  ],
+  "news": [
+    {
+      "title": "Why JPM Stock Is Moving Today",
+      "url": "https://example.com/news/jpm-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 07:49",
+      "sentiment": 0.6293356719400072
+    },
+    {
+      "title": "JPM Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/jpm-2",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 05:49",
+      "sentiment": 0.45912071016553463
+    },
+    {
+      "title": "JPM Announces New Product Launch",
+      "url": "https://example.com/news/jpm-3",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 23:49",
+      "sentiment": 0.6125590493919821
+    },
+    {
+      "title": "Analysts Upgrade JPM Price Target",
+      "url": "https://example.com/news/jpm-0",
+      "source": "Reuters",
+      "published_at": "2025-11-18 12:49",
+      "sentiment": -0.2652739734753005
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 23.409090909090907,
+    "hot_rank": null,
+    "growth_rank": 8,
+    "price_change": -0.31960581948928973,
+    "news_count": 0
+  }
+}

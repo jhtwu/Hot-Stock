@@ -1,0 +1,160 @@
+{
+  "symbol": "UNH",
+  "name": "UNH",
+  "sector": "醫療保健",
+  "current_price": 206.0681896379465,
+  "change_percent": -2.165231498814426,
+  "volume": 4678417,
+  "scores": {
+    "hot": 15.858418023814265,
+    "growth": 22.727272727272727,
+    "discussion": 5.1020408163265305,
+    "active": 4.545454545454546
+  },
+  "news_count": 5,
+  "sentiment_score": 59.34059758609634,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9162679,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.664447778483877
+    },
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9162679,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.664447778483877
+    },
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9182145,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.6658489461472804
+    },
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9182145,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.6658489461472804
+    },
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9182145,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.6658489461472804
+    },
+    {
+      "date": "2025-11-18",
+      "open": 317.01,
+      "high": 317.5,
+      "low": 308.77,
+      "close": 313.58,
+      "volume": 9182145,
+      "change_percent": -2.165231498814426,
+      "volume_ratio": 0.6658489461472804
+    },
+    {
+      "date": "2025-11-18",
+      "open": 201.94682584518756,
+      "high": 212.25023532708488,
+      "low": 199.8861439488081,
+      "close": 206.0681896379465,
+      "volume": 4678417,
+      "change_percent": 1.691193774389955,
+      "volume_ratio": 0.6523375673834253
+    },
+    {
+      "date": "2025-11-19",
+      "open": 201.94682584518756,
+      "high": 212.25023532708488,
+      "low": 199.8861439488081,
+      "close": 206.0681896379465,
+      "volume": 4678417,
+      "change_percent": 1.691193774389955,
+      "volume_ratio": 0.6523375673834253
+    },
+    {
+      "date": "2025-11-19",
+      "open": 201.94682584518756,
+      "high": 212.25023532708488,
+      "low": 199.8861439488081,
+      "close": 206.0681896379465,
+      "volume": 4678417,
+      "change_percent": 1.691193774389955,
+      "volume_ratio": 0.6523375673834253
+    }
+  ],
+  "news": [
+    {
+      "title": "UNH Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/unh-4",
+      "source": "Reuters",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.08598867272835292
+    },
+    {
+      "title": "UNH Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/unh-2",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 18:49",
+      "sentiment": 0.6562638122037041
+    },
+    {
+      "title": "Analysts Upgrade UNH Price Target",
+      "url": "https://example.com/news/unh-3",
+      "source": "Reuters",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": -0.10708921214919614
+    },
+    {
+      "title": "UNH Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/unh-5",
+      "source": "CNBC",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": 0.05755444321758946
+    },
+    {
+      "title": "UNH Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/unh-0",
+      "source": "CNBC",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": -0.1930611892148933
+    },
+    {
+      "title": "UNH Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/unh-1",
+      "source": "CNBC",
+      "published_at": "2025-11-18 08:49",
+      "sentiment": 0.42183325739789673
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 15.858418023814265,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -2.165231498814426,
+    "news_count": 5
+  }
+}

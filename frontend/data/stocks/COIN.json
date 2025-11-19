@@ -1,0 +1,188 @@
+{
+  "symbol": "COIN",
+  "name": "COIN",
+  "sector": "加密交易",
+  "current_price": 286.44642878713825,
+  "change_percent": -0.818336806213286,
+  "volume": 98324793,
+  "scores": {
+    "hot": 22.930594531443127,
+    "growth": 50.0,
+    "discussion": 7.142857142857142,
+    "active": 31.818181818181817
+  },
+  "news_count": 7,
+  "sentiment_score": 57.632534971525615,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.67,
+      "volume": 10829235,
+      "change_percent": -0.8637999621140264,
+      "volume_ratio": 1.0232895204008956
+    },
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.67,
+      "volume": 10829235,
+      "change_percent": -0.8637999621140264,
+      "volume_ratio": 1.0232895204008956
+    },
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.79,
+      "volume": 10854478,
+      "change_percent": -0.818336806213286,
+      "volume_ratio": 1.0256476303012858
+    },
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.79,
+      "volume": 10854478,
+      "change_percent": -0.818336806213286,
+      "volume_ratio": 1.0256476303012858
+    },
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.79,
+      "volume": 10854478,
+      "change_percent": -0.818336806213286,
+      "volume_ratio": 1.0256476303012858
+    },
+    {
+      "date": "2025-11-18",
+      "open": 261.75,
+      "high": 271.0,
+      "low": 261.0,
+      "close": 261.79,
+      "volume": 10854478,
+      "change_percent": -0.818336806213286,
+      "volume_ratio": 1.0256476303012858
+    },
+    {
+      "date": "2025-11-18",
+      "open": 280.7175002113955,
+      "high": 295.0398216507524,
+      "low": 277.8530359235241,
+      "close": 286.44642878713825,
+      "volume": 98324793,
+      "change_percent": 4.726877875289091,
+      "volume_ratio": 0.5808522659754534
+    },
+    {
+      "date": "2025-11-19",
+      "open": 280.7175002113955,
+      "high": 295.0398216507524,
+      "low": 277.8530359235241,
+      "close": 286.44642878713825,
+      "volume": 98324793,
+      "change_percent": 4.726877875289091,
+      "volume_ratio": 0.5808522659754534
+    },
+    {
+      "date": "2025-11-19",
+      "open": 280.7175002113955,
+      "high": 295.0398216507524,
+      "low": 277.8530359235241,
+      "close": 286.44642878713825,
+      "volume": 98324793,
+      "change_percent": 4.726877875289091,
+      "volume_ratio": 0.5808522659754534
+    }
+  ],
+  "news": [
+    {
+      "title": "COIN Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/coin-4",
+      "source": "CNBC",
+      "published_at": "2025-11-19 06:49",
+      "sentiment": 0.6896412395109257
+    },
+    {
+      "title": "Why COIN Stock Is Moving Today",
+      "url": "https://example.com/news/coin-6",
+      "source": "Reuters",
+      "published_at": "2025-11-19 03:49",
+      "sentiment": 0.6376169686105022
+    },
+    {
+      "title": "COIN Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/coin-7",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 02:49",
+      "sentiment": -0.1720726232734035
+    },
+    {
+      "title": "Why COIN Stock Is Moving Today",
+      "url": "https://example.com/news/coin-2",
+      "source": "Reuters",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": -0.1000013817984921
+    },
+    {
+      "title": "COIN Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/coin-5",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.1411419153659445
+    },
+    {
+      "title": "Analysts Upgrade COIN Price Target",
+      "url": "https://example.com/news/coin-3",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": 0.46778322378514897
+    },
+    {
+      "title": "COIN Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/coin-0",
+      "source": "CNBC",
+      "published_at": "2025-11-18 20:49",
+      "sentiment": 0.5484605536511076
+    },
+    {
+      "title": "COIN Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/coin-1",
+      "source": "Reuters",
+      "published_at": "2025-11-18 16:49",
+      "sentiment": 0.4704345498319949
+    },
+    {
+      "title": "Why COIN Stock Is Moving Today",
+      "url": "https://example.com/news/coin-9",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 13:49",
+      "sentiment": -0.062032676649263874
+    },
+    {
+      "title": "COIN Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/coin-8",
+      "source": "Reuters",
+      "published_at": "2025-11-18 13:49",
+      "sentiment": 0.26626832788781035
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 22.930594531443127,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.818336806213286,
+    "news_count": 7
+  }
+}

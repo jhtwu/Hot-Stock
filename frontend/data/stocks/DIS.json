@@ -1,0 +1,188 @@
+{
+  "symbol": "DIS",
+  "name": "DIS",
+  "sector": "媒體娛樂",
+  "current_price": 78.70256624954114,
+  "change_percent": 0.5582363515942884,
+  "volume": 8605625,
+  "scores": {
+    "hot": 33.4132797842332,
+    "growth": 86.36363636363636,
+    "discussion": 7.142857142857142,
+    "active": 68.18181818181817
+  },
+  "news_count": 7,
+  "sentiment_score": 66.91104271739883,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11779973,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3467389567444594
+    },
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11779973,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3467389567444594
+    },
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11796188,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3485649507257345
+    },
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11796188,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3485649507257345
+    },
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11796188,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3485649507257345
+    },
+    {
+      "date": "2025-11-18",
+      "open": 105.1,
+      "high": 107.08,
+      "low": 105.0,
+      "close": 106.28,
+      "volume": 11796188,
+      "change_percent": 0.5582363515942884,
+      "volume_ratio": 1.3485649507257345
+    },
+    {
+      "date": "2025-11-18",
+      "open": 77.12851492455032,
+      "high": 81.06364323702738,
+      "low": 76.34148926205489,
+      "close": 78.70256624954114,
+      "volume": 8605625,
+      "change_percent": -2.529591053414159,
+      "volume_ratio": 1.5704324390243571
+    },
+    {
+      "date": "2025-11-19",
+      "open": 77.12851492455032,
+      "high": 81.06364323702738,
+      "low": 76.34148926205489,
+      "close": 78.70256624954114,
+      "volume": 8605625,
+      "change_percent": -2.529591053414159,
+      "volume_ratio": 1.5704324390243571
+    },
+    {
+      "date": "2025-11-19",
+      "open": 77.12851492455032,
+      "high": 81.06364323702738,
+      "low": 76.34148926205489,
+      "close": 78.70256624954114,
+      "volume": 8605625,
+      "change_percent": -2.529591053414159,
+      "volume_ratio": 1.5704324390243571
+    }
+  ],
+  "news": [
+    {
+      "title": "DIS Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/dis-1",
+      "source": "MarketWatch",
+      "published_at": "2025-11-19 07:49",
+      "sentiment": 0.39666818407202514
+    },
+    {
+      "title": "DIS Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/dis-5",
+      "source": "CNBC",
+      "published_at": "2025-11-19 01:54",
+      "sentiment": -0.13231981411961985
+    },
+    {
+      "title": "Why DIS Stock Is Moving Today",
+      "url": "https://example.com/news/dis-0",
+      "source": "CNBC",
+      "published_at": "2025-11-19 01:49",
+      "sentiment": 0.28405970364279626
+    },
+    {
+      "title": "DIS Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/dis-6",
+      "source": "CNBC",
+      "published_at": "2025-11-18 21:54",
+      "sentiment": 0.6675403482994093
+    },
+    {
+      "title": "Analysts Upgrade DIS Price Target",
+      "url": "https://example.com/news/dis-3",
+      "source": "Reuters",
+      "published_at": "2025-11-18 18:49",
+      "sentiment": -0.09504470795241243
+    },
+    {
+      "title": "DIS Announces New Product Launch",
+      "url": "https://example.com/news/dis-4",
+      "source": "Reuters",
+      "published_at": "2025-11-18 15:54",
+      "sentiment": 0.6898795899699013
+    },
+    {
+      "title": "Analysts Upgrade DIS Price Target",
+      "url": "https://example.com/news/dis-2",
+      "source": "Reuters",
+      "published_at": "2025-11-18 13:49",
+      "sentiment": 0.2950917154637905
+    },
+    {
+      "title": "From the bench to the reactor: engineered filamentous fungi for biochemical and biomaterial production",
+      "url": "https://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-025-02712-8",
+      "source": "Biomedcentral.com",
+      "published_at": "2025-11-18 00:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Excessive daytime sleepiness and associated factors among nursing students in China: a large-scale, multicenter, cross-sectional study",
+      "url": "https://www.nature.com/articles/s41598-025-22434-z",
+      "source": "Nature.com",
+      "published_at": "2025-11-18 00:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Genetic and epigenetic markers in the METTL21C gene associated with umbilical hernia in pigs",
+      "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12315-0",
+      "source": "Biomedcentral.com",
+      "published_at": "2025-11-18 00:00",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 33.4132797842332,
+    "hot_rank": 5,
+    "growth_rank": 3,
+    "price_change": 0.5582363515942884,
+    "news_count": 7
+  }
+}

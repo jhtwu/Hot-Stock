@@ -1,0 +1,188 @@
+{
+  "symbol": "RBLX",
+  "name": "RBLX",
+  "sector": "遊戲娛樂",
+  "current_price": 342.6742461724226,
+  "change_percent": 0.4542312629604107,
+  "volume": 4207184,
+  "scores": {
+    "hot": 29.425467608498522,
+    "growth": 81.81818181818183,
+    "discussion": 5.1020408163265305,
+    "active": 0.0
+  },
+  "news_count": 5,
+  "sentiment_score": 51.30274633247621,
+  "historical_data": [
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4709379,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5672257452543513
+    },
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4709379,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5672257452543513
+    },
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4712111,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5675527285691933
+    },
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4712111,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5675527285691933
+    },
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4712111,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5675527285691933
+    },
+    {
+      "date": "2025-11-18",
+      "open": 100.465,
+      "high": 103.22,
+      "low": 99.96,
+      "close": 101.73,
+      "volume": 4712111,
+      "change_percent": 0.4542312629604107,
+      "volume_ratio": 0.5675527285691933
+    },
+    {
+      "date": "2025-11-18",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    },
+    {
+      "date": "2025-11-19",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    },
+    {
+      "date": "2025-11-19",
+      "open": 335.8207612489742,
+      "high": 352.9544735575953,
+      "low": 332.39401878724993,
+      "close": 342.6742461724226,
+      "volume": 4207184,
+      "change_percent": 3.536201491686331,
+      "volume_ratio": 0.7962899703828765
+    }
+  ],
+  "news": [
+    {
+      "title": "RBLX Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/rblx-2",
+      "source": "Bloomberg",
+      "published_at": "2025-11-19 07:49",
+      "sentiment": 0.15172207441974334
+    },
+    {
+      "title": "Analysts Upgrade RBLX Price Target",
+      "url": "https://example.com/news/rblx-4",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 23:49",
+      "sentiment": 0.3052866573829432
+    },
+    {
+      "title": "RBLX Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/rblx-3",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 22:49",
+      "sentiment": -0.1922934915082914
+    },
+    {
+      "title": "RBLX Reports Better Than Expected Revenue",
+      "url": "https://example.com/news/rblx-5",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 21:49",
+      "sentiment": 0.4425566377924936
+    },
+    {
+      "title": "Analysts Upgrade RBLX Price Target",
+      "url": "https://example.com/news/rblx-9",
+      "source": "Reuters",
+      "published_at": "2025-11-18 19:49",
+      "sentiment": 0.5384566900758345
+    },
+    {
+      "title": "RBLX Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/rblx-8",
+      "source": "CNBC",
+      "published_at": "2025-11-18 15:49",
+      "sentiment": 0.5950259041011698
+    },
+    {
+      "title": "Why RBLX Stock Is Moving Today",
+      "url": "https://example.com/news/rblx-6",
+      "source": "MarketWatch",
+      "published_at": "2025-11-18 15:49",
+      "sentiment": -0.06480205672399902
+    },
+    {
+      "title": "RBLX Announces New Product Launch",
+      "url": "https://example.com/news/rblx-7",
+      "source": "CNBC",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": 0.2102051851693883
+    },
+    {
+      "title": "RBLX Stock Surges on Strong Earnings Report",
+      "url": "https://example.com/news/rblx-1",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 11:49",
+      "sentiment": -0.12023951126811833
+    },
+    {
+      "title": "RBLX Announces New Product Launch",
+      "url": "https://example.com/news/rblx-0",
+      "source": "Bloomberg",
+      "published_at": "2025-11-18 10:49",
+      "sentiment": 0.39520289660401714
+    }
+  ],
+  "last_updated": "2025-11-19T00:00:00",
+  "latest_score": {
+    "total_score": 29.425467608498522,
+    "hot_rank": 6,
+    "growth_rank": 4,
+    "price_change": 0.4542312629604107,
+    "news_count": 5
+  }
+}
