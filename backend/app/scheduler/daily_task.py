@@ -96,6 +96,12 @@ class DailyAnalysisTask:
                     )
                     db.add(stock)
                     logger.info(f"添加新股票: {symbol}")
+            else:
+                # 補全板塊資訊
+                info = self.stock_collector.get_stock_info(symbol)
+                if info and (not stock.sector or stock.sector == "Unknown"):
+                    stock.sector = info['sector']
+                    logger.info(f"更新股票板塊: {symbol} -> {stock.sector}")
 
         db.commit()
 

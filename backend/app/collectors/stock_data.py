@@ -42,12 +42,14 @@ class StockDataCollector:
             股票信息字典
         """
         try:
+            from config import STOCK_SECTORS
+            sector = STOCK_SECTORS.get(symbol.upper(), "未分類")
             # 简化版：只返回股票代码，不请求详细信息
             # 这样可以避免触发 Yahoo Finance 的速率限制
             return {
                 'symbol': symbol,
                 'name': symbol,  # 暂时使用代码作为名称
-                'sector': 'Unknown',
+                'sector': sector,
             }
         except Exception as e:
             logger.error(f"获取股票信息失败 {symbol}: {str(e)}")

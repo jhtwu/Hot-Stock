@@ -38,6 +38,32 @@ STOCK_SYMBOLS = [
     "COIN", "PLTR", "RBLX"
 ]
 
+# 股票板塊（繁體）簡易映射，用於前端顯示；若未命中則顯示「未分類」
+STOCK_SECTORS = {
+    "AAPL": "科技",
+    "MSFT": "科技",
+    "GOOGL": "科技",
+    "AMZN": "科技",
+    "META": "科技",
+    "TSLA": "新能源車",
+    "NVDA": "半導體",
+    "AMD": "半導體",
+    "JPM": "金融",
+    "V": "金融",
+    "MA": "金融",
+    "PYPL": "金融科技",
+    "WMT": "消費",
+    "DIS": "媒體娛樂",
+    "NFLX": "串流媒體",
+    "NKE": "消費",
+    "JNJ": "醫療保健",
+    "PFE": "醫療保健",
+    "UNH": "醫療保健",
+    "COIN": "加密交易",
+    "PLTR": "軟體",
+    "RBLX": "遊戲娛樂",
+}
+
 # 评分权重配置
 SCORING_WEIGHTS = {
     "price_change": 0.25,      # 价格变化权重
