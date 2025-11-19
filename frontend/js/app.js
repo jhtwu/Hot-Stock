@@ -1,5 +1,7 @@
-// API 基礎 URL
-const API_BASE = '';
+// 靜態資料模式 - 用於 GitHub Pages 部署
+const STATIC_MODE = true;
+const DATA_BASE = STATIC_MODE ? './data' : '';
+const API_BASE = STATIC_MODE ? '' : '';
 
 // 当前选择的日期
 let currentDate = null;
@@ -73,6 +75,21 @@ function switchTab(tabName) {
 
 // 加載可用日期
 async function loadAvailableDates() {
+    if (STATIC_MODE) {
+        // 靜態模式：從 summary.json 獲取日期
+        try {
+            const response = await fetch(`${DATA_BASE}/summary.json`);
+            const data = await response.json();
+
+            const select = document.getElementById('dateSelect');
+            select.innerHTML = `<option value="">${data.date}</option>`;
+        } catch (error) {
+            console.error('載入日期失敗:', error);
+        }
+        return;
+    }
+
+    // API 模式
     try {
         const response = await fetch(`${API_BASE}/api/dates`);
         const data = await response.json();
@@ -94,21 +111,36 @@ async function loadAvailableDates() {
 // 加載榜單資料
 async function loadRankings() {
     try {
-        const url = currentDate
-            ? `${API_BASE}/api/rankings?date=${currentDate}`
-            : `${API_BASE}/api/rankings`;
+        let data;
 
-        const response = await fetch(url);
-        const data = await response.json();
+        if (STATIC_MODE) {
+            // 靜態模式：讀取本地 JSON 文件
+            const response = await fetch(`${DATA_BASE}/rankings.json`);
+            data = await response.json();
+        } else {
+            // API 模式
+            const url = currentDate
+                ? `${API_BASE}/api/rankings?date=${currentDate}`
+                : `${API_BASE}/api/rankings`;
+            const response = await fetch(url);
+            data = await response.json();
+        }
 
         // 更新统计信息
         updateStatistics(data);
 
-        // 更新各个榜单
-        updateHotRanking(data.rankings.hot);
-        updateGrowthRanking(data.rankings.growth);
-        updateDiscussionRanking(data.rankings.discussion);
-        updateActiveRanking(data.rankings.active);
+        // 更新各个榜单（靜態模式資料格式不同）
+        if (STATIC_MODE) {
+            updateHotRanking(data.hot);
+            updateGrowthRanking(data.growth);
+            updateDiscussionRanking(data.discussion);
+            updateActiveRanking(data.active);
+        } else {
+            updateHotRanking(data.rankings.hot);
+            updateGrowthRanking(data.rankings.growth);
+            updateDiscussionRanking(data.rankings.discussion);
+            updateActiveRanking(data.rankings.active);
+        }
 
     } catch (error) {
         console.error('載入榜單資料失敗:', error);
@@ -118,27 +150,43 @@ async function loadRankings() {
 
 // 更新統計資訊
 function updateStatistics(data) {
-    const allStocks = [
-        ...data.rankings.hot,
-        ...data.rankings.growth,
-        ...data.rankings.discussion,
-        ...data.rankings.active
-    ];
+    let allStocks, dateStr;
+
+    if (STATIC_MODE) {
+        // 靜態模式資料格式
+        allStocks = [
+            ...data.hot,
+            ...data.growth,
+            ...data.discussion,
+            ...data.active
+        ];
+        dateStr = data.date;
+    } else {
+        // API 模式資料格式
+        allStocks = [
+            ...data.rankings.hot,
+            ...data.rankings.growth,
+            ...data.rankings.discussion,
+            ...data.rankings.active
+        ];
+        dateStr = data.date;
+    }
 
     // 去重
     const uniqueSymbols = new Set(allStocks.map(s => s.symbol));
     document.getElementById('totalStocks').textContent = uniqueSymbols.size;
 
     // 平均分數
-    const avgScore = allStocks.reduce((sum, s) => sum + s.total_score, 0) / allStocks.length;
+    const scores = allStocks.map(s => s.score || s.total_score || 0);
+    const avgScore = scores.reduce((sum, s) => sum + s, 0) / scores.length;
     document.getElementById('avgScore').textContent = avgScore.toFixed(1);
 
     // 總新聞數
-    const totalNews = allStocks.reduce((sum, s) => sum + s.news_count, 0);
+    const totalNews = allStocks.reduce((sum, s) => sum + (s.news_count || 0), 0);
     document.getElementById('totalNews').textContent = totalNews;
 
     // 更新時間
-    document.getElementById('updateTime').textContent = data.date;
+    document.getElementById('updateTime').textContent = dateStr || '未知';
 }
 
 // 更新熱度榜
@@ -147,14 +195,16 @@ function updateHotRanking(stocks) {
     tbody.innerHTML = '';
 
     stocks.forEach((stock, index) => {
+        const score = stock.score || stock.total_score || 0;
+        const change = stock.change_percent || stock.price_change || 0;
         const row = createTableRow([
             createRankCell(index + 1),
             createSymbolCell(stock.symbol),
             stock.name,
             stock.sector || '-',
-            stock.total_score.toFixed(2),
-            createChangeCell(stock.price_change),
-            stock.news_count,
+            score.toFixed(2),
+            createChangeCell(change),
+            stock.news_count || 0,
             createActionCell(stock.symbol)
         ]);
         tbody.appendChild(row);
@@ -167,14 +217,17 @@ function updateGrowthRanking(stocks) {
     tbody.innerHTML = '';
 
     stocks.forEach((stock, index) => {
+        const change = stock.change_percent || stock.price_change || 0;
+        const volumeRatio = stock.volume_ratio || 1;
+        const score = stock.score || stock.total_score || 0;
         const row = createTableRow([
             createRankCell(index + 1),
             createSymbolCell(stock.symbol),
             stock.name,
             stock.sector || '-',
-            createChangeCell(stock.price_change),
-            stock.volume_ratio.toFixed(2) + 'x',
-            stock.total_score.toFixed(2),
+            createChangeCell(change),
+            volumeRatio.toFixed(2) + 'x',
+            score.toFixed(2),
             createActionCell(stock.symbol)
         ]);
         tbody.appendChild(row);
@@ -187,15 +240,16 @@ function updateDiscussionRanking(stocks) {
     tbody.innerHTML = '';
 
     stocks.forEach((stock, index) => {
-        const sentiment = stock.news_sentiment_score || 0;
+        const sentiment = stock.sentiment_score || stock.news_sentiment_score || 0;
+        const score = stock.score || stock.total_score || 0;
         const row = createTableRow([
             createRankCell(index + 1),
             createSymbolCell(stock.symbol),
             stock.name,
             stock.sector || '-',
-            stock.news_count,
+            stock.news_count || 0,
             createSentimentCell(sentiment),
-            stock.total_score.toFixed(2),
+            score.toFixed(2),
             createActionCell(stock.symbol)
         ]);
         tbody.appendChild(row);
@@ -208,14 +262,17 @@ function updateActiveRanking(stocks) {
     tbody.innerHTML = '';
 
     stocks.forEach((stock, index) => {
+        const volumeRatio = stock.volume_ratio || 1;
+        const change = stock.change_percent || stock.price_change || 0;
+        const score = stock.score || stock.total_score || 0;
         const row = createTableRow([
             createRankCell(index + 1),
             createSymbolCell(stock.symbol),
             stock.name,
             stock.sector || '-',
-            stock.volume_ratio.toFixed(2) + 'x',
-            createChangeCell(stock.price_change),
-            stock.total_score.toFixed(2),
+            volumeRatio.toFixed(2) + 'x',
+            createChangeCell(change),
+            score.toFixed(2),
             createActionCell(stock.symbol)
         ]);
         tbody.appendChild(row);
@@ -318,38 +375,78 @@ async function showStockDetail(symbol) {
     modal.style.display = 'block';
 
     try {
-        const response = await fetch(`${API_BASE}/api/stock/${symbol}`);
-        const data = await response.json();
+        let data;
+
+        if (STATIC_MODE) {
+            // 靜態模式：讀取個別股票 JSON 文件
+            const response = await fetch(`${DATA_BASE}/stocks/${symbol}.json`);
+            data = await response.json();
+        } else {
+            // API 模式
+            const response = await fetch(`${API_BASE}/api/stock/${symbol}`);
+            data = await response.json();
+        }
 
         title.textContent = `${data.symbol} - ${data.name}`;
 
-        let html = `
-            <div style="margin-bottom: 20px;">
-                <h3>基本信息</h3>
-                <p><strong>板塊:</strong> ${data.sector}</p>
-            </div>
-        `;
+        let html = '';
 
-        if (data.latest_score) {
+        // 基本信息
+        if (STATIC_MODE) {
             html += `
                 <div style="margin-bottom: 20px;">
-                    <h3>最新評分</h3>
-                    <p><strong>綜合評分:</strong> ${data.latest_score.total_score.toFixed(2)}</p>
-                    <p><strong>熱度排名:</strong> ${data.latest_score.hot_rank || '-'}</p>
-                    <p><strong>漲幅排名:</strong> ${data.latest_score.growth_rank || '-'}</p>
-                    <p><strong>價格變化:</strong> <span class="${data.latest_score.price_change > 0 ? 'positive' : 'negative'}">${data.latest_score.price_change > 0 ? '+' : ''}${data.latest_score.price_change.toFixed(2)}%</span></p>
-                    <p><strong>新聞數量:</strong> ${data.latest_score.news_count}</p>
+                    <h3>基本信息</h3>
+                    <p><strong>當前價格:</strong> $${data.current_price.toFixed(2)}</p>
+                    <p><strong>漲跌幅:</strong> <span class="${data.change_percent > 0 ? 'positive' : 'negative'}">${data.change_percent > 0 ? '+' : ''}${data.change_percent.toFixed(2)}%</span></p>
+                    <p><strong>成交量:</strong> ${data.volume.toLocaleString()}</p>
                 </div>
             `;
+
+            // 評分信息
+            if (data.scores) {
+                html += `
+                    <div style="margin-bottom: 20px;">
+                        <h3>熱度評分</h3>
+                        <p><strong>熱度分數:</strong> ${data.scores.hot.toFixed(2)}</p>
+                        <p><strong>成長分數:</strong> ${data.scores.growth.toFixed(2)}</p>
+                        <p><strong>討論分數:</strong> ${data.scores.discussion.toFixed(2)}</p>
+                        <p><strong>活躍分數:</strong> ${data.scores.active.toFixed(2)}</p>
+                        <p><strong>新聞數量:</strong> ${data.news_count}</p>
+                        <p><strong>情緒分數:</strong> ${data.sentiment_score.toFixed(1)}</p>
+                    </div>
+                `;
+            }
+        } else {
+            html += `
+                <div style="margin-bottom: 20px;">
+                    <h3>基本信息</h3>
+                    <p><strong>板塊:</strong> ${data.sector}</p>
+                </div>
+            `;
+
+            if (data.latest_score) {
+                html += `
+                    <div style="margin-bottom: 20px;">
+                        <h3>最新評分</h3>
+                        <p><strong>綜合評分:</strong> ${data.latest_score.total_score.toFixed(2)}</p>
+                        <p><strong>熱度排名:</strong> ${data.latest_score.hot_rank || '-'}</p>
+                        <p><strong>漲幅排名:</strong> ${data.latest_score.growth_rank || '-'}</p>
+                        <p><strong>價格變化:</strong> <span class="${data.latest_score.price_change > 0 ? 'positive' : 'negative'}">${data.latest_score.price_change > 0 ? '+' : ''}${data.latest_score.price_change.toFixed(2)}%</span></p>
+                        <p><strong>新聞數量:</strong> ${data.latest_score.news_count}</p>
+                    </div>
+                `;
+            }
         }
 
-        if (data.recent_news && data.recent_news.length > 0) {
+        // 新聞列表
+        const newsData = STATIC_MODE ? data.news : data.recent_news;
+        if (newsData && newsData.length > 0) {
             html += `
                 <div style="margin-bottom: 20px;">
                     <h3>最新新聞</h3>
                     <ul style="list-style: none; padding: 0;">
             `;
-            data.recent_news.slice(0, 5).forEach(news => {
+            newsData.slice(0, 5).forEach(news => {
                 html += `
                     <li style="margin-bottom: 15px; padding: 10px; background: #f8f9fa; border-radius: 8px;">
                         <strong>${news.title}</strong><br>
@@ -371,6 +468,11 @@ async function showStockDetail(symbol) {
 
 // 運行分析任務
 async function runAnalysis() {
+    if (STATIC_MODE) {
+        alert('靜態網站模式：此功能已禁用\n\n請在本地運行 generate_static_data.py 來更新資料');
+        return;
+    }
+
     const btn = document.getElementById('runAnalysisBtn');
     btn.disabled = true;
     btn.textContent = '分析中...';
