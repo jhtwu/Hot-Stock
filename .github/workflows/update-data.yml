@@ -60,3 +60,11 @@ jobs:
         if: steps.check_changes.outputs.changed == 'false'
         run: |
           echo "⚠️ 沒有檢測到資料變更，跳過提交"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: frontend
+          publish_branch: gh-pages
+          force_orphan: true
