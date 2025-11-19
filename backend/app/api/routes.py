@@ -21,9 +21,9 @@ from config import TOP_N
 router = APIRouter()
 
 
-@router.get("/")
+@router.get("/api")
 async def root():
-    """根路径"""
+    """API 根路径"""
     return {
         "name": "Hot Stock Analysis API",
         "version": "1.0.0",
