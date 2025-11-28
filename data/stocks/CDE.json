@@ -1,0 +1,52 @@
+{
+  "symbol": "CDE",
+  "name": "Coeur Mining, Inc.",
+  "sector": "未分類",
+  "current_price": 16.19,
+  "change_percent": 7.431984074319847,
+  "volume": 17274735,
+  "scores": {
+    "hot": 38.5,
+    "growth": 92.0,
+    "discussion": 2.0,
+    "active": 66.0
+  },
+  "news_count": 2,
+  "sentiment_score": 100.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 15.26,
+      "high": 16.2,
+      "low": 15.18,
+      "close": 16.19,
+      "volume": 17274735,
+      "change_percent": 7.431984074319847,
+      "volume_ratio": 1.0789695106603854
+    }
+  ],
+  "news": [
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://financialpost.com/globe-newswire/fortuna-files-pea-technical-report-highlighting-the-development-potential-of-the-diamba-sud-gold-project-senegal",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:26",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 38.5,
+    "hot_rank": null,
+    "growth_rank": 8,
+    "price_change": 7.431984074319847,
+    "news_count": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "symbol": "NU",
+  "name": "Nu Holdings Ltd.",
+  "sector": "未分類",
+  "current_price": 17.25,
+  "change_percent": 3.853100541842267,
+  "volume": 48146828,
+  "scores": {
+    "hot": 28.375,
+    "growth": 72.0,
+    "discussion": 4.0,
+    "active": 67.0
+  },
+  "news_count": 4,
+  "sentiment_score": 62.5,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 16.98,
+      "high": 17.38,
+      "low": 16.91,
+      "close": 17.25,
+      "volume": 48146828,
+      "change_percent": 3.853100541842267,
+      "volume_ratio": 1.0880068114441703
+    }
+  ],
+  "news": [
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Are ASX ETFs the new vehicle for easy dividend investing?",
+      "url": "https://www.fool.com.au/2025/11/27/are-asx-etfs-the-new-vehicle-for-easy-dividend-investing/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Assam Cabinet okays GoM report on proposal to grant ST status to six communities",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/assam-cabinet-okays-gom-report-on-proposal-to-grant-st-status-to-six-communities/articleshow/125603694.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:15",
+      "sentiment": 0.0
+    },
+    {
+      "title": "MiTAC Computing Technology Corp.MiTAC Computing社、Redington Limitedと新たな販売代理店契約を締結",
+      "url": "https://japan.cnet.com/release/31130991/",
+      "source": "CNET",
+      "published_at": "2025-11-27 01:14",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 28.375,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.853100541842267,
+    "news_count": 4
+  }
+}

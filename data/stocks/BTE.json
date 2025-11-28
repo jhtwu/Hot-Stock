@@ -1,0 +1,66 @@
+{
+  "symbol": "BTE",
+  "name": "Baytex Energy Corp",
+  "sector": "未分類",
+  "current_price": 3.16,
+  "change_percent": -0.3154574132492046,
+  "volume": 18479520,
+  "scores": {
+    "hot": 15.875,
+    "growth": 22.0,
+    "discussion": 4.0,
+    "active": 34.0
+  },
+  "news_count": 4,
+  "sentiment_score": 62.5,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 3.19,
+      "high": 3.21,
+      "low": 3.145,
+      "close": 3.16,
+      "volume": 18479520,
+      "change_percent": -0.3154574132492046,
+      "volume_ratio": 0.7528324764211911
+    }
+  ],
+  "news": [
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "How LIC voted on Reliance, Adani resolutions — and how it differed from others",
+      "url": "https://www.livemint.com/companies/news/lic-exceptions-voting-practices-reliance-adani-shareholder-resolutions-11764048992306.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "LEO Solo opens preorders for a personal eVTOL, but with many unknowns",
+      "url": "https://newatlas.com/aircraft/leo-flight-solo-evtol/",
+      "source": "New Atlas",
+      "published_at": "2025-11-27 01:32",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Acceleware Ltd. Reports Third Quarter 2025 Financial and Operating Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195435/0/en/Acceleware-Ltd-Reports-Third-Quarter-2025-Financial-and-Operating-Results.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:23",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 15.875,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.3154574132492046,
+    "news_count": 4
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "symbol": "HOOD",
+  "name": "Robinhood Markets, Inc.",
+  "sector": "未分類",
+  "current_price": 128.2,
+  "change_percent": 10.92844163710305,
+  "volume": 47127643,
+  "scores": {
+    "hot": 36.0,
+    "growth": 98.0,
+    "discussion": 1.0,
+    "active": 80.0
+  },
+  "news_count": 1,
+  "sentiment_score": 75.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 121.33,
+      "high": 128.9,
+      "low": 120.86,
+      "close": 128.2,
+      "volume": 47127643,
+      "change_percent": 10.92844163710305,
+      "volume_ratio": 1.2790367530170785
+    }
+  ],
+  "news": [
+    {
+      "title": "Stocks in news: Paytm, M&M, Bajaj Auto, Zydus Life, Ashoka Buildcon",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-paytm-mm-bajaj-auto-zydus-life-ashoka-buildcon/articleshow/125602350.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 00:40",
+      "sentiment": 0.5
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 36.0,
+    "hot_rank": null,
+    "growth_rank": 2,
+    "price_change": 10.92844163710305,
+    "news_count": 1
+  }
+}

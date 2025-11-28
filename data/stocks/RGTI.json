@@ -1,0 +1,45 @@
+{
+  "symbol": "RGTI",
+  "name": "Rigetti Computing, Inc.",
+  "sector": "未分類",
+  "current_price": 25.57,
+  "change_percent": -1.9555214723926306,
+  "volume": 28827644,
+  "scores": {
+    "hot": 9.0,
+    "growth": 5.0,
+    "discussion": 1.0,
+    "active": 3.0
+  },
+  "news_count": 1,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 26.365,
+      "high": 26.525,
+      "low": 25.29,
+      "close": 25.57,
+      "volume": 28827644,
+      "change_percent": -1.9555214723926306,
+      "volume_ratio": 0.4159519921229341
+    }
+  ],
+  "news": [
+    {
+      "title": "Flood Algorithm-Tuned PID-F Controller with a Modified Objective Function for Robust and Noise-resilient Speed Control of Nonlinear SparkIgnition Engines",
+      "url": "https://www.nature.com/articles/s41598-025-29231-8",
+      "source": "Nature.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 9.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -1.9555214723926306,
+    "news_count": 1
+  }
+}

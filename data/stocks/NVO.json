@@ -1,0 +1,37 @@
+{
+  "symbol": "NVO",
+  "name": "Novo Nordisk A/S",
+  "sector": "未分類",
+  "current_price": 48.71,
+  "change_percent": 3.506162345941348,
+  "volume": 17834795,
+  "scores": {
+    "hot": 24.75,
+    "growth": 69.0,
+    "discussion": 0.0,
+    "active": 52.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 48.53,
+      "high": 49.03,
+      "low": 48.18,
+      "close": 48.71,
+      "volume": 17834795,
+      "change_percent": 3.506162345941348,
+      "volume_ratio": 0.9364480311653488
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 24.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.506162345941348,
+    "news_count": 0
+  }
+}

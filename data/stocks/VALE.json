@@ -1,0 +1,45 @@
+{
+  "symbol": "VALE",
+  "name": "VALE S.A.",
+  "sector": "未分類",
+  "current_price": 12.51,
+  "change_percent": 2.625102543068091,
+  "volume": 28521677,
+  "scores": {
+    "hot": 23.25,
+    "growth": 62.0,
+    "discussion": 1.0,
+    "active": 45.0
+  },
+  "news_count": 1,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 12.28,
+      "high": 12.56,
+      "low": 12.28,
+      "close": 12.51,
+      "volume": 28521677,
+      "change_percent": 2.625102543068091,
+      "volume_ratio": 0.8728995185177163
+    }
+  ],
+  "news": [
+    {
+      "title": "Wrap House Simulator Update v1.09-TENOKE",
+      "url": "https://post.rlsbb.to/wrap-house-simulator-update-v1-09-tenoke/",
+      "source": "Rlsbb.to",
+      "published_at": "2025-11-27 00:08",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 23.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 2.625102543068091,
+    "news_count": 1
+  }
+}

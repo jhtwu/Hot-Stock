@@ -1,0 +1,37 @@
+{
+  "symbol": "ITUB",
+  "name": "Itau Unibanco Banco Holding SA",
+  "sector": "未分類",
+  "current_price": 7.66,
+  "change_percent": 3.234501347708898,
+  "volume": 25689248,
+  "scores": {
+    "hot": 24.0,
+    "growth": 66.0,
+    "discussion": 0.0,
+    "active": 53.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 7.52,
+      "high": 7.67,
+      "low": 7.515,
+      "close": 7.66,
+      "volume": 25689248,
+      "change_percent": 3.234501347708898,
+      "volume_ratio": 0.9748774304942653
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 24.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.234501347708898,
+    "news_count": 0
+  }
+}

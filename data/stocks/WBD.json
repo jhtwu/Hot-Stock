@@ -1,0 +1,37 @@
+{
+  "symbol": "WBD",
+  "name": "Warner Bros. Discovery, Inc. - ",
+  "sector": "未分類",
+  "current_price": 23.88,
+  "change_percent": 4.006968641114975,
+  "volume": 40581554,
+  "scores": {
+    "hot": 26.75,
+    "growth": 77.0,
+    "discussion": 0.0,
+    "active": 37.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 23.165,
+      "high": 23.91,
+      "low": 23.165,
+      "close": 23.88,
+      "volume": 40581554,
+      "change_percent": 4.006968641114975,
+      "volume_ratio": 0.7616209578503862
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 26.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 4.006968641114975,
+    "news_count": 0
+  }
+}

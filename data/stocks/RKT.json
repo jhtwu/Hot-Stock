@@ -1,0 +1,108 @@
+{
+  "symbol": "RKT",
+  "name": "Rocket Companies, Inc.",
+  "sector": "未分類",
+  "current_price": 19.74,
+  "change_percent": 0.4069175991861561,
+  "volume": 24752972,
+  "scores": {
+    "hot": 20.0,
+    "growth": 32.0,
+    "discussion": 13.0,
+    "active": 22.0
+  },
+  "news_count": 13,
+  "sentiment_score": 58.333333333333336,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 19.63,
+      "high": 20.09,
+      "low": 19.39,
+      "close": 19.74,
+      "volume": 24752972,
+      "change_percent": 0.4069175991861561,
+      "volume_ratio": 0.7087662216393132
+    }
+  ],
+  "news": [
+    {
+      "title": "Is Lowe's Stock Underperforming the S&P 500?",
+      "url": "https://biztoc.com/x/32ef6ad3c3e96e59",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
+    },
+    {
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
+    },
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Pentagon flags Alibaba, Baidu, and BYD as military-linked companies",
+      "url": "https://www.digitimes.com/news/a20251127VL204/alibaba-baidu-byd-military-bloomberg.html",
+      "source": "Digitimes",
+      "published_at": "2025-11-27 01:59",
+      "sentiment": 1.0
+    },
+    {
+      "title": "\"Wesley helped arrange another introduction to one of his heroes\" - Brian Windhorst reveals how Reebook connected LeBron James with Jay-Z",
+      "url": "https://www.basketballnetwork.net/off-the-court/wesley-helped-arrange-another-introduction-to-one-of-his-heroes-brian-windhorst-reveals-how-reebook-connected-lebron-james-with-jay-z",
+      "source": "Basketball Network",
+      "published_at": "2025-11-27 01:43",
+      "sentiment": 0.0
+    },
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Code Vein II Game's NEw Trailer Highlights Character Josée Anjou",
+      "url": "https://www.animenewsnetwork.com/news/2025-11-26/code-vein-ii-game-new-trailer-highlights-character-josee-anjou/.231296",
+      "source": "Anime News Network",
+      "published_at": "2025-11-27 01:12",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 20.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.4069175991861561,
+    "news_count": 13
+  }
+}

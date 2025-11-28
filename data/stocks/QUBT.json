@@ -1,0 +1,45 @@
+{
+  "symbol": "QUBT",
+  "name": "Quantum Computing Inc.",
+  "sector": "未分類",
+  "current_price": 11.46,
+  "change_percent": -1.2068965517241275,
+  "volume": 15082744,
+  "scores": {
+    "hot": 9.75,
+    "growth": 8.0,
+    "discussion": 1.0,
+    "active": 7.000000000000001
+  },
+  "news_count": 1,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 11.69,
+      "high": 11.8,
+      "low": 11.17,
+      "close": 11.46,
+      "volume": 15082744,
+      "change_percent": -1.2068965517241275,
+      "volume_ratio": 0.4758721996931918
+    }
+  ],
+  "news": [
+    {
+      "title": "Flood Algorithm-Tuned PID-F Controller with a Modified Objective Function for Robust and Noise-resilient Speed Control of Nonlinear SparkIgnition Engines",
+      "url": "https://www.nature.com/articles/s41598-025-29231-8",
+      "source": "Nature.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 9.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -1.2068965517241275,
+    "news_count": 1
+  }
+}

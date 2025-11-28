@@ -1,0 +1,94 @@
+{
+  "symbol": "MU",
+  "name": "Micron Technology, Inc.",
+  "sector": "未分類",
+  "current_price": 230.26,
+  "change_percent": 2.551997505901211,
+  "volume": 17817622,
+  "scores": {
+    "hot": 26.3125,
+    "growth": 61.0,
+    "discussion": 8.0,
+    "active": 30.0
+  },
+  "news_count": 8,
+  "sentiment_score": 60.41666666666667,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 229.616,
+      "high": 233.8299,
+      "low": 226.0,
+      "close": 230.26,
+      "volume": 17817622,
+      "change_percent": 2.551997505901211,
+      "volume_ratio": 0.7424326659747018
+    }
+  ],
+  "news": [
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
+    },
+    {
+      "title": "Why Catapult, Kingsgate, Light & Wonder, and Reece shares are storming higher today",
+      "url": "https://www.fool.com.au/2025/11/27/why-catapult-kingsgate-light-wonder-and-reece-shares-are-storming-higher-today/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 01:36",
+      "sentiment": 1.0
+    },
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Jeff Bezos’ Project Prometheus reportedly acquires AI startup General Agents",
+      "url": "https://siliconangle.com/2025/11/26/jeff-bezos-project-prometheus-reportedly-acquires-ai-startup-general-agents/",
+      "source": "SiliconANGLE News",
+      "published_at": "2025-11-27 00:52",
+      "sentiment": 0.0
+    },
+    {
+      "title": "AVANTE CORP. ANNOUNCES RESULTS FOR THE SECOND FISCAL QUARTER of 2026, HIGHLIGHTING 10% INCREASE IN REVENUE AND 73% INCREASE IN ADJUSTED EBITDA WITH POSITIVE NET INCOME",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195437/36577/en/AVANTE-CORP-ANNOUNCES-RESULTS-FOR-THE-SECOND-FISCAL-QUARTER-of-2026-HIGHLIGHTING-10-INCREASE-IN-REVENUE-AND-73-INCREASE-IN-ADJUSTED-EBITDA-WITH-POSITIVE-NET-INCOME.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:34",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Countdown to Macy's Thanksgiving Day Parade Previews Big Holiday Event",
+      "url": "https://bleedingcool.com/tv/countdown-to-macys-thanksgiving-day-parade-previews-big-holiday-event/",
+      "source": "Bleeding Cool News",
+      "published_at": "2025-11-27 00:07",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 26.3125,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 2.551997505901211,
+    "news_count": 8
+  }
+}

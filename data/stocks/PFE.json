@@ -1,18 +1,18 @@
 {
   "symbol": "PFE",
-  "name": "PFE",
+  "name": "Pfizer, Inc.",
   "sector": "醫療保健",
-  "current_price": 364.20052414271083,
-  "change_percent": 1.4752791068580584,
-  "volume": 4974722,
+  "current_price": 25.71,
+  "change_percent": -0.0388802488335848,
+  "volume": 33461046,
   "scores": {
-    "hot": 34.715375766657495,
-    "growth": 90.9090909090909,
-    "discussion": 10.204081632653061,
-    "active": 45.45454545454545
+    "hot": 32.71478873239437,
+    "growth": 25.0,
+    "discussion": 71.0,
+    "active": 11.0
   },
-  "news_count": 10,
-  "sentiment_score": 62.913884208143344,
+  "news_count": 71,
+  "sentiment_score": 58.098591549295776,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 25.05,
+      "high": 25.51,
+      "low": 24.98,
+      "close": 25.45,
+      "volume": 66511756,
+      "change_percent": 1.4752791068580584,
+      "volume_ratio": 1.1141233447649408
+    },
+    {
+      "date": "2025-11-18",
       "open": 356.9165136598566,
       "high": 375.1265398669922,
       "low": 353.2745084184295,
@@ -103,86 +113,96 @@
       "volume": 4974722,
       "change_percent": -0.5768352757719928,
       "volume_ratio": 1.9268712957658667
+    },
+    {
+      "date": "2025-11-26",
+      "open": 25.7,
+      "high": 25.8066,
+      "low": 25.58,
+      "close": 25.71,
+      "volume": 33461046,
+      "change_percent": -0.0388802488335848,
+      "volume_ratio": 0.5544517579628383
     }
   ],
   "news": [
     {
-      "title": "Analysts Upgrade PFE Price Target",
-      "url": "https://example.com/news/pfe-1",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 06:49",
-      "sentiment": -0.2829663594536164
+      "title": "The eternal mystery of the Tootsie Pop",
+      "url": "https://www.cbsnews.com/video/the-eternal-mystery-of-the-tootsie-pop/",
+      "source": "CBS News",
+      "published_at": "2025-11-27 04:02",
+      "sentiment": 0.0
     },
     {
-      "title": "PFE Announces New Product Launch",
-      "url": "https://example.com/news/pfe-6",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 03:54",
-      "sentiment": 0.5247365174193284
+      "title": "Is Lowe's Stock Underperforming the S&P 500?",
+      "url": "https://biztoc.com/x/32ef6ad3c3e96e59",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
     },
     {
-      "title": "PFE Announces New Product Launch",
-      "url": "https://example.com/news/pfe-9",
-      "source": "MarketWatch",
-      "published_at": "2025-11-19 02:54",
-      "sentiment": 0.6833727393362601
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
     },
     {
-      "title": "PFE Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/pfe-8",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 00:54",
-      "sentiment": 0.146737192678635
+      "title": "Is Elevance Health Stock Outperforming the Nasdaq?",
+      "url": "https://biztoc.com/x/6b6e0e17800bb2e1",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 1.0
     },
     {
-      "title": "PFE Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pfe-4",
-      "source": "Reuters",
-      "published_at": "2025-11-18 22:49",
-      "sentiment": 0.25300801451790084
+      "title": "How to watch Macy's Thanksgiving Parade 2025 online from anywhere",
+      "url": "https://www.techradar.com/how-to-watch/tv-shows/macys-thanksgiving-parade-2025-anywhere",
+      "source": "TechRadar",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
     },
     {
-      "title": "PFE Announces New Product Launch",
-      "url": "https://example.com/news/pfe-7",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 17:54",
-      "sentiment": 0.020533057706384084
+      "title": "Miss Universe owners face fraud and trafficking allegations",
+      "url": "https://www.aljazeera.com/news/2025/11/27/miss-universe-owners-face-fraud-and-trafficking-allegations",
+      "source": "Al Jazeera English",
+      "published_at": "2025-11-27 03:55",
+      "sentiment": -1.0
     },
     {
-      "title": "Analysts Upgrade PFE Price Target",
-      "url": "https://example.com/news/pfe-5",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 16:54",
-      "sentiment": 0.2516903208530635
+      "title": "ROSEN, NATIONAL TRIAL LAWYERS, Encourages Skye Bioscience, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action – SKYE",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195453/673/en/ROSEN-NATIONAL-TRIAL-LAWYERS-Encourages-Skye-Bioscience-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-SKYE.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:54",
+      "sentiment": 0.0
     },
     {
-      "title": "Analysts Upgrade PFE Price Target",
-      "url": "https://example.com/news/pfe-3",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 10:49",
-      "sentiment": 0.4479259190721075
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
     },
     {
-      "title": "PFE Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/pfe-2",
-      "source": "CNBC",
-      "published_at": "2025-11-18 10:49",
-      "sentiment": -0.18027131261419088
+      "title": "横浜バニラ、埼玉初上陸！「JR大宮駅」にて初の期間限定ポップアップストアを開催！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000152494.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
     },
     {
-      "title": "PFE Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pfe-0",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 08:49",
-      "sentiment": 0.05602808143794352
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 34.715375766657495,
-    "hot_rank": 4,
-    "growth_rank": 2,
-    "price_change": 1.4752791068580584,
-    "news_count": 10
+    "total_score": 32.71478873239437,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.0388802488335848,
+    "news_count": 71
   }
 }

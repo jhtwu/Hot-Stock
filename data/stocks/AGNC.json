@@ -1,0 +1,66 @@
+{
+  "symbol": "AGNC",
+  "name": "AGNC Investment Corp.",
+  "sector": "未分類",
+  "current_price": 10.56,
+  "change_percent": 1.5384615384615397,
+  "volume": 32234919,
+  "scores": {
+    "hot": 22.125,
+    "growth": 47.0,
+    "discussion": 4.0,
+    "active": 86.0
+  },
+  "news_count": 4,
+  "sentiment_score": 62.5,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 10.415,
+      "high": 10.64,
+      "low": 10.41,
+      "close": 10.56,
+      "volume": 32234919,
+      "change_percent": 1.5384615384615397,
+      "volume_ratio": 1.5552855313833454
+    }
+  ],
+  "news": [
+    {
+      "title": "Are ASX ETFs the new vehicle for easy dividend investing?",
+      "url": "https://www.fool.com.au/2025/11/27/are-asx-etfs-the-new-vehicle-for-easy-dividend-investing/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 0.0
+    },
+    {
+      "title": "How LIC voted on Reliance, Adani resolutions — and how it differed from others",
+      "url": "https://www.livemint.com/companies/news/lic-exceptions-voting-practices-reliance-adani-shareholder-resolutions-11764048992306.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Olympics Trip for Bidvest Board Draws Shareholder Concern",
+      "url": "https://www.livemint.com/companies/news/olympics-trip-for-bidvest-board-draws-shareholder-concern-11764211671076.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 02:47",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Acceleware Ltd. Reports Third Quarter 2025 Financial and Operating Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195435/0/en/Acceleware-Ltd-Reports-Third-Quarter-2025-Financial-and-Operating-Results.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:23",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 22.125,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.5384615384615397,
+    "news_count": 4
+  }
+}

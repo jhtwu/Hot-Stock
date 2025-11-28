@@ -1,0 +1,37 @@
+{
+  "symbol": "QBTS",
+  "name": "D-Wave Quantum Inc.",
+  "sector": "未分類",
+  "current_price": 22.41,
+  "change_percent": -0.7968127490039828,
+  "volume": 21619810,
+  "scores": {
+    "hot": 10.75,
+    "growth": 13.0,
+    "discussion": 0.0,
+    "active": 4.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 22.69,
+      "high": 22.98,
+      "low": 22.0,
+      "close": 22.41,
+      "volume": 21619810,
+      "change_percent": -0.7968127490039828,
+      "volume_ratio": 0.4397719859715599
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 10.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.7968127490039828,
+    "news_count": 0
+  }
+}

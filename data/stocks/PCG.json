@@ -1,0 +1,45 @@
+{
+  "symbol": "PCG",
+  "name": "Pacific Gas & Electric Co.",
+  "sector": "未分類",
+  "current_price": 16.01,
+  "change_percent": 1.7800381436745143,
+  "volume": 24983254,
+  "scores": {
+    "hot": 13.5,
+    "growth": 53.0,
+    "discussion": 1.0,
+    "active": 54.0
+  },
+  "news_count": 1,
+  "sentiment_score": 0.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 15.8,
+      "high": 16.095,
+      "low": 15.77,
+      "close": 16.01,
+      "volume": 24983254,
+      "change_percent": 1.7800381436745143,
+      "volume_ratio": 0.9811156635483044
+    }
+  ],
+  "news": [
+    {
+      "title": "New York’s 2030 climate target is impossible",
+      "url": "https://wattsupwiththat.com/2025/11/26/new-yorks-2030-climate-target-is-impossible/",
+      "source": "Wattsupwiththat.com",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 13.5,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.7800381436745143,
+    "news_count": 1
+  }
+}

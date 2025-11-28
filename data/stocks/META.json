@@ -1,18 +1,18 @@
 {
   "symbol": "META",
-  "name": "META",
+  "name": "Meta Platforms, Inc.",
   "sector": "科技",
-  "current_price": 437.9389667837076,
-  "change_percent": -0.7175960532216967,
-  "volume": 71239036,
+  "current_price": 633.61,
+  "change_percent": -0.41023545314514065,
+  "volume": 15209481,
   "scores": {
-    "hot": 37.26365523096758,
-    "growth": 54.54545454545454,
-    "discussion": 60.204081632653065,
-    "active": 95.45454545454545
+    "hot": 18.0,
+    "growth": 19.0,
+    "discussion": 3.0,
+    "active": 55.00000000000001
   },
-  "news_count": 59,
-  "sentiment_score": 57.175141242937855,
+  "news_count": 3,
+  "sentiment_score": 83.33333333333333,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 591.6,
+      "high": 603.66,
+      "low": 583.78,
+      "close": 597.69,
+      "volume": 25500647,
+      "change_percent": -0.7175960532216967,
+      "volume_ratio": 1.7268837341616219
+    },
+    {
+      "date": "2025-11-18",
       "open": 429.18018744803345,
       "high": 451.0771357872188,
       "low": 424.8007977801964,
@@ -103,9 +113,40 @@
       "volume": 71239036,
       "change_percent": -1.3317854963701286,
       "volume_ratio": 1.1357178060402502
+    },
+    {
+      "date": "2025-11-26",
+      "open": 637.69,
+      "high": 638.36,
+      "low": 631.63,
+      "close": 633.61,
+      "volume": 15209481,
+      "change_percent": -0.41023545314514065,
+      "volume_ratio": 0.9834497843876397
     }
   ],
   "news": [
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Bernie Sanders Highlights How Handful Of Billionaires Like Mark Zuckerberg, Elon Musk, Jeff Bezos Are Controlling What Americans See",
+      "url": "https://www.yahoo.com/news/articles/bernie-sanders-highlights-handful-billionaires-003100813.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 00:31",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Uber India value surges amid battle with Ola, Rapido",
+      "url": "https://www.livemint.com/companies/news/uber-sees-india-business-value-surge-amid-battle-with-rapido-ola-11764150192986.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 1.0
+    },
     {
       "title": "Why META Stock Is Moving Today",
       "url": "https://example.com/news/meta-4",
@@ -154,35 +195,14 @@
       "source": "CNBC",
       "published_at": "2025-11-18 07:30",
       "sentiment": -0.2
-    },
-    {
-      "title": "Why teens are ditching Instagram for WhatsApp channels",
-      "url": "https://www.talkandroid.com/518308-teens-ditch-instagram-whatsapp-channels/",
-      "source": "TalkAndroid",
-      "published_at": "2025-11-18 07:30",
-      "sentiment": 0.0
-    },
-    {
-      "title": "meta-spec 0.9.0",
-      "url": "https://pypi.org/project/meta-spec/0.9.0/",
-      "source": "Pypi.org",
-      "published_at": "2025-11-18 06:35",
-      "sentiment": 0.0
-    },
-    {
-      "title": "Show HN: Style XML Feeds Without XSLT",
-      "url": "https://github.com/dfabulich/style-xml-feeds-without-xslt",
-      "source": "Github.com",
-      "published_at": "2025-11-18 06:33",
-      "sentiment": 0.0
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 37.26365523096758,
-    "hot_rank": 2,
-    "growth_rank": 10,
-    "price_change": -0.7175960532216967,
-    "news_count": 59
+    "total_score": 18.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.41023545314514065,
+    "news_count": 3
   }
 }
