@@ -3,5 +3,6 @@
 """
 from .stock_data import StockDataCollector
 from .news_data import NewsDataCollector
+from .symbols import HotSymbolProvider
 
-__all__ = ['StockDataCollector', 'NewsDataCollector']
+__all__ = ['StockDataCollector', 'NewsDataCollector', 'HotSymbolProvider']

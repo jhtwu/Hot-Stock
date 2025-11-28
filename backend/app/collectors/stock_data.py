@@ -31,24 +31,32 @@ class StockDataCollector:
         if self.demo_mode:
             logger.warning("演示模式已启用，将使用模拟股票数据")
 
-    def get_stock_info(self, symbol: str) -> Optional[Dict]:
+    def get_stock_info(
+        self,
+        symbol: str,
+        fallback_name: Optional[str] = None,
+        fallback_sector: Optional[str] = None,
+    ) -> Optional[Dict]:
         """
         获取股票基本信息（简化版，避免过多 API 请求）
 
         Args:
             symbol: 股票代码
+            fallback_name: 外部來源提供的公司名稱
+            fallback_sector: 外部來源提供的板塊
 
         Returns:
             股票信息字典
         """
         try:
             from config import STOCK_SECTORS
-            sector = STOCK_SECTORS.get(symbol.upper(), "未分類")
+            sector = fallback_sector or STOCK_SECTORS.get(symbol.upper(), "未分類")
+            name = fallback_name or symbol
             # 简化版：只返回股票代码，不请求详细信息
             # 这样可以避免触发 Yahoo Finance 的速率限制
             return {
                 'symbol': symbol,
-                'name': symbol,  # 暂时使用代码作为名称
+                'name': name,
                 'sector': sector,
             }
         except Exception as e:
@@ -206,8 +214,8 @@ class StockDataCollector:
 
             # 添加延迟避免速率限制
             if i < total:
-                effective_delay = 0.1 if not self.demo_mode else 0  # 备用源无需长延迟
-                time.sleep(effective_delay)
+                effective_delay = delay_between_requests if not self.demo_mode else 0
+                time.sleep(max(0, effective_delay))
 
         return results
 

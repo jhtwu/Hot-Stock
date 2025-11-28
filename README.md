@@ -177,8 +177,10 @@ COLLECT_TIME = "16:30"  # UTC 时间
 ### 主要配置项（config.py）
 
 ```python
-# 监控的股票池
-STOCK_SYMBOLS = [
+# 热门股票来源
+HOT_STOCK_LIMIT = 100           # 每天自動抓取前 100 檔 Yahoo Finance 最活躍的美股
+USE_DYNAMIC_SYMBOLS = True      # 如需停用動態抓取，改為 False
+FALLBACK_STOCK_SYMBOLS = [      # 外部來源不可用時的備援清單
     "AAPL", "MSFT", "GOOGL", "AMZN", ...
 ]
 
@@ -197,7 +199,7 @@ TOP_N = 10
 
 ### 添加更多股票
 
-在 `config.py` 中的 `STOCK_SYMBOLS` 列表添加股票代码即可。
+系统会自动从 Yahoo Finance 抓取前一交易日最热门的美股；如需保证某些标的一定被纳入，可在 `config.py` 的 `FALLBACK_STOCK_SYMBOLS` 中维护备援列表（当外部来源不可用时使用）。
 
 ## 📊 评分系统
 

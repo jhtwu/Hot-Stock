@@ -8,9 +8,17 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+from backend.app.collectors import HotSymbolProvider
 from backend.app.database import SessionLocal
 from backend.app.models import Stock, DailyScore, StockHistory, NewsArticle
-from config import STOCK_SYMBOLS, SCORING_WEIGHTS, REQUEST_DELAY, TOP_N, NEWS_API_KEY
+from config import (
+    FALLBACK_STOCK_SYMBOLS,
+    HOT_STOCK_LIMIT,
+    NEWS_API_KEY,
+    REQUEST_DELAY,
+    SCORING_WEIGHTS,
+    TOP_N,
+)
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -24,8 +32,14 @@ def verify_configuration():
 
     checks = []
 
+    provider = HotSymbolProvider(FALLBACK_STOCK_SYMBOLS, limit=HOT_STOCK_LIMIT)
+    symbols, _ = provider.get_hot_symbols()
+    symbol_count = len(symbols)
+    min_symbols = max(50, int(HOT_STOCK_LIMIT * 0.7))
+    max_symbols = HOT_STOCK_LIMIT + 20
+
     # 验证股票列表
-    checks.append(("股票监控数量", len(STOCK_SYMBOLS), 20, 50))
+    checks.append(("股票监控数量", symbol_count, min_symbols, max_symbols))
 
     # 验证评分权重
     total_weight = sum(SCORING_WEIGHTS.values())

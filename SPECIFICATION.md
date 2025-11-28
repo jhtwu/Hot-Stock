@@ -367,7 +367,9 @@ pydantic==2.5.3
 - `NEWS_API_KEY`: NewsAPI 密钥
 - `REQUEST_DELAY`: 请求延迟（秒）
 - `DEMO_MODE`: 演示模式开关
-- `STOCK_SYMBOLS`: 监控股票列表
+- `HOT_STOCK_LIMIT`: 每日抓取的熱門美股數量
+- `USE_DYNAMIC_SYMBOLS`: 是否啟用線上熱門榜單
+- `FALLBACK_STOCK_SYMBOLS`: 外部來源不可用時的備援股票列表
 
 ## 7. 测试规格
 

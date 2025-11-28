@@ -21,11 +21,12 @@ API_PORT = 8000
 # 新闻 API 配置 (需要申请免费的 NewsAPI key: https://newsapi.org/)
 NEWS_API_KEY = os.getenv("NEWS_API_KEY", "your_newsapi_key_here")
 
-# 数据收集配置
-# 监控的股票池（精选最热门股票，避免 API 速率限制）
-# 注意：一次性监控太多股票可能触发 Yahoo Finance API 限制
-# 如需添加更多股票，建议分批运行或增加延迟
-STOCK_SYMBOLS = [
+# 動態股票來源配置
+HOT_STOCK_LIMIT = int(os.getenv("HOT_STOCK_LIMIT", "100"))  # 每天抓取前 N 檔熱門美股
+USE_DYNAMIC_SYMBOLS = os.getenv("USE_DYNAMIC_SYMBOLS", "true").lower() == "true"
+
+# 備援股票池（外部熱門榜單不可用時使用）
+FALLBACK_STOCK_SYMBOLS = [
     # 科技巨头
     "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "AMD",
     # 金融科技
@@ -37,6 +38,8 @@ STOCK_SYMBOLS = [
     # 热门科技股
     "COIN", "PLTR", "RBLX"
 ]
+# 舊代碼兼容：如需直接引入 STOCK_SYMBOLS，將取得備援列表
+STOCK_SYMBOLS = FALLBACK_STOCK_SYMBOLS
 
 # 股票板塊（繁體）簡易映射，用於前端顯示；若未命中則顯示「未分類」
 STOCK_SECTORS = {

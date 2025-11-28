@@ -8,7 +8,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from config import NEWS_API_KEY, DEMO_MODE, STOCK_SYMBOLS, REQUEST_DELAY
+from config import (
+    DEMO_MODE,
+    FALLBACK_STOCK_SYMBOLS,
+    HOT_STOCK_LIMIT,
+    NEWS_API_KEY,
+    REQUEST_DELAY,
+    USE_DYNAMIC_SYMBOLS,
+)
+from backend.app.collectors import HotSymbolProvider
 
 print("\n" + "="*60)
 print("Hot Stock 配置检查")
@@ -36,13 +44,17 @@ else:
 
 # 检查股票列表
 print("\n【股票监控】")
-print(f"✓ 监控股票数量: {len(STOCK_SYMBOLS)} 个")
-print(f"  股票列表: {', '.join(STOCK_SYMBOLS[:5])}...")
+provider = HotSymbolProvider(FALLBACK_STOCK_SYMBOLS, limit=HOT_STOCK_LIMIT)
+symbols, _ = provider.get_hot_symbols()
+mode = "動態熱門榜單 (Yahoo Finance)" if USE_DYNAMIC_SYMBOLS else "備援清單 (config.py)"
+print(f"✓ 股票模式: {mode}")
+print(f"✓ 监控股票数量: {len(symbols)} 个 (目標: 前 {HOT_STOCK_LIMIT} 檔)")
+print(f"  股票列表: {', '.join(symbols[:5])}...")
 
 # 检查请求配置
 print("\n【API 配置】")
 print(f"✓ 请求延迟: {REQUEST_DELAY} 秒")
-estimated_time = len(STOCK_SYMBOLS) * REQUEST_DELAY / 60
+estimated_time = len(symbols) * REQUEST_DELAY / 60
 print(f"  预计分析时间: {estimated_time:.1f} 分钟")
 
 # 检查数据库
