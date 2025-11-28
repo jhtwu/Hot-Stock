@@ -1,0 +1,52 @@
+{
+  "symbol": "ACHR",
+  "name": "Archer Aviation Inc.",
+  "sector": "未分類",
+  "current_price": 7.49,
+  "change_percent": 1.4905149051490558,
+  "volume": 28830547,
+  "scores": {
+    "hot": 23.0,
+    "growth": 45.0,
+    "discussion": 2.0,
+    "active": 13.0
+  },
+  "news_count": 2,
+  "sentiment_score": 75.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 7.4,
+      "high": 7.6,
+      "low": 7.365,
+      "close": 7.49,
+      "volume": 28830547,
+      "change_percent": 1.4905149051490558,
+      "volume_ratio": 0.5879172711074304
+    }
+  ],
+  "news": [
+    {
+      "title": "Dominican Republic authorizes more flights for tourists rerouted by Hurricane Melissa",
+      "url": "https://financialpost.com/pmn/dominican-republic-authorizes-more-flights-for-tourists-rerouted-by-hurricane-melissa",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 03:21",
+      "sentiment": 0.0
+    },
+    {
+      "title": "NYC airports issue ground stops as holiday travel ramps up",
+      "url": "https://pix11.com/news/local-news/nyc-airports-issue-ground-stops-as-holiday-travel-ramps-up/",
+      "source": "WPIX 11 New York",
+      "published_at": "2025-11-27 00:05",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 23.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.4905149051490558,
+    "news_count": 2
+  }
+}

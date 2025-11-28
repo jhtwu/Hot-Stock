@@ -1,0 +1,73 @@
+{
+  "symbol": "GRAB",
+  "name": "Grab Holdings Limited",
+  "sector": "未分類",
+  "current_price": 5.32,
+  "change_percent": 1.5267175572519098,
+  "volume": 36742887,
+  "scores": {
+    "hot": 20.25,
+    "growth": 46.0,
+    "discussion": 5.0,
+    "active": 38.0
+  },
+  "news_count": 5,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 5.29,
+      "high": 5.36,
+      "low": 5.21,
+      "close": 5.32,
+      "volume": 36742887,
+      "change_percent": 1.5267175572519098,
+      "volume_ratio": 0.7645129013611704
+    }
+  ],
+  "news": [
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Billionaire entrepreneur sparks outrage after buying almost all of beloved island: 'Disgusting'",
+      "url": "https://www.yahoo.com/news/articles/billionaire-entrepreneur-sparks-outrage-buying-020000344.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "MiTAC Computing Technology Corp.MiTAC Computing社、Redington Limitedと新たな販売代理店契約を締結",
+      "url": "https://japan.cnet.com/release/31130991/",
+      "source": "CNET",
+      "published_at": "2025-11-27 01:14",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Tether Faces Downgrade By S&P Global Amid Concerns Over Disclosure And Assets Holdings",
+      "url": "http://www.newsbtc.com/breaking-news-ticker/tether-faces-downgrade-by-sp-global-amid-concerns-over-disclosure-and-assets-holdings/",
+      "source": "newsBTC",
+      "published_at": "2025-11-27 00:34",
+      "sentiment": -1.0
+    },
+    {
+      "title": "First-gen founder millionaires take bigger investment risks, unlike traditional family offices: Motilal Oswal's Shanker",
+      "url": "https://www.livemint.com/money/personal-finance/startup-founder-millionaires-take-bigger-investment-risks-motilal-oswal-md-shanker-11764142577689.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:30",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 20.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.5267175572519098,
+    "news_count": 5
+  }
+}

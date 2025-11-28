@@ -1,0 +1,37 @@
+{
+  "symbol": "PBR",
+  "name": "Petroleo Brasileiro S.A. Petrob",
+  "sector": "未分類",
+  "current_price": 12.66,
+  "change_percent": 0.31695721077655253,
+  "volume": 15291862,
+  "scores": {
+    "hot": 14.75,
+    "growth": 28.999999999999996,
+    "discussion": 0.0,
+    "active": 19.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 12.68,
+      "high": 12.775,
+      "low": 12.575,
+      "close": 12.66,
+      "volume": 15291862,
+      "change_percent": 0.31695721077655253,
+      "volume_ratio": 0.6731291541846027
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 14.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.31695721077655253,
+    "news_count": 0
+  }
+}

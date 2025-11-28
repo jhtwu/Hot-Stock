@@ -1,0 +1,80 @@
+{
+  "symbol": "SOUN",
+  "name": "SoundHound AI, Inc.",
+  "sector": "未分類",
+  "current_price": 11.82,
+  "change_percent": -1.0050251256281342,
+  "volume": 19967058,
+  "scores": {
+    "hot": 12.0,
+    "growth": 12.0,
+    "discussion": 6.0,
+    "active": 2.0
+  },
+  "news_count": 6,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 12.1,
+      "high": 12.23,
+      "low": 11.78,
+      "close": 11.82,
+      "volume": 19967058,
+      "change_percent": -1.0050251256281342,
+      "volume_ratio": 0.37340878106941855
+    }
+  ],
+  "news": [
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "富山県舟橋村と生成AIの活用による業務効率化の実証実験に関する連携協定を締結",
+      "url": "https://prtimes.jp/main/html/rd/p/000000024.000072986.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 01:30",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Jeff Bezos’ Project Prometheus reportedly acquires AI startup General Agents",
+      "url": "https://siliconangle.com/2025/11/26/jeff-bezos-project-prometheus-reportedly-acquires-ai-startup-general-agents/",
+      "source": "SiliconANGLE News",
+      "published_at": "2025-11-27 00:52",
+      "sentiment": 0.0
+    },
+    {
+      "title": "AI時代のアニメ制作会社Creator’s XがシリーズAで総額19億円の調達",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000147544.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 00:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Bernie Sanders Highlights How Handful Of Billionaires Like Mark Zuckerberg, Elon Musk, Jeff Bezos Are Controlling What Americans See",
+      "url": "https://www.yahoo.com/news/articles/bernie-sanders-highlights-handful-billionaires-003100813.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 00:31",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 12.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -1.0050251256281342,
+    "news_count": 6
+  }
+}

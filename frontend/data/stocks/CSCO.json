@@ -1,0 +1,80 @@
+{
+  "symbol": "CSCO",
+  "name": "Cisco Systems, Inc.",
+  "sector": "未分類",
+  "current_price": 76.07,
+  "change_percent": -0.3275681341719078,
+  "volume": 15972623,
+  "scores": {
+    "hot": 15.708333333333332,
+    "growth": 21.0,
+    "discussion": 6.0,
+    "active": 39.0
+  },
+  "news_count": 6,
+  "sentiment_score": 59.72222222222222,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 76.455,
+      "high": 76.6,
+      "low": 75.34,
+      "close": 76.07,
+      "volume": 15972623,
+      "change_percent": -0.3275681341719078,
+      "volume_ratio": 0.7732630111079738
+    }
+  ],
+  "news": [
+    {
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
+    },
+    {
+      "title": "INSP DEADLINE ALERT: Inspire Medical Systems, Inc. Investors Urged to Contact Kirby McInerney LLP About Class Action Lawsuit",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195441/937/en/INSP-DEADLINE-ALERT-Inspire-Medical-Systems-Inc-Investors-Urged-to-Contact-Kirby-McInerney-LLP-About-Class-Action-Lawsuit.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Jeff Bezos’ Project Prometheus reportedly acquires AI startup General Agents",
+      "url": "https://siliconangle.com/2025/11/26/jeff-bezos-project-prometheus-reportedly-acquires-ai-startup-general-agents/",
+      "source": "SiliconANGLE News",
+      "published_at": "2025-11-27 00:52",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Stocks in news: Paytm, M&M, Bajaj Auto, Zydus Life, Ashoka Buildcon",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-paytm-mm-bajaj-auto-zydus-life-ashoka-buildcon/articleshow/125602350.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 00:40",
+      "sentiment": 0.5
+    },
+    {
+      "title": "Uber India value surges amid battle with Ola, Rapido",
+      "url": "https://www.livemint.com/companies/news/uber-sees-india-business-value-surge-amid-battle-with-rapido-ola-11764150192986.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Flood Algorithm-Tuned PID-F Controller with a Modified Objective Function for Robust and Noise-resilient Speed Control of Nonlinear SparkIgnition Engines",
+      "url": "https://www.nature.com/articles/s41598-025-29231-8",
+      "source": "Nature.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 15.708333333333332,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.3275681341719078,
+    "news_count": 6
+  }
+}

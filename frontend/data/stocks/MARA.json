@@ -1,0 +1,73 @@
+{
+  "symbol": "MARA",
+  "name": "MARA Holdings, Inc.",
+  "sector": "未分類",
+  "current_price": 11.11,
+  "change_percent": -0.5371530886302641,
+  "volume": 49739527,
+  "scores": {
+    "hot": 14.25,
+    "growth": 16.0,
+    "discussion": 5.0,
+    "active": 50.0
+  },
+  "news_count": 5,
+  "sentiment_score": 60.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 11.32,
+      "high": 11.52,
+      "low": 10.9,
+      "close": 11.11,
+      "volume": 49739527,
+      "change_percent": -0.5371530886302641,
+      "volume_ratio": 0.9280773965843263
+    }
+  ],
+  "news": [
+    {
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Leafly Names Peter Lee as Chief Executive Officer",
+      "url": "https://financialpost.com/globe-newswire/leafly-names-peter-lee-as-chief-executive-officer",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 02:32",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Leafly Names Peter Lee as Chief Executive Officer",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195448/0/en/Leafly-Names-Peter-Lee-as-Chief-Executive-Officer.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Code Vein II Game's NEw Trailer Highlights Character Josée Anjou",
+      "url": "https://www.animenewsnetwork.com/news/2025-11-26/code-vein-ii-game-new-trailer-highlights-character-josee-anjou/.231296",
+      "source": "Anime News Network",
+      "published_at": "2025-11-27 01:12",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 14.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -0.5371530886302641,
+    "news_count": 5
+  }
+}

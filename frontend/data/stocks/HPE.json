@@ -1,0 +1,37 @@
+{
+  "symbol": "HPE",
+  "name": "Hewlett Packard Enterprise Comp",
+  "sector": "未分類",
+  "current_price": 21.53,
+  "change_percent": 0.7958801498127421,
+  "volume": 19609798,
+  "scores": {
+    "hot": 16.5,
+    "growth": 36.0,
+    "discussion": 0.0,
+    "active": 27.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 21.6,
+      "high": 21.61,
+      "low": 21.1,
+      "close": 21.53,
+      "volume": 19609798,
+      "change_percent": 0.7958801498127421,
+      "volume_ratio": 0.7290172317061272
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 16.5,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.7958801498127421,
+    "news_count": 0
+  }
+}

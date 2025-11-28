@@ -1,18 +1,18 @@
 {
   "symbol": "AMZN",
-  "name": "AMZN",
+  "name": "Amazon.com, Inc.",
   "sector": "科技",
-  "current_price": 297.975115331588,
-  "change_percent": -4.431657147764844,
-  "volume": 26734360,
+  "current_price": 229.16,
+  "change_percent": -0.22205773501109893,
+  "volume": 38497922,
   "scores": {
-    "hot": 7.8061224489795915,
-    "growth": 0.0,
-    "discussion": 11.224489795918368,
-    "active": 63.63636363636363
+    "hot": 32.21478873239437,
+    "growth": 23.0,
+    "discussion": 71.0,
+    "active": 41.0
   },
-  "news_count": 11,
-  "sentiment_score": 33.333333333333336,
+  "news_count": 71,
+  "sentiment_score": 58.098591549295776,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 228.1,
+      "high": 230.2,
+      "low": 222.42,
+      "close": 222.55,
+      "volume": 60608442,
+      "change_percent": -4.431657147764844,
+      "volume_ratio": 1.3202712872529754
+    },
+    {
+      "date": "2025-11-18",
       "open": 292.0156130249562,
       "high": 306.9143687915356,
       "low": 289.03586187164035,
@@ -103,86 +113,96 @@
       "volume": 26734360,
       "change_percent": -2.543143729741924,
       "volume_ratio": 1.0736361882479426
+    },
+    {
+      "date": "2025-11-26",
+      "open": 230.74,
+      "high": 231.7474,
+      "low": 228.77,
+      "close": 229.16,
+      "volume": 38497922,
+      "change_percent": -0.22205773501109893,
+      "volume_ratio": 0.8212478767143286
     }
   ],
   "news": [
     {
-      "title": "AMZN Announces New Product Launch",
-      "url": "https://example.com/news/amzn-8",
-      "source": "Reuters",
-      "published_at": "2025-11-19 06:49",
-      "sentiment": 0.13765577542736468
+      "title": "The eternal mystery of the Tootsie Pop",
+      "url": "https://www.cbsnews.com/video/the-eternal-mystery-of-the-tootsie-pop/",
+      "source": "CBS News",
+      "published_at": "2025-11-27 04:02",
+      "sentiment": 0.0
     },
     {
-      "title": "Why AMZN Stock Is Moving Today",
-      "url": "https://example.com/news/amzn-4",
-      "source": "Reuters",
-      "published_at": "2025-11-19 06:49",
-      "sentiment": -0.27277167393621365
+      "title": "Is Lowe's Stock Underperforming the S&P 500?",
+      "url": "https://biztoc.com/x/32ef6ad3c3e96e59",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
     },
     {
-      "title": "AMZN Announces New Product Launch",
-      "url": "https://example.com/news/amzn-3",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 05:49",
-      "sentiment": 0.19098535177151138
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
     },
     {
-      "title": "AMZN Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/amzn-2",
-      "source": "MarketWatch",
-      "published_at": "2025-11-19 04:49",
-      "sentiment": -0.1773597780426684
+      "title": "Is Elevance Health Stock Outperforming the Nasdaq?",
+      "url": "https://biztoc.com/x/6b6e0e17800bb2e1",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 1.0
     },
     {
-      "title": "AMZN Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/amzn-0",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 17:49",
-      "sentiment": 0.6455681991256486
+      "title": "How to watch Macy's Thanksgiving Parade 2025 online from anywhere",
+      "url": "https://www.techradar.com/how-to-watch/tv-shows/macys-thanksgiving-parade-2025-anywhere",
+      "source": "TechRadar",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
     },
     {
-      "title": "Analysts Upgrade AMZN Price Target",
-      "url": "https://example.com/news/amzn-9",
-      "source": "CNBC",
-      "published_at": "2025-11-18 16:49",
-      "sentiment": 0.4002440918513966
+      "title": "Miss Universe owners face fraud and trafficking allegations",
+      "url": "https://www.aljazeera.com/news/2025/11/27/miss-universe-owners-face-fraud-and-trafficking-allegations",
+      "source": "Al Jazeera English",
+      "published_at": "2025-11-27 03:55",
+      "sentiment": -1.0
     },
     {
-      "title": "AMZN Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/amzn-6",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 16:49",
-      "sentiment": -0.11364480302585672
+      "title": "ROSEN, NATIONAL TRIAL LAWYERS, Encourages Skye Bioscience, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action – SKYE",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195453/673/en/ROSEN-NATIONAL-TRIAL-LAWYERS-Encourages-Skye-Bioscience-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-SKYE.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:54",
+      "sentiment": 0.0
     },
     {
-      "title": "Why AMZN Stock Is Moving Today",
-      "url": "https://example.com/news/amzn-5",
-      "source": "Reuters",
-      "published_at": "2025-11-18 15:49",
-      "sentiment": 0.4666395241776174
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
     },
     {
-      "title": "Why AMZN Stock Is Moving Today",
-      "url": "https://example.com/news/amzn-7",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 14:49",
-      "sentiment": 0.15977448088537388
+      "title": "横浜バニラ、埼玉初上陸！「JR大宮駅」にて初の期間限定ポップアップストアを開催！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000152494.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
     },
     {
-      "title": "Analysts Upgrade AMZN Price Target",
-      "url": "https://example.com/news/amzn-1",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 10:49",
-      "sentiment": 0.5293648030615807
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 7.8061224489795915,
+    "total_score": 32.21478873239437,
     "hot_rank": null,
     "growth_rank": null,
-    "price_change": -4.431657147764844,
-    "news_count": 11
+    "price_change": -0.22205773501109893,
+    "news_count": 71
   }
 }

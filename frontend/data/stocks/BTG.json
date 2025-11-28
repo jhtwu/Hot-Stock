@@ -1,0 +1,108 @@
+{
+  "symbol": "BTG",
+  "name": "B2Gold Corp",
+  "sector": "未分類",
+  "current_price": 4.47,
+  "change_percent": 3.2332563510392536,
+  "volume": 32208459,
+  "scores": {
+    "hot": 30.647058823529413,
+    "growth": 65.0,
+    "discussion": 17.0,
+    "active": 26.0
+  },
+  "news_count": 17,
+  "sentiment_score": 67.64705882352942,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 4.35,
+      "high": 4.5,
+      "low": 4.29,
+      "close": 4.47,
+      "volume": 32208459,
+      "change_percent": 3.2332563510392536,
+      "volume_ratio": 0.722020837043273
+    }
+  ],
+  "news": [
+    {
+      "title": "Whirlpool Share Price Plunges Over 11% As Promoter Offloads Rs 1,000-Crore Stake",
+      "url": "https://www.ndtvprofit.com/markets/whirlpool-share-price-plunges-over-11-as-promoter-offloads-rs-1000-crore-stake",
+      "source": "Ndtvprofit.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
+    },
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Are ASX ETFs the new vehicle for easy dividend investing?",
+      "url": "https://www.fool.com.au/2025/11/27/are-asx-etfs-the-new-vehicle-for-easy-dividend-investing/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 0.0
+    },
+    {
+      "title": "How LIC voted on Reliance, Adani resolutions — and how it differed from others",
+      "url": "https://www.livemint.com/companies/news/lic-exceptions-voting-practices-reliance-adani-shareholder-resolutions-11764048992306.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Olympics Trip for Bidvest Board Draws Shareholder Concern",
+      "url": "https://www.livemint.com/companies/news/olympics-trip-for-bidvest-board-draws-shareholder-concern-11764211671076.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 02:47",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Dan Ives Calls Nvidia The 'Indisputable Rocky Balboa' Of AI And Gene Munster Agrees As The Jensen Huang-Led Tech Giant Faces Rare November Slump",
+      "url": "https://biztoc.com/x/0827c60305862e06",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 02:42",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Jensen Huang Once Said TSMC Learned To 'Dance With 400 Partners' While Intel Has 'Always' Danced Alone: Did The Nvidia CEO Hit The Nail On Its Head?",
+      "url": "https://biztoc.com/x/9c6fd9113f960007",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 02:42",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Review – Green Lantern #29: Hard-Traveling Heroes",
+      "url": "https://geekdad.com/2025/11/review-green-lantern-29-hard-traveling-heroes/",
+      "source": "Geekdad.com",
+      "published_at": "2025-11-27 01:41",
+      "sentiment": 0.0
+    },
+    {
+      "title": "LEO Solo opens preorders for a personal eVTOL, but with many unknowns",
+      "url": "https://newatlas.com/aircraft/leo-flight-solo-evtol/",
+      "source": "New Atlas",
+      "published_at": "2025-11-27 01:32",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://financialpost.com/globe-newswire/fortuna-files-pea-technical-report-highlighting-the-development-potential-of-the-diamba-sud-gold-project-senegal",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:26",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 30.647058823529413,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.2332563510392536,
+    "news_count": 17
+  }
+}

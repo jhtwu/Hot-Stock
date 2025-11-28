@@ -1,0 +1,108 @@
+{
+  "symbol": "IPG",
+  "name": "Interpublic Group of Companies,",
+  "sector": "未分類",
+  "current_price": 24.57,
+  "change_percent": -1.9553072625698262,
+  "volume": 82081278,
+  "scores": {
+    "hot": 18.875,
+    "growth": 6.0,
+    "discussion": 30.0,
+    "active": 99.0
+  },
+  "news_count": 30,
+  "sentiment_score": 65.83333333333333,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 24.71,
+      "high": 25.32,
+      "low": 24.47,
+      "close": 24.57,
+      "volume": 82081278,
+      "change_percent": -1.9553072625698262,
+      "volume_ratio": 11.532570393680388
+    }
+  ],
+  "news": [
+    {
+      "title": "Parents on high alert over disturbing new trend sweeping through US schools: 'Purposely deceptive'",
+      "url": "https://www.yahoo.com/news/articles/parents-high-alert-over-disturbing-040000599.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Legacy brands storm back into cricket sponsorship after RMG ban, D2C retreat",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/legacy-brands-storm-back-into-cricket-sponsorship-after-rmg-ban-d2c-retreat/articleshow/125604205.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:57",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Legacy brands storm back into cricket sponsorship after RMG ban, D2C retreat",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/legacy-brands-storm-back-into-cricket-sponsorship-after-rmg-ban-d2c-retreat/articleshow/125604252.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:57",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Animoca bets on altcoin upside to lure investors as it plans for IPO",
+      "url": "https://cointelegraph.com/news/animoca-brands-altcoins-bitcoin-cryptocurrencies-investment-executive",
+      "source": "Cointelegraph",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 1.0
+    },
+    {
+      "title": "CarTrade Calls Off Proposed Deal With CarDekho Parent",
+      "url": "https://www.ndtvprofit.com/business/cartrade-calls-off-proposed-deal-with-cardekho-parent",
+      "source": "Ndtvprofit.com",
+      "published_at": "2025-11-27 03:41",
+      "sentiment": 0.0
+    },
+    {
+      "title": "SEC tokenized stock exemptions should be targeted, stock exchanges argue",
+      "url": "https://cointelegraph.com/news/sec-tokenized-stock-exemptions-targeted-stock-exchanges-say",
+      "source": "Cointelegraph",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Are ASX ETFs the new vehicle for easy dividend investing?",
+      "url": "https://www.fool.com.au/2025/11/27/are-asx-etfs-the-new-vehicle-for-easy-dividend-investing/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 0.0
+    },
+    {
+      "title": "How LIC voted on Reliance, Adani resolutions — and how it differed from others",
+      "url": "https://www.livemint.com/companies/news/lic-exceptions-voting-practices-reliance-adani-shareholder-resolutions-11764048992306.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Inside Trump’s Latest Push for Peace in Ukraine",
+      "url": "https://www.theatlantic.com/national-security/2025/11/ukraine-peace-push-russia-trump-zelensky/685045/",
+      "source": "The Atlantic",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 18.875,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": -1.9553072625698262,
+    "news_count": 30
+  }
+}

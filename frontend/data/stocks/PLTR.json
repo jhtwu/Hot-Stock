@@ -1,18 +1,18 @@
 {
   "symbol": "PLTR",
-  "name": "PLTR",
+  "name": "Palantir Technologies Inc.",
   "sector": "軟體",
-  "current_price": 443.0905041802578,
-  "change_percent": -2.2890510948905036,
-  "volume": 42568246,
+  "current_price": 165.77,
+  "change_percent": 1.357383063283399,
+  "volume": 34610541,
   "scores": {
-    "hot": 14.817591540434208,
-    "growth": 18.181818181818183,
-    "discussion": 6.122448979591836,
-    "active": 18.181818181818183
+    "hot": 24.25,
+    "growth": 43.0,
+    "discussion": 10.0,
+    "active": 12.0
   },
-  "news_count": 6,
-  "sentiment_score": 58.27683166721136,
+  "news_count": 10,
+  "sentiment_score": 73.33333333333334,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 168.37,
+      "high": 172.83,
+      "low": 165.5,
+      "close": 167.33,
+      "volume": 53710064,
+      "change_percent": -2.2890510948905036,
+      "volume_ratio": 0.8694223869836984
+    },
+    {
+      "date": "2025-11-18",
       "open": 434.22869409665265,
       "high": 456.3832193056656,
       "low": 429.79778905485006,
@@ -103,86 +113,96 @@
       "volume": 42568246,
       "change_percent": 5.581758842564465,
       "volume_ratio": 0.6285442447155771
+    },
+    {
+      "date": "2025-11-26",
+      "open": 166.85,
+      "high": 168.3385,
+      "low": 163.88,
+      "close": 165.77,
+      "volume": 34610541,
+      "change_percent": 1.357383063283399,
+      "volume_ratio": 0.5595219014063689
     }
   ],
   "news": [
     {
-      "title": "PLTR Announces New Product Launch",
-      "url": "https://example.com/news/pltr-0",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 05:49",
-      "sentiment": -0.14668683029833812
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
     },
     {
-      "title": "PLTR Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pltr-7",
-      "source": "MarketWatch",
-      "published_at": "2025-11-19 04:49",
-      "sentiment": 0.49674993900561576
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
     },
     {
-      "title": "PLTR Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pltr-5",
-      "source": "MarketWatch",
-      "published_at": "2025-11-19 04:49",
-      "sentiment": 0.483707385271869
-    },
-    {
-      "title": "PLTR Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pltr-4",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 19:49",
-      "sentiment": 0.34058920957128896
-    },
-    {
-      "title": "Why PLTR Stock Is Moving Today",
-      "url": "https://example.com/news/pltr-3",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 17:49",
-      "sentiment": 0.2142312744694504
-    },
-    {
-      "title": "PLTR Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/pltr-8",
-      "source": "Reuters",
-      "published_at": "2025-11-18 15:49",
-      "sentiment": -0.29281433390267125
-    },
-    {
-      "title": "PLTR Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pltr-2",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 14:49",
-      "sentiment": 0.37563585995763177
-    },
-    {
-      "title": "PLTR Reports Better Than Expected Revenue",
-      "url": "https://example.com/news/pltr-1",
-      "source": "Bloomberg",
-      "published_at": "2025-11-18 14:49",
-      "sentiment": -0.18680719315257938
-    },
-    {
-      "title": "PLTR Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/pltr-6",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 08:49",
-      "sentiment": -0.2800277874963634
-    },
-    {
-      "title": "Where to invest $2,500 in ASX ETFs this month",
-      "url": "https://www.fool.com.au/2025/11/17/where-to-invest-2500-in-asx-etfs-this-month-2/",
-      "source": "Motley Fool Australia",
-      "published_at": "2025-11-17 06:50",
+      "title": "Labour unions oppose reforms but dare we hope for a new era of win-win industrial relations?",
+      "url": "https://www.livemint.com/opinion/online-views/labour-unions-code-reforms-industrial-relations-workers-employees-indian-economy-private-sector-11764166881691.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 02:00",
       "sentiment": 0.0
+    },
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://financialpost.com/globe-newswire/quorum-information-technologies-receives-shareholder-support-for-proposed-arrangement-and-announces-final-order-approving-arrangement",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 00:51",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195440/0/en/Quorum-Information-Technologies-Receives-Shareholder-Support-for-Proposed-Arrangement-and-Announces-Final-Order-Approving-Arrangement.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:47",
+      "sentiment": 1.0
+    },
+    {
+      "title": "AVANTE CORP. ANNOUNCES RESULTS FOR THE SECOND FISCAL QUARTER of 2026, HIGHLIGHTING 10% INCREASE IN REVENUE AND 73% INCREASE IN ADJUSTED EBITDA WITH POSITIVE NET INCOME",
+      "url": "https://financialpost.com/globe-newswire/avante-corp-announces-results-for-the-second-fiscal-quarter-of-2026-highlighting-10-increase-in-revenue-and-73-increase-in-adjusted-ebitda-with-positive-net-income",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 00:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "AVANTE CORP. ANNOUNCES RESULTS FOR THE SECOND FISCAL QUARTER of 2026, HIGHLIGHTING 10% INCREASE IN REVENUE AND 73% INCREASE IN ADJUSTED EBITDA WITH POSITIVE NET INCOME",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195437/36577/en/AVANTE-CORP-ANNOUNCES-RESULTS-FOR-THE-SECOND-FISCAL-QUARTER-of-2026-HIGHLIGHTING-10-INCREASE-IN-REVENUE-AND-73-INCREASE-IN-ADJUSTED-EBITDA-WITH-POSITIVE-NET-INCOME.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:34",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Uber India value surges amid battle with Ola, Rapido",
+      "url": "https://www.livemint.com/companies/news/uber-sees-india-business-value-surge-amid-battle-with-rapido-ola-11764150192986.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 1.0
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 14.817591540434208,
+    "total_score": 24.25,
     "hot_rank": null,
     "growth_rank": null,
-    "price_change": -2.2890510948905036,
-    "news_count": 6
+    "price_change": 1.357383063283399,
+    "news_count": 10
   }
 }

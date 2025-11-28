@@ -1,0 +1,108 @@
+{
+  "symbol": "INTC",
+  "name": "Intel Corporation",
+  "sector": "未分類",
+  "current_price": 36.81,
+  "change_percent": 2.7351381523862797,
+  "volume": 54563435,
+  "scores": {
+    "hot": 42.34154929577465,
+    "growth": 64.0,
+    "discussion": 71.0,
+    "active": 6.0
+  },
+  "news_count": 71,
+  "sentiment_score": 57.27699530516433,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 36.2,
+      "high": 37.24,
+      "low": 36.13,
+      "close": 36.81,
+      "volume": 54563435,
+      "change_percent": 2.7351381523862797,
+      "volume_ratio": 0.46743327792274514
+    }
+  ],
+  "news": [
+    {
+      "title": "Bengaluru: CEOs warn ‘it’s now or never’ for India’s tech capital as potholes, pollution, and endless jams are choking the 'garden city'",
+      "url": "https://economictimes.indiatimes.com/news/bengaluru-news/bengaluru-ceos-warn-its-now-or-never-for-indias-tech-capital-as-potholes-pollution-and-endless-jams-are-choking-the-garden-city/articleshow/125604273.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 04:01",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Stryker Stock: Is SYK Underperforming the Healthcare Sector?",
+      "url": "https://biztoc.com/x/e70379906eb8972a",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
+    },
+    {
+      "title": "【採用広報の「高額な固定費」を撤廃】初期費用・月額固定費0円／1記事3万円の採用広報・採用ブランディング代行「リクルーティングPR-X」提供開始。業界異例の全額返金保証付きでリスクゼロの導入を実現。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000011.000164371.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "ロロ・ピアーナの2025-26年秋冬 スキーコレクション",
+      "url": "https://prtimes.jp/main/html/rd/p/000000172.000061598.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:49",
+      "sentiment": 0.0
+    },
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "【12月13日開催】思いを重ねて！えんのもり使い方ワークショップ完結編　第5回「えんのもりスクール」を開催",
+      "url": "https://prtimes.jp/main/html/rd/p/000000269.000129038.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "「eclat」1月号(12月1日発売・集英社刊)表紙に鈴木京香さんが登場！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000806.000011454.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Movie magic and manic mothers: Here's what's in cinemas this month",
+      "url": "https://www.abc.net.au/news/2025-11-27/november-movie-wrap-what-to-watch/106044854",
+      "source": "ABC News (AU)",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Global rice prices rise a tad, but trend may change soon on surplus supplies",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/global-rice-prices-rise-a-tad-but-trend-may-change-soon-on-surplus-supplies/article70327249.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "【カズレーザー×王林】“灯台”をつなぐ特別番組『なるほど！海街トラベラー』",
+      "url": "https://prtimes.jp/main/html/rd/p/000000805.000014948.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:26",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 42.34154929577465,
+    "hot_rank": 9,
+    "growth_rank": null,
+    "price_change": 2.7351381523862797,
+    "news_count": 71
+  }
+}

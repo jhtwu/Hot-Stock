@@ -1,0 +1,45 @@
+{
+  "symbol": "ABEV",
+  "name": "Ambev S.A.",
+  "sector": "未分類",
+  "current_price": 2.51,
+  "change_percent": 0.0,
+  "volume": 28516980,
+  "scores": {
+    "hot": 14.25,
+    "growth": 26.0,
+    "discussion": 1.0,
+    "active": 35.0
+  },
+  "news_count": 1,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 2.5,
+      "high": 2.52,
+      "low": 2.48,
+      "close": 2.51,
+      "volume": 28516980,
+      "change_percent": 0.0,
+      "volume_ratio": 0.7590178435947931
+    }
+  ],
+  "news": [
+    {
+      "title": "Wrap House Simulator Update v1.09-TENOKE",
+      "url": "https://post.rlsbb.to/wrap-house-simulator-update-v1-09-tenoke/",
+      "source": "Rlsbb.to",
+      "published_at": "2025-11-27 00:08",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 14.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.0,
+    "news_count": 1
+  }
+}

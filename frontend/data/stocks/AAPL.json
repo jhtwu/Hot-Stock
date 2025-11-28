@@ -1,18 +1,18 @@
 {
   "symbol": "AAPL",
-  "name": "AAPL",
+  "name": "Apple Inc.",
   "sector": "科技",
-  "current_price": 271.3145042405105,
-  "change_percent": -0.007477753682786888,
-  "volume": 7947310,
+  "current_price": 277.55,
+  "change_percent": 0.2094089612593364,
+  "volume": 33431423,
   "scores": {
-    "hot": 26.447124304267163,
-    "growth": 72.72727272727273,
-    "discussion": 3.061224489795918,
-    "active": 13.636363636363635
+    "hot": 33.46478873239437,
+    "growth": 28.000000000000004,
+    "discussion": 71.0,
+    "active": 16.0
   },
-  "news_count": 3,
-  "sentiment_score": 50.0,
+  "news_count": 71,
+  "sentiment_score": 58.098591549295776,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 269.99,
+      "high": 270.71,
+      "low": 265.32,
+      "close": 267.44,
+      "volume": 45677278,
+      "change_percent": -0.007477753682786888,
+      "volume_ratio": 0.8599588816296839
+    },
+    {
+      "date": "2025-11-18",
       "open": 265.88821415570027,
       "high": 279.4539393677258,
       "low": 263.17506911329514,
@@ -103,86 +113,96 @@
       "volume": 7947310,
       "change_percent": -0.8823426588922398,
       "volume_ratio": 1.917611113347601
+    },
+    {
+      "date": "2025-11-26",
+      "open": 276.96,
+      "high": 279.53,
+      "low": 276.63,
+      "close": 277.55,
+      "volume": 33431423,
+      "change_percent": 0.2094089612593364,
+      "volume_ratio": 0.6285404255616291
     }
   ],
   "news": [
     {
-      "title": "AAPL Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/aapl-0",
-      "source": "Bloomberg",
-      "published_at": "2025-11-19 00:49",
-      "sentiment": 0.3250802327567354
+      "title": "The eternal mystery of the Tootsie Pop",
+      "url": "https://www.cbsnews.com/video/the-eternal-mystery-of-the-tootsie-pop/",
+      "source": "CBS News",
+      "published_at": "2025-11-27 04:02",
+      "sentiment": 0.0
     },
     {
-      "title": "Analysts Upgrade AAPL Price Target",
-      "url": "https://example.com/news/aapl-2",
-      "source": "Reuters",
-      "published_at": "2025-11-18 16:49",
-      "sentiment": -0.13255032238144543
-    },
-    {
-      "title": "Why AAPL Stock Is Moving Today",
-      "url": "https://example.com/news/aapl-1",
-      "source": "Reuters",
-      "published_at": "2025-11-18 14:49",
-      "sentiment": -0.12871018885033986
-    },
-    {
-      "title": "CEO Tim Cook Could Step Down Next Year",
-      "url": "https://biztoc.com/x/1a3efb31d9db28e6",
+      "title": "Is Lowe's Stock Underperforming the S&P 500?",
+      "url": "https://biztoc.com/x/32ef6ad3c3e96e59",
       "source": "Biztoc.com",
-      "published_at": "2025-11-18 06:15",
+      "published_at": "2025-11-27 04:00",
       "sentiment": -1.0
     },
     {
-      "title": "5 ASX ETFs to buy to supercharge your portfolio in 2026",
-      "url": "https://www.fool.com.au/2025/11/18/5-asx-etfs-to-buy-to-supercharge-your-portfolio-in-2026/",
-      "source": "Motley Fool Australia",
-      "published_at": "2025-11-18 03:49",
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Is Elevance Health Stock Outperforming the Nasdaq?",
+      "url": "https://biztoc.com/x/6b6e0e17800bb2e1",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
       "sentiment": 1.0
     },
     {
-      "title": "米Satechi、USB-AやPD、HDMI、SDカードリーダー、Ethernetポートと収納式のUSB-Cケーブル搭載し、マグネットでiPhoneにも接続可能なUSB-Cハブ「Satechi OntheGo™ 7-in-1 Multiport Adapter」を発表。",
-      "url": "https://applech2.com/archives/20251118-satechi-onthego-7-in-1-multiport-adapter.html",
-      "source": "Applech2.com",
-      "published_at": "2025-11-18 03:32",
+      "title": "How to watch Macy's Thanksgiving Parade 2025 online from anywhere",
+      "url": "https://www.techradar.com/how-to-watch/tv-shows/macys-thanksgiving-parade-2025-anywhere",
+      "source": "TechRadar",
+      "published_at": "2025-11-27 04:00",
       "sentiment": 0.0
     },
     {
-      "title": "Where to invest $2,500 in ASX ETFs this month",
-      "url": "https://www.fool.com.au/2025/11/17/where-to-invest-2500-in-asx-etfs-this-month-2/",
-      "source": "Motley Fool Australia",
-      "published_at": "2025-11-17 06:50",
+      "title": "Miss Universe owners face fraud and trafficking allegations",
+      "url": "https://www.aljazeera.com/news/2025/11/27/miss-universe-owners-face-fraud-and-trafficking-allegations",
+      "source": "Al Jazeera English",
+      "published_at": "2025-11-27 03:55",
+      "sentiment": -1.0
+    },
+    {
+      "title": "ROSEN, NATIONAL TRIAL LAWYERS, Encourages Skye Bioscience, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action – SKYE",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195453/673/en/ROSEN-NATIONAL-TRIAL-LAWYERS-Encourages-Skye-Bioscience-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-SKYE.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:54",
       "sentiment": 0.0
     },
     {
-      "title": "Stock market today: Nasdaq, S&P 500 futures waver as investors look ahead to Nvidia earnings, jobs report",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-waver-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944135.html",
-      "source": "Yahoo Entertainment",
-      "published_at": "2025-11-17 01:19",
-      "sentiment": -1.0
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
     },
     {
-      "title": "Stock market today: Dow, Nasdaq, S&P 500 slip as investors look ahead to Nvidia earnings, jobs report",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
-      "source": "Yahoo Entertainment",
-      "published_at": "2025-11-17 01:19",
-      "sentiment": -1.0
+      "title": "横浜バニラ、埼玉初上陸！「JR大宮駅」にて初の期間限定ポップアップストアを開催！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000152494.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
     },
     {
-      "title": "Stock market today: Nasdaq, S&P 500 futures wobble as investors look ahead to Nvidia earnings, jobs report",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-futures-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944956.html",
-      "source": "Yahoo Entertainment",
-      "published_at": "2025-11-17 01:19",
-      "sentiment": -1.0
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 26.447124304267163,
-    "hot_rank": 8,
-    "growth_rank": 6,
-    "price_change": -0.007477753682786888,
-    "news_count": 3
+    "total_score": 33.46478873239437,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.2094089612593364,
+    "news_count": 71
   }
 }

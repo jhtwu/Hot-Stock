@@ -1,0 +1,108 @@
+{
+  "symbol": "OPEN",
+  "name": "Opendoor Technologies Inc",
+  "sector": "未分類",
+  "current_price": 7.78,
+  "change_percent": 0.5167958656330753,
+  "volume": 108812718,
+  "scores": {
+    "hot": 21.75,
+    "growth": 33.0,
+    "discussion": 10.0,
+    "active": 5.0
+  },
+  "news_count": 10,
+  "sentiment_score": 73.33333333333334,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 7.855,
+      "high": 7.94,
+      "low": 7.42,
+      "close": 7.78,
+      "volume": 108812718,
+      "change_percent": 0.5167958656330753,
+      "volume_ratio": 0.44527484439968484
+    }
+  ],
+  "news": [
+    {
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
+    },
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Labour unions oppose reforms but dare we hope for a new era of win-win industrial relations?",
+      "url": "https://www.livemint.com/opinion/online-views/labour-unions-code-reforms-industrial-relations-workers-employees-indian-economy-private-sector-11764166881691.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://financialpost.com/globe-newswire/quorum-information-technologies-receives-shareholder-support-for-proposed-arrangement-and-announces-final-order-approving-arrangement",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 00:51",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195440/0/en/Quorum-Information-Technologies-Receives-Shareholder-Support-for-Proposed-Arrangement-and-Announces-Final-Order-Approving-Arrangement.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:47",
+      "sentiment": 1.0
+    },
+    {
+      "title": "AVANTE CORP. ANNOUNCES RESULTS FOR THE SECOND FISCAL QUARTER of 2026, HIGHLIGHTING 10% INCREASE IN REVENUE AND 73% INCREASE IN ADJUSTED EBITDA WITH POSITIVE NET INCOME",
+      "url": "https://financialpost.com/globe-newswire/avante-corp-announces-results-for-the-second-fiscal-quarter-of-2026-highlighting-10-increase-in-revenue-and-73-increase-in-adjusted-ebitda-with-positive-net-income",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 00:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "AVANTE CORP. ANNOUNCES RESULTS FOR THE SECOND FISCAL QUARTER of 2026, HIGHLIGHTING 10% INCREASE IN REVENUE AND 73% INCREASE IN ADJUSTED EBITDA WITH POSITIVE NET INCOME",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195437/36577/en/AVANTE-CORP-ANNOUNCES-RESULTS-FOR-THE-SECOND-FISCAL-QUARTER-of-2026-HIGHLIGHTING-10-INCREASE-IN-REVENUE-AND-73-INCREASE-IN-ADJUSTED-EBITDA-WITH-POSITIVE-NET-INCOME.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:34",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Uber India value surges amid battle with Ola, Rapido",
+      "url": "https://www.livemint.com/companies/news/uber-sees-india-business-value-surge-amid-battle-with-rapido-ola-11764150192986.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 21.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.5167958656330753,
+    "news_count": 10
+  }
+}

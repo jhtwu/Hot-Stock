@@ -1,0 +1,37 @@
+{
+  "symbol": "AG",
+  "name": "First Majestic Silver Corp.",
+  "sector": "未分類",
+  "current_price": 13.51,
+  "change_percent": 8.863819500402897,
+  "volume": 19164779,
+  "scores": {
+    "hot": 31.25,
+    "growth": 95.0,
+    "discussion": 0.0,
+    "active": 56.00000000000001
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 12.565,
+      "high": 13.67,
+      "low": 12.43,
+      "close": 13.51,
+      "volume": 19164779,
+      "change_percent": 8.863819500402897,
+      "volume_ratio": 0.9880972196333037
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 31.25,
+    "hot_rank": null,
+    "growth_rank": 5,
+    "price_change": 8.863819500402897,
+    "news_count": 0
+  }
+}

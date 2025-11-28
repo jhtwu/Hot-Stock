@@ -1,0 +1,108 @@
+{
+  "symbol": "SMR",
+  "name": "NuScale Power Corporation",
+  "sector": "未分類",
+  "current_price": 19.04,
+  "change_percent": 1.6550987720234847,
+  "volume": 19868540,
+  "scores": {
+    "hot": 23.75,
+    "growth": 49.0,
+    "discussion": 10.0,
+    "active": 60.0
+  },
+  "news_count": 10,
+  "sentiment_score": 60.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 19.06,
+      "high": 19.25,
+      "low": 18.2,
+      "close": 19.04,
+      "volume": 19868540,
+      "change_percent": 1.6550987720234847,
+      "volume_ratio": 1.0099488132326009
+    }
+  ],
+  "news": [
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Movie magic and manic mothers: Here's what's in cinemas this month",
+      "url": "https://www.abc.net.au/news/2025-11-27/november-movie-wrap-what-to-watch/106044854",
+      "source": "ABC News (AU)",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Data Center Outsourcing Market to Reach USD 219.3 Billion by 2032, Owing to Rising Demand for Scalable, Cost-Efficient IT Infrastructure | SNS Insider",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195447/0/en/Data-Center-Outsourcing-Market-to-Reach-USD-219-3-Billion-by-2032-Owing-to-Rising-Demand-for-Scalable-Cost-Efficient-IT-Infrastructure-SNS-Insider.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Economic Digest: Nepal’s Business News in a Snap",
+      "url": "https://english.khabarhub.com/2025/27/507829/",
+      "source": "Khabarhub.com",
+      "published_at": "2025-11-27 02:15",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Code Vein II Game's NEw Trailer Highlights Character Josée Anjou",
+      "url": "https://www.animenewsnetwork.com/news/2025-11-26/code-vein-ii-game-new-trailer-highlights-character-josee-anjou/.231296",
+      "source": "Anime News Network",
+      "published_at": "2025-11-27 01:12",
+      "sentiment": 1.0
+    },
+    {
+      "title": "DAVID BLACKMON: Trump’s New AI Focused ‘Manhattan Project’ Adds Pressure To Grid",
+      "url": "https://dailycaller.com/2025/11/26/opinion-trumps-new-ai-focused-manhattan-project-adds-pressure-to-grid-david-blackmon/",
+      "source": "The Daily Caller",
+      "published_at": "2025-11-27 01:07",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Acceleware Ltd. Reports Third Quarter 2025 Financial and Operating Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195435/0/en/Acceleware-Ltd-Reports-Third-Quarter-2025-Financial-and-Operating-Results.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:23",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Analysis: Why Singapore Went Into Typically The Casinos Industry",
+      "url": "https://line25.com/articles/analysis-why-singapore-went-into-typically-the-casinos-industry-2/",
+      "source": "Line25.com",
+      "published_at": "2025-11-27 00:10",
+      "sentiment": 0.0
+    },
+    {
+      "title": "A genome-wide association study of mass spectrometry proteomics using a nanoparticle enrichment platform",
+      "url": "https://www.nature.com/articles/s41588-025-02413-w",
+      "source": "Nature.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 23.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.6550987720234847,
+    "news_count": 10
+  }
+}

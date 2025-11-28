@@ -1,18 +1,18 @@
 {
   "symbol": "NVDA",
-  "name": "NVDA",
+  "name": "NVIDIA Corporation",
   "sector": "半導體",
-  "current_price": 286.44642878713825,
-  "change_percent": -2.8081457663451133,
-  "volume": 98324793,
+  "current_price": 180.26,
+  "change_percent": 1.3721741086491945,
+  "volume": 183852010,
   "scores": {
-    "hot": 14.423747680890537,
-    "growth": 9.090909090909092,
-    "discussion": 10.204081632653061,
-    "active": 54.54545454545454
+    "hot": 37.34154929577465,
+    "growth": 44.0,
+    "discussion": 71.0,
+    "active": 57.99999999999999
   },
-  "news_count": 10,
-  "sentiment_score": 64.0,
+  "news_count": 71,
+  "sentiment_score": 57.27699530516433,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 183.375,
+      "high": 184.8,
+      "low": 179.65,
+      "close": 181.36,
+      "volume": 213598877,
+      "change_percent": -2.8081457663451133,
+      "volume_ratio": 1.2030581337564639
+    },
+    {
+      "date": "2025-11-18",
       "open": 280.7175002113955,
       "high": 295.0398216507524,
       "low": 277.8530359235241,
@@ -103,86 +113,96 @@
       "volume": 98324793,
       "change_percent": 4.726877875289091,
       "volume_ratio": 0.5808522659754534
+    },
+    {
+      "date": "2025-11-26",
+      "open": 181.63,
+      "high": 182.91,
+      "low": 178.24,
+      "close": 180.26,
+      "volume": 183852010,
+      "change_percent": 1.3721741086491945,
+      "volume_ratio": 0.992903428132605
     }
   ],
   "news": [
     {
-      "title": "NVDA Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/nvda-1",
-      "source": "Reuters",
-      "published_at": "2025-11-18 22:49",
-      "sentiment": -0.2079474283168345
-    },
-    {
-      "title": "Analysts Upgrade NVDA Price Target",
-      "url": "https://example.com/news/nvda-2",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 21:49",
-      "sentiment": 0.31294821009201396
-    },
-    {
-      "title": "NVDA Announces New Product Launch",
-      "url": "https://example.com/news/nvda-0",
-      "source": "CNBC",
-      "published_at": "2025-11-18 21:49",
-      "sentiment": -0.12351900318694192
-    },
-    {
-      "title": "NVDA Stock Surges on Strong Earnings Report",
-      "url": "https://example.com/news/nvda-3",
-      "source": "MarketWatch",
-      "published_at": "2025-11-18 12:49",
-      "sentiment": -0.10262560155823236
-    },
-    {
-      "title": "Targeting Palantir and Nvidia: Profits, Prophets and Overvalued AI Stocks",
-      "url": "https://www.counterpunch.org/2025/11/18/targeting-palantir-and-nvidia-profits-prophets-and-overvalued-ai-stocks/",
-      "source": "CounterPunch",
-      "published_at": "2025-11-18 06:52",
+      "title": "Bengaluru: CEOs warn ‘it’s now or never’ for India’s tech capital as potholes, pollution, and endless jams are choking the 'garden city'",
+      "url": "https://economictimes.indiatimes.com/news/bengaluru-news/bengaluru-ceos-warn-its-now-or-never-for-indias-tech-capital-as-potholes-pollution-and-endless-jams-are-choking-the-garden-city/articleshow/125604273.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 04:01",
       "sentiment": 1.0
     },
     {
-      "title": "Nvidia Stuns Wall Street With $500B AI Order, Analysts Expect Record 2026 Sales",
-      "url": "https://finance.yahoo.com/news/nvidia-stuns-wall-street-500b-061116860.html",
-      "source": "Yahoo Entertainment",
-      "published_at": "2025-11-18 06:11",
-      "sentiment": 1.0
+      "title": "Stryker Stock: Is SYK Underperforming the Healthcare Sector?",
+      "url": "https://biztoc.com/x/e70379906eb8972a",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
     },
     {
-      "title": "5 ASX ETFs to buy to supercharge your portfolio in 2026",
-      "url": "https://www.fool.com.au/2025/11/18/5-asx-etfs-to-buy-to-supercharge-your-portfolio-in-2026/",
-      "source": "Motley Fool Australia",
-      "published_at": "2025-11-18 03:49",
-      "sentiment": 1.0
-    },
-    {
-      "title": "世界有数の科学スーパーコンピューティング センターが、NVQLink を採用し、NVIDIA Grace Blackwell プラットフォームと量子プロセッサを統合",
-      "url": "https://prtimes.jp/main/html/rd/p/000000577.000012662.html",
+      "title": "【採用広報の「高額な固定費」を撤廃】初期費用・月額固定費0円／1記事3万円の採用広報・採用ブランディング代行「リクルーティングPR-X」提供開始。業界異例の全額返金保証付きでリスクゼロの導入を実現。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000011.000164371.html",
       "source": "Prtimes.jp",
-      "published_at": "2025-11-18 03:40",
+      "published_at": "2025-11-27 04:00",
       "sentiment": 0.0
     },
     {
-      "title": "NVIDIA と理化学研究所が AI と量子コンピューティング向けの新しいスーパーコンピューターで日本の科学技術の発展を推進",
-      "url": "https://prtimes.jp/main/html/rd/p/000000576.000012662.html",
+      "title": "ロロ・ピアーナの2025-26年秋冬 スキーコレクション",
+      "url": "https://prtimes.jp/main/html/rd/p/000000172.000061598.html",
       "source": "Prtimes.jp",
-      "published_at": "2025-11-18 01:40",
+      "published_at": "2025-11-27 03:49",
       "sentiment": 0.0
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as bitcoin's slide sparks caution in wait for Nvidia",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-fall-as-bitcoins-slide-sparks-caution-in-wait-for-nvidia-012021369.html",
-      "source": "Yahoo Entertainment",
-      "published_at": "2025-11-18 01:20",
-      "sentiment": -0.5
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "【12月13日開催】思いを重ねて！えんのもり使い方ワークショップ完結編　第5回「えんのもりスクール」を開催",
+      "url": "https://prtimes.jp/main/html/rd/p/000000269.000129038.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "「eclat」1月号(12月1日発売・集英社刊)表紙に鈴木京香さんが登場！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000806.000011454.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Movie magic and manic mothers: Here's what's in cinemas this month",
+      "url": "https://www.abc.net.au/news/2025-11-27/november-movie-wrap-what-to-watch/106044854",
+      "source": "ABC News (AU)",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Global rice prices rise a tad, but trend may change soon on surplus supplies",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/global-rice-prices-rise-a-tad-but-trend-may-change-soon-on-surplus-supplies/article70327249.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "【カズレーザー×王林】“灯台”をつなぐ特別番組『なるほど！海街トラベラー』",
+      "url": "https://prtimes.jp/main/html/rd/p/000000805.000014948.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:26",
+      "sentiment": 0.0
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 14.423747680890537,
+    "total_score": 37.34154929577465,
     "hot_rank": null,
     "growth_rank": null,
-    "price_change": -2.8081457663451133,
-    "news_count": 10
+    "price_change": 1.3721741086491945,
+    "news_count": 71
   }
 }

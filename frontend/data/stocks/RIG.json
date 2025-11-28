@@ -1,0 +1,37 @@
+{
+  "symbol": "RIG",
+  "name": "Transocean Ltd (Switzerland)",
+  "sector": "未分類",
+  "current_price": 4.3,
+  "change_percent": 6.17283950617284,
+  "volume": 35923808,
+  "scores": {
+    "hot": 28.75,
+    "growth": 85.0,
+    "discussion": 0.0,
+    "active": 46.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 4.17,
+      "high": 4.36,
+      "low": 4.03,
+      "close": 4.3,
+      "volume": 35923808,
+      "change_percent": 6.17283950617284,
+      "volume_ratio": 0.8801703256995607
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 28.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 6.17283950617284,
+    "news_count": 0
+  }
+}

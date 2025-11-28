@@ -1,0 +1,101 @@
+{
+  "symbol": "BE",
+  "name": "Bloom Energy Corporation",
+  "sector": "未分類",
+  "current_price": 101.14,
+  "change_percent": 7.26482129600169,
+  "volume": 13297213,
+  "scores": {
+    "hot": 35.0,
+    "growth": 91.0,
+    "discussion": 9.0,
+    "active": 49.0
+  },
+  "news_count": 9,
+  "sentiment_score": 66.66666666666666,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 99.85,
+      "high": 102.65,
+      "low": 92.0,
+      "close": 101.14,
+      "volume": 13297213,
+      "change_percent": 7.26482129600169,
+      "volume_ratio": 0.9278429406916319
+    }
+  ],
+  "news": [
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Movie magic and manic mothers: Here's what's in cinemas this month",
+      "url": "https://www.abc.net.au/news/2025-11-27/november-movie-wrap-what-to-watch/106044854",
+      "source": "ABC News (AU)",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Top Business & Market Headlines Today — BL Morning Report, Nov 27, 2025",
+      "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-november-27-2025/article70326538.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Data Center Outsourcing Market to Reach USD 219.3 Billion by 2032, Owing to Rising Demand for Scalable, Cost-Efficient IT Infrastructure | SNS Insider",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195447/0/en/Data-Center-Outsourcing-Market-to-Reach-USD-219-3-Billion-by-2032-Owing-to-Rising-Demand-for-Scalable-Cost-Efficient-IT-Infrastructure-SNS-Insider.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Economic Digest: Nepal’s Business News in a Snap",
+      "url": "https://english.khabarhub.com/2025/27/507829/",
+      "source": "Khabarhub.com",
+      "published_at": "2025-11-27 02:15",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Billionaire entrepreneur sparks outrage after buying almost all of beloved island: 'Disgusting'",
+      "url": "https://www.yahoo.com/news/articles/billionaire-entrepreneur-sparks-outrage-buying-020000344.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "DAVID BLACKMON: Trump’s New AI Focused ‘Manhattan Project’ Adds Pressure To Grid",
+      "url": "https://dailycaller.com/2025/11/26/opinion-trumps-new-ai-focused-manhattan-project-adds-pressure-to-grid-david-blackmon/",
+      "source": "The Daily Caller",
+      "published_at": "2025-11-27 01:07",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Acceleware Ltd. Reports Third Quarter 2025 Financial and Operating Results",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195435/0/en/Acceleware-Ltd-Reports-Third-Quarter-2025-Financial-and-Operating-Results.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:23",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 35.0,
+    "hot_rank": null,
+    "growth_rank": 9,
+    "price_change": 7.26482129600169,
+    "news_count": 9
+  }
+}

@@ -1,18 +1,18 @@
 {
   "symbol": "AMD",
-  "name": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
   "sector": "半導體",
-  "current_price": 223.1170621006596,
-  "change_percent": -4.253284550141368,
-  "volume": 72972194,
+  "current_price": 214.24,
+  "change_percent": 3.9344103235822123,
+  "volume": 43270240,
   "scores": {
-    "hot": 13.155921459492887,
-    "growth": 4.545454545454546,
-    "discussion": 12.244897959183673,
-    "active": 9.090909090909092
+    "hot": 25.75,
+    "growth": 73.0,
+    "discussion": 0.0,
+    "active": 23.0
   },
-  "news_count": 12,
-  "sentiment_score": 59.72222222222222,
+  "news_count": 0,
+  "sentiment_score": 50.0,
   "historical_data": [
     {
       "date": "2025-11-18",
@@ -76,6 +76,16 @@
     },
     {
       "date": "2025-11-18",
+      "open": 236.78,
+      "high": 238.0,
+      "low": 224.71,
+      "close": 230.29,
+      "volume": 45619850,
+      "change_percent": -4.253284550141368,
+      "volume_ratio": 0.7513731705522068
+    },
+    {
+      "date": "2025-11-18",
       "open": 218.6547208586464,
       "high": 229.81057396367942,
       "low": 216.4235502376398,
@@ -103,6 +113,16 @@
       "volume": 72972194,
       "change_percent": 3.8473873156369773,
       "volume_ratio": 1.310705079619215
+    },
+    {
+      "date": "2025-11-26",
+      "open": 210.05,
+      "high": 215.5899,
+      "low": 207.0,
+      "close": 214.24,
+      "volume": 43270240,
+      "change_percent": 3.9344103235822123,
+      "volume_ratio": 0.7119872024466549
     }
   ],
   "news": [
@@ -177,12 +197,12 @@
       "sentiment": 1.0
     }
   ],
-  "last_updated": "2025-11-19T00:00:00",
+  "last_updated": "2025-11-28T00:00:00",
   "latest_score": {
-    "total_score": 13.155921459492887,
+    "total_score": 25.75,
     "hot_rank": null,
     "growth_rank": null,
-    "price_change": -4.253284550141368,
-    "news_count": 12
+    "price_change": 3.9344103235822123,
+    "news_count": 0
   }
 }

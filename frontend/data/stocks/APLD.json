@@ -1,0 +1,87 @@
+{
+  "symbol": "APLD",
+  "name": "Applied Digital Corporation",
+  "sector": "未分類",
+  "current_price": 24.94,
+  "change_percent": 5.054759898904814,
+  "volume": 21975458,
+  "scores": {
+    "hot": 34.85714285714286,
+    "growth": 81.0,
+    "discussion": 7.000000000000001,
+    "active": 21.0
+  },
+  "news_count": 7,
+  "sentiment_score": 85.71428571428572,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 24.27,
+      "high": 25.32,
+      "low": 23.82,
+      "close": 24.94,
+      "volume": 21975458,
+      "change_percent": 5.054759898904814,
+      "volume_ratio": 0.7027917417925253
+    }
+  ],
+  "news": [
+    {
+      "title": "Bengaluru: CEOs warn ‘it’s now or never’ for India’s tech capital as potholes, pollution, and endless jams are choking the 'garden city'",
+      "url": "https://economictimes.indiatimes.com/news/bengaluru-news/bengaluru-ceos-warn-its-now-or-never-for-indias-tech-capital-as-potholes-pollution-and-endless-jams-are-choking-the-garden-city/articleshow/125604273.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 04:01",
+      "sentiment": 1.0
+    },
+    {
+      "title": "MiTAC Computing Signs New Distributor Partnership with Redington Limited",
+      "url": "https://en.antaranews.com/news/393953/mitac-computing-signs-new-distributor-partnership-with-redington-limited",
+      "source": "Antaranews.com",
+      "published_at": "2025-11-27 03:42",
+      "sentiment": 0.0
+    },
+    {
+      "title": "High-flying tech hits potholes in India’s Silicon Valley",
+      "url": "https://www.digitaljournal.com/world/high-flying-tech-hits-potholes-in-indias-silicon-valley/article",
+      "source": "Digital Journal",
+      "published_at": "2025-11-27 02:42",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Top Business & Market Headlines Today — BL Morning Report, Nov 27, 2025",
+      "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-november-27-2025/article70326538.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Data Center Outsourcing Market to Reach USD 219.3 Billion by 2032, Owing to Rising Demand for Scalable, Cost-Efficient IT Infrastructure | SNS Insider",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195447/0/en/Data-Center-Outsourcing-Market-to-Reach-USD-219-3-Billion-by-2032-Owing-to-Rising-Demand-for-Scalable-Cost-Efficient-IT-Infrastructure-SNS-Insider.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195440/0/en/Quorum-Information-Technologies-Receives-Shareholder-Support-for-Proposed-Arrangement-and-Announces-Final-Order-Approving-Arrangement.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:47",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Analysis: Why Singapore Went Into Typically The Casinos Industry",
+      "url": "https://line25.com/articles/analysis-why-singapore-went-into-typically-the-casinos-industry-2/",
+      "source": "Line25.com",
+      "published_at": "2025-11-27 00:10",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 34.85714285714286,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 5.054759898904814,
+    "news_count": 7
+  }
+}

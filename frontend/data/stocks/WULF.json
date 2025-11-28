@@ -1,0 +1,108 @@
+{
+  "symbol": "WULF",
+  "name": "TeraWulf Inc.",
+  "sector": "未分類",
+  "current_price": 14.84,
+  "change_percent": 6.456241032998568,
+  "volume": 47733769,
+  "scores": {
+    "hot": 48.21478873239437,
+    "growth": 87.0,
+    "discussion": 71.0,
+    "active": 59.0
+  },
+  "news_count": 71,
+  "sentiment_score": 58.098591549295776,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 14.47,
+      "high": 14.97,
+      "low": 13.805,
+      "close": 14.84,
+      "volume": 47733769,
+      "change_percent": 6.456241032998568,
+      "volume_ratio": 0.9985463447932077
+    }
+  ],
+  "news": [
+    {
+      "title": "The eternal mystery of the Tootsie Pop",
+      "url": "https://www.cbsnews.com/video/the-eternal-mystery-of-the-tootsie-pop/",
+      "source": "CBS News",
+      "published_at": "2025-11-27 04:02",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Is Lowe's Stock Underperforming the S&P 500?",
+      "url": "https://biztoc.com/x/32ef6ad3c3e96e59",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": -1.0
+    },
+    {
+      "title": "How Is Booking Holdings’ Stock Performance Compared to Other Travel Tech Stocks?",
+      "url": "https://biztoc.com/x/4a4cd219ef613c2c",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Is Elevance Health Stock Outperforming the Nasdaq?",
+      "url": "https://biztoc.com/x/6b6e0e17800bb2e1",
+      "source": "Biztoc.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "How to watch Macy's Thanksgiving Parade 2025 online from anywhere",
+      "url": "https://www.techradar.com/how-to-watch/tv-shows/macys-thanksgiving-parade-2025-anywhere",
+      "source": "TechRadar",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Miss Universe owners face fraud and trafficking allegations",
+      "url": "https://www.aljazeera.com/news/2025/11/27/miss-universe-owners-face-fraud-and-trafficking-allegations",
+      "source": "Al Jazeera English",
+      "published_at": "2025-11-27 03:55",
+      "sentiment": -1.0
+    },
+    {
+      "title": "ROSEN, NATIONAL TRIAL LAWYERS, Encourages Skye Bioscience, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action – SKYE",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195453/673/en/ROSEN-NATIONAL-TRIAL-LAWYERS-Encourages-Skye-Bioscience-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-SKYE.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:54",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Pentagon seeks to add Alibaba, Baidu, BYD to China military list",
+      "url": "https://economictimes.indiatimes.com/news/defence/pentagon-seeks-to-add-alibaba-baidu-byd-to-china-military-list/articleshow/125604173.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:50",
+      "sentiment": 0.0
+    },
+    {
+      "title": "横浜バニラ、埼玉初上陸！「JR大宮駅」にて初の期間限定ポップアップストアを開催！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000152494.html",
+      "source": "Prtimes.jp",
+      "published_at": "2025-11-27 03:40",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Best NMN Supplement Standards: GenuinePurity Establishes Certificate of Authenticity and 96% Purity Verification After FDA Confirms Lawful Status",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195452/0/en/Best-NMN-Supplement-Standards-GenuinePurity-Establishes-Certificate-of-Authenticity-and-96-Purity-Verification-After-FDA-Confirms-Lawful-Status.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 03:31",
+      "sentiment": -0.3333333333333333
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 48.21478873239437,
+    "hot_rank": 4,
+    "growth_rank": null,
+    "price_change": 6.456241032998568,
+    "news_count": 71
+  }
+}

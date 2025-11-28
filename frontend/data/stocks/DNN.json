@@ -1,0 +1,52 @@
+{
+  "symbol": "DNN",
+  "name": "Denison Mines Corp",
+  "sector": "未分類",
+  "current_price": 2.56,
+  "change_percent": 3.6437246963562693,
+  "volume": 40082688,
+  "scores": {
+    "hot": 33.25,
+    "growth": 71.0,
+    "discussion": 2.0,
+    "active": 9.0
+  },
+  "news_count": 2,
+  "sentiment_score": 100.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 2.505,
+      "high": 2.6,
+      "low": 2.48,
+      "close": 2.56,
+      "volume": 40082688,
+      "change_percent": 3.6437246963562693,
+      "volume_ratio": 0.5089748399289132
+    }
+  ],
+  "news": [
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://financialpost.com/globe-newswire/fortuna-files-pea-technical-report-highlighting-the-development-potential-of-the-diamba-sud-gold-project-senegal",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:26",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195443/0/en/Fortuna-Files-PEA-Technical-Report-Highlighting-the-Development-Potential-of-the-Diamba-Sud-Gold-Project-Senegal.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 01:22",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 33.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.6437246963562693,
+    "news_count": 2
+  }
+}

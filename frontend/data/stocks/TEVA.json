@@ -1,0 +1,45 @@
+{
+  "symbol": "TEVA",
+  "name": "Teva Pharmaceutical Industries ",
+  "sector": "未分類",
+  "current_price": 26.32,
+  "change_percent": 5.322128851540624,
+  "volume": 18354961,
+  "scores": {
+    "hot": 20.75,
+    "growth": 82.0,
+    "discussion": 1.0,
+    "active": 88.0
+  },
+  "news_count": 1,
+  "sentiment_score": 0.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 25.9,
+      "high": 26.445,
+      "low": 25.74,
+      "close": 26.32,
+      "volume": 18354961,
+      "change_percent": 5.322128851540624,
+      "volume_ratio": 1.589013043649463
+    }
+  ],
+  "news": [
+    {
+      "title": "Auto industry flags Mexico's plan for steep tariff hike; pharma firms also worried",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/auto-industry-flags-mexicos-plan-for-steep-tariff-hike-pharma-firms-also-worried/articleshow/125598398.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": -1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 20.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 5.322128851540624,
+    "news_count": 1
+  }
+}

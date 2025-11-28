@@ -1,0 +1,108 @@
+{
+  "symbol": "IREN",
+  "name": "IREN LIMITED",
+  "sector": "未分類",
+  "current_price": 48.45,
+  "change_percent": 2.064461765325477,
+  "volume": 26981673,
+  "scores": {
+    "hot": 48.815,
+    "growth": 59.0,
+    "discussion": 100.0,
+    "active": 28.999999999999996
+  },
+  "news_count": 100,
+  "sentiment_score": 60.43333333333333,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 49.375,
+      "high": 49.43,
+      "low": 46.04,
+      "close": 48.45,
+      "volume": 26981673,
+      "change_percent": 2.064461765325477,
+      "volume_ratio": 0.7394641016011031
+    }
+  ],
+  "news": [
+    {
+      "title": "Ryan Day confirms joint efforts to avoid tunnel brawl prior to Ohio State vs. Michigan high-stakes game",
+      "url": "https://www.marca.com/en/ncaa/2025/11/27/6927cb50268e3e07418b45d8.html",
+      "source": "Marca",
+      "published_at": "2025-11-27 04:03",
+      "sentiment": 0.3333333333333333
+    },
+    {
+      "title": "Mets reunite with pitcher Robert Stock, who reveals why he can help despite ‘limited MLB success’",
+      "url": "https://nypost.com/2025/11/26/sports/mets-reunite-with-pitcher-robert-stock-who-reveals-why-he-can-help-2026-team-despite-limited-mlb-success/",
+      "source": "New York Post",
+      "published_at": "2025-11-27 04:03",
+      "sentiment": 0.0
+    },
+    {
+      "title": "PhoneArena readers prefer that FCC Chairman Carr not protect T-Mobile, Verizon, AT&T",
+      "url": "https://www.phonearena.com/news/phonearena-readers-prefer-fcc-chairman-carr-protect-consumers-not-carriers_id176119",
+      "source": "PhoneArena",
+      "published_at": "2025-11-27 04:02",
+      "sentiment": 0.0
+    },
+    {
+      "title": "‘Stranger Things’s Cara Buono Embraced Karen Wheeler’s Ripley Moment",
+      "url": "http://www.vulture.com/article/cara-buono-karen-wheeler-stranger-things-final-season-interview.html",
+      "source": "Vulture",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.3333333333333333
+    },
+    {
+      "title": "120 Pigs Per Car: Oil Lobby’s EU Biofuels Loophole Could See Unsustainable Demand for Animal Fats and Used Cooking Oil",
+      "url": "https://cleantechnica.com/2025/11/26/120-pigs-per-car-oil-lobbys-eu-biofuels-loophole-could-see-unsustainable-demand-for-animal-fats-and-used-cooking-oil/",
+      "source": "CleanTechnica",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "“What Is This?”: Dior Sold An Advent Calendar For $1,000 And People Are NOT Impressed",
+      "url": "https://www.boredpanda.com/unboxing-dior-advent-calendar-seananthonyv/",
+      "source": "Boredpanda.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 1.0
+    },
+    {
+      "title": "When a Fantasy Football giggle becomes a goal",
+      "url": "https://www.deseret.com/sports/2025/11/26/fantasy-football-team-sports/",
+      "source": "Deseret News",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Padres sign a free agent, Winter leagues in progress",
+      "url": "https://www.gaslampball.com/san-diego-padres-news/51757/padres-sign-a-free-agent-winter-leagues-in-progress",
+      "source": "Gaslampball.com",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Arizona Cardinals injury report: WR Marvin Harrison Jr. limited",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e99aab92-32c2-4b0d-bfc7-a5daa21d8582",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 03:59",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Legacy brands storm back into cricket sponsorship after RMG ban, D2C retreat",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/legacy-brands-storm-back-into-cricket-sponsorship-after-rmg-ban-d2c-retreat/articleshow/125604205.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:57",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 48.815,
+    "hot_rank": 3,
+    "growth_rank": null,
+    "price_change": 2.064461765325477,
+    "news_count": 100
+  }
+}

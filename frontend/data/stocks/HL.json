@@ -1,0 +1,80 @@
+{
+  "symbol": "HL",
+  "name": "Hecla Mining Company",
+  "sector": "未分類",
+  "current_price": 15.97,
+  "change_percent": 6.608811748998667,
+  "volume": 19718047,
+  "scores": {
+    "hot": 37.5,
+    "growth": 89.0,
+    "discussion": 6.0,
+    "active": 44.0
+  },
+  "news_count": 6,
+  "sentiment_score": 91.66666666666667,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 15.2,
+      "high": 16.205,
+      "low": 15.04,
+      "close": 15.97,
+      "volume": 19718047,
+      "change_percent": 6.608811748998667,
+      "volume_ratio": 0.8671604626402967
+    }
+  ],
+  "news": [
+    {
+      "title": "CleanSpark stock jumps 14% on explosive 102% YoY revenue growth",
+      "url": "https://cryptobriefing.com/cleanspark-stock-jumps-revenue-growth-2025/",
+      "source": "Crypto Briefing",
+      "published_at": "2025-11-27 02:42",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Why these 4 infra/realty stocks will remain in focus",
+      "url": "https://www.thehindubusinessline.com/markets/why-these-4-infrarealty-stocks-will-remain-in-focus/article70328633.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "dynaCERT Announces $2M Non-Brokered Private Placement Financing",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dynacert-announces-2m-non-brokered-private-placement-financing",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:35",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://financialpost.com/globe-newswire/fortuna-files-pea-technical-report-highlighting-the-development-potential-of-the-diamba-sud-gold-project-senegal",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:26",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195443/0/en/Fortuna-Files-PEA-Technical-Report-Highlighting-the-Development-Potential-of-the-Diamba-Sud-Gold-Project-Senegal.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 01:22",
+      "sentiment": 1.0
+    },
+    {
+      "title": "India preps to meet 6x surge in battery storage demand by 2047",
+      "url": "https://www.livemint.com/industry/india-preps-to-meet-6x-surge-battery-storage-demand-by-2047-ev-bess-renewable-energy-11764159527385.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 00:15",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 37.5,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 6.608811748998667,
+    "news_count": 6
+  }
+}

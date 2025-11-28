@@ -1,0 +1,108 @@
+{
+  "symbol": "PLUG",
+  "name": "Plug Power, Inc.",
+  "sector": "未分類",
+  "current_price": 1.98,
+  "change_percent": 1.5384615384615399,
+  "volume": 87110657,
+  "scores": {
+    "hot": 22.93181818181818,
+    "growth": 48.0,
+    "discussion": 11.0,
+    "active": 42.0
+  },
+  "news_count": 11,
+  "sentiment_score": 54.54545454545454,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 1.97,
+      "high": 2.01,
+      "low": 1.92,
+      "close": 1.98,
+      "volume": 87110657,
+      "change_percent": 1.5384615384615399,
+      "volume_ratio": 0.8359603305078607
+    }
+  ],
+  "news": [
+    {
+      "title": "Festive demand, GST cuts to power Q3–Q4 growth; India Inc likely to clock 8–10% revenue rise: ICRA",
+      "url": "https://economictimes.indiatimes.com/markets/expert-view/festive-demand-gst-cuts-to-power-q3q4-growth-india-inc-likely-to-clock-810-revenue-rise-icra/articleshow/125590456.cms",
+      "source": "The Times of India",
+      "published_at": "2025-11-27 03:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Dominican Republic authorizes more flights for tourists rerouted by Hurricane Melissa",
+      "url": "https://financialpost.com/pmn/dominican-republic-authorizes-more-flights-for-tourists-rerouted-by-hurricane-melissa",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 03:21",
+      "sentiment": 0.0
+    },
+    {
+      "title": "2025 AEW Continental Classic Tournament Results, 11/26 Dynamite",
+      "url": "https://www.wrestlinginc.com/2037663/aew-2025-continental-classic-tournament-results-november-26-dynamite/",
+      "source": "Wrestling Inc.",
+      "published_at": "2025-11-27 03:09",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Focus on Whirlpool, Wipro, M&M, Canara Bank, Asian Paints, Ambuja Cements, Visa Steel, NACL Industries, LG Balakrishnan, Sellwin Traders, International Conveyors",
+      "url": "https://www.thehindubusinessline.com/markets/focus-on-whirlpool-wipro-mm-canara-bank-asian-paints-ambuja-cementsvisa-steel-nacl-industries-lg-balakrishnan-sellwin-traders-international-conveyors/article70328636.ece",
+      "source": "BusinessLine",
+      "published_at": "2025-11-27 02:54",
+      "sentiment": -1.0
+    },
+    {
+      "title": "The Babes Of Wrath Advance To Women's Tag Tournament Finals On AEW Dynamite",
+      "url": "https://www.wrestlinginc.com/2037649/aew-dynamite-willow-nightingale-harley-cameron-babes-wrath-advance-womens-tag-tournament-finals/",
+      "source": "Wrestling Inc.",
+      "published_at": "2025-11-27 02:05",
+      "sentiment": -1.0
+    },
+    {
+      "title": "Labour unions oppose reforms but dare we hope for a new era of win-win industrial relations?",
+      "url": "https://www.livemint.com/opinion/online-views/labour-unions-code-reforms-industrial-relations-workers-employees-indian-economy-private-sector-11764166881691.html",
+      "source": "Livemint",
+      "published_at": "2025-11-27 02:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "\"I couldn't believe how casual she was acting. Did she not realise how insane this was?\" The story of the 15-year-old boy who flew to Rio to see Ozzy Osbourne",
+      "url": "https://www.loudersound.com/bands-artists/stephen-rea-ozzy-osbourne-rock-in-rio",
+      "source": "Louder",
+      "published_at": "2025-11-27 01:45",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Code Vein II Game's NEw Trailer Highlights Character Josée Anjou",
+      "url": "https://www.animenewsnetwork.com/news/2025-11-26/code-vein-ii-game-new-trailer-highlights-character-josee-anjou/.231296",
+      "source": "Anime News Network",
+      "published_at": "2025-11-27 01:12",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Bernie Sanders Highlights How Handful Of Billionaires Like Mark Zuckerberg, Elon Musk, Jeff Bezos Are Controlling What Americans See",
+      "url": "https://www.yahoo.com/news/articles/bernie-sanders-highlights-handful-billionaires-003100813.html",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 00:31",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 22.93181818181818,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.5384615384615399,
+    "news_count": 11
+  }
+}

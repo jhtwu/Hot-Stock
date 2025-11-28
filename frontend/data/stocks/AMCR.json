@@ -1,0 +1,59 @@
+{
+  "symbol": "AMCR",
+  "name": "Amcor plc",
+  "sector": "未分類",
+  "current_price": 8.62,
+  "change_percent": 1.2925969447708512,
+  "volume": 18501590,
+  "scores": {
+    "hot": 21.25,
+    "growth": 42.0,
+    "discussion": 3.0,
+    "active": 31.0
+  },
+  "news_count": 3,
+  "sentiment_score": 66.66666666666666,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 8.51,
+      "high": 8.65,
+      "low": 8.5,
+      "close": 8.62,
+      "volume": 18501590,
+      "change_percent": 1.2925969447708512,
+      "volume_ratio": 0.7453995319482135
+    }
+  ],
+  "news": [
+    {
+      "title": "Bizman alleges threat by ex-bank manager over N480m dispute",
+      "url": "https://punchng.com/bizman-alleges-threat-by-ex-bank-manager-over-n480m-dispute/",
+      "source": "The Punch",
+      "published_at": "2025-11-27 03:37",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Cutting-Edge Space Tech Uncovers Major Lithium Target in Quebec",
+      "url": "https://oilprice.com/Energy/Energy-General/Cutting-Edge-Space-Tech-Uncovers-Major-Lithium-Target-in-Quebec.html",
+      "source": "OilPrice.com",
+      "published_at": "2025-11-27 01:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Deterministic performance: Why Red Hat Enterprise Linux is the engine for industrial edge",
+      "url": "https://www.redhat.com/en/blog/deterministic-performance-red-hat-enterprise-linux-industrial-edge",
+      "source": "Redhat.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 1.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 21.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 1.2925969447708512,
+    "news_count": 3
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "symbol": "BAC",
+  "name": "Bank of America Corporation",
+  "sector": "未分類",
+  "current_price": 52.99,
+  "change_percent": 0.9717987804878148,
+  "volume": 32045585,
+  "scores": {
+    "hot": 21.75,
+    "growth": 38.0,
+    "discussion": 4.0,
+    "active": 48.0
+  },
+  "news_count": 4,
+  "sentiment_score": 75.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 52.55,
+      "high": 53.2468,
+      "low": 52.55,
+      "close": 52.99,
+      "volume": 32045585,
+      "change_percent": 0.9717987804878148,
+      "volume_ratio": 0.9136442929825082
+    }
+  ],
+  "news": [
+    {
+      "title": "Data Center Outsourcing Market to Reach USD 219.3 Billion by 2032, Owing to Rising Demand for Scalable, Cost-Efficient IT Infrastructure | SNS Insider",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195447/0/en/Data-Center-Outsourcing-Market-to-Reach-USD-219-3-Billion-by-2032-Owing-to-Rising-Demand-for-Scalable-Cost-Efficient-IT-Infrastructure-SNS-Insider.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 02:30",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Code Vein II Game's NEw Trailer Highlights Character Josée Anjou",
+      "url": "https://www.animenewsnetwork.com/news/2025-11-26/code-vein-ii-game-new-trailer-highlights-character-josee-anjou/.231296",
+      "source": "Anime News Network",
+      "published_at": "2025-11-27 01:12",
+      "sentiment": 1.0
+    },
+    {
+      "title": "DAVID BLACKMON: Trump’s New AI Focused ‘Manhattan Project’ Adds Pressure To Grid",
+      "url": "https://dailycaller.com/2025/11/26/opinion-trumps-new-ai-focused-manhattan-project-adds-pressure-to-grid-david-blackmon/",
+      "source": "The Daily Caller",
+      "published_at": "2025-11-27 01:07",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Analysis: Why Singapore Went Into Typically The Casinos Industry",
+      "url": "https://line25.com/articles/analysis-why-singapore-went-into-typically-the-casinos-industry-2/",
+      "source": "Line25.com",
+      "published_at": "2025-11-27 00:10",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 21.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.9717987804878148,
+    "news_count": 4
+  }
+}

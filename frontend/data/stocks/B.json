@@ -1,0 +1,37 @@
+{
+  "symbol": "B",
+  "name": "Barrick Mining Corporation",
+  "sector": "未分類",
+  "current_price": 40.98,
+  "change_percent": 4.754601226993864,
+  "volume": 25197507,
+  "scores": {
+    "hot": 27.5,
+    "growth": 80.0,
+    "discussion": 0.0,
+    "active": 79.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 39.46,
+      "high": 41.075,
+      "low": 39.39,
+      "close": 40.98,
+      "volume": 25197507,
+      "change_percent": 4.754601226993864,
+      "volume_ratio": 1.2730145161398951
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 27.5,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 4.754601226993864,
+    "news_count": 0
+  }
+}

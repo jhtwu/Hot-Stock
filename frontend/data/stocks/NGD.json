@@ -1,0 +1,87 @@
+{
+  "symbol": "NGD",
+  "name": "New Gold Inc.",
+  "sector": "未分類",
+  "current_price": 7.84,
+  "change_percent": 6.66666666666667,
+  "volume": 19078642,
+  "scores": {
+    "hot": 32.82142857142857,
+    "growth": 90.0,
+    "discussion": 7.000000000000001,
+    "active": 61.0
+  },
+  "news_count": 7,
+  "sentiment_score": 57.14285714285714,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 7.445,
+      "high": 7.86,
+      "low": 7.375,
+      "close": 7.84,
+      "volume": 19078642,
+      "change_percent": 6.66666666666667,
+      "volume_ratio": 1.0208483600790492
+    }
+  ],
+  "news": [
+    {
+      "title": "How to watch Macy's Thanksgiving Parade 2025 online from anywhere",
+      "url": "https://www.techradar.com/how-to-watch/tv-shows/macys-thanksgiving-parade-2025-anywhere",
+      "source": "TechRadar",
+      "published_at": "2025-11-27 04:00",
+      "sentiment": 0.0
+    },
+    {
+      "title": "2025 AEW Continental Classic Tournament Results, 11/26 Dynamite",
+      "url": "https://www.wrestlinginc.com/2037663/aew-2025-continental-classic-tournament-results-november-26-dynamite/",
+      "source": "Wrestling Inc.",
+      "published_at": "2025-11-27 03:09",
+      "sentiment": 0.0
+    },
+    {
+      "title": "\"I couldn't believe how casual she was acting. Did she not realise how insane this was?\" The story of the 15-year-old boy who flew to Rio to see Ozzy Osbourne",
+      "url": "https://www.loudersound.com/bands-artists/stephen-rea-ozzy-osbourne-rock-in-rio",
+      "source": "Louder",
+      "published_at": "2025-11-27 01:45",
+      "sentiment": 0.0
+    },
+    {
+      "title": "Why Catapult, Kingsgate, Light & Wonder, and Reece shares are storming higher today",
+      "url": "https://www.fool.com.au/2025/11/27/why-catapult-kingsgate-light-wonder-and-reece-shares-are-storming-higher-today/",
+      "source": "Motley Fool Australia",
+      "published_at": "2025-11-27 01:36",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Fortuna Files PEA Technical Report Highlighting the Development Potential of the Diamba Sud Gold Project, Senegal",
+      "url": "https://financialpost.com/globe-newswire/fortuna-files-pea-technical-report-highlighting-the-development-potential-of-the-diamba-sud-gold-project-senegal",
+      "source": "Financial Post",
+      "published_at": "2025-11-27 01:26",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Countdown to Macy's Thanksgiving Day Parade Previews Big Holiday Event",
+      "url": "https://bleedingcool.com/tv/countdown-to-macys-thanksgiving-day-parade-previews-big-holiday-event/",
+      "source": "Bleeding Cool News",
+      "published_at": "2025-11-27 00:07",
+      "sentiment": -1.0
+    },
+    {
+      "title": "AEW Dynamite Thanksgiving Eve Results 11/26 - 2025 Continental Classic Begins & More",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_80f1a239-2ac6-4f4d-a1a7-6d8872d6684d",
+      "source": "Yahoo Entertainment",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 32.82142857142857,
+    "hot_rank": null,
+    "growth_rank": 10,
+    "price_change": 6.66666666666667,
+    "news_count": 7
+  }
+}

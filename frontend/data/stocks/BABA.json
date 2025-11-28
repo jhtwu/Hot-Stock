@@ -1,0 +1,37 @@
+{
+  "symbol": "BABA",
+  "name": "Alibaba Group Holding Limited",
+  "sector": "未分類",
+  "current_price": 157.6,
+  "change_percent": 0.37577224380612917,
+  "volume": 21453064,
+  "scores": {
+    "hot": 15.25,
+    "growth": 31.0,
+    "discussion": 0.0,
+    "active": 74.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 159.095,
+      "high": 161.46,
+      "low": 150.0,
+      "close": 157.6,
+      "volume": 21453064,
+      "change_percent": 0.37577224380612917,
+      "volume_ratio": 1.2184159030200554
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 15.25,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.37577224380612917,
+    "news_count": 0
+  }
+}

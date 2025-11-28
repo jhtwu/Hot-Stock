@@ -1,0 +1,37 @@
+{
+  "symbol": "NOK",
+  "name": "Nokia Corporation Sponsored",
+  "sector": "未分類",
+  "current_price": 6.08,
+  "change_percent": 0.3300330033003377,
+  "volume": 23820260,
+  "scores": {
+    "hot": 15.0,
+    "growth": 30.0,
+    "discussion": 0.0,
+    "active": 14.000000000000002
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 6.04,
+      "high": 6.1258,
+      "low": 6.04,
+      "close": 6.08,
+      "volume": 23820260,
+      "change_percent": 0.3300330033003377,
+      "volume_ratio": 0.5891119422036611
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 15.0,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 0.3300330033003377,
+    "news_count": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "symbol": "RIVN",
+  "name": "Rivian Automotive, Inc.",
+  "sector": "未分類",
+  "current_price": 16.18,
+  "change_percent": 3.9845758354755736,
+  "volume": 35451236,
+  "scores": {
+    "hot": 30.75,
+    "growth": 76.0,
+    "discussion": 2.0,
+    "active": 28.000000000000004
+  },
+  "news_count": 2,
+  "sentiment_score": 75.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 15.61,
+      "high": 16.48,
+      "low": 15.5067,
+      "close": 16.18,
+      "volume": 35451236,
+      "change_percent": 3.9845758354755736,
+      "volume_ratio": 0.7382503707726561
+    }
+  ],
+  "news": [
+    {
+      "title": "Quorum Information Technologies Receives Shareholder Support for Proposed Arrangement and Announces Final Order Approving Arrangement",
+      "url": "https://www.globenewswire.com/news-release/2025/11/27/3195440/0/en/Quorum-Information-Technologies-Receives-Shareholder-Support-for-Proposed-Arrangement-and-Announces-Final-Order-Approving-Arrangement.html",
+      "source": "GlobeNewswire",
+      "published_at": "2025-11-27 00:47",
+      "sentiment": 1.0
+    },
+    {
+      "title": "Flood Algorithm-Tuned PID-F Controller with a Modified Objective Function for Robust and Noise-resilient Speed Control of Nonlinear SparkIgnition Engines",
+      "url": "https://www.nature.com/articles/s41598-025-29231-8",
+      "source": "Nature.com",
+      "published_at": "2025-11-27 00:00",
+      "sentiment": 0.0
+    }
+  ],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 30.75,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 3.9845758354755736,
+    "news_count": 2
+  }
+}

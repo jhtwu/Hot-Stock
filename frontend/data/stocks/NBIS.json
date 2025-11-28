@@ -1,0 +1,37 @@
+{
+  "symbol": "NBIS",
+  "name": "Nebius Group N.V.",
+  "sector": "未分類",
+  "current_price": 94.69,
+  "change_percent": 6.536903690369039,
+  "volume": 13544965,
+  "scores": {
+    "hot": 29.5,
+    "growth": 88.0,
+    "discussion": 0.0,
+    "active": 25.0
+  },
+  "news_count": 0,
+  "sentiment_score": 50.0,
+  "historical_data": [
+    {
+      "date": "2025-11-26",
+      "open": 93.85,
+      "high": 95.634,
+      "low": 90.76,
+      "close": 94.69,
+      "volume": 13544965,
+      "change_percent": 6.536903690369039,
+      "volume_ratio": 0.7191549796188368
+    }
+  ],
+  "news": [],
+  "last_updated": "2025-11-28T00:00:00",
+  "latest_score": {
+    "total_score": 29.5,
+    "hot_rank": null,
+    "growth_rank": null,
+    "price_change": 6.536903690369039,
+    "news_count": 0
+  }
+}
